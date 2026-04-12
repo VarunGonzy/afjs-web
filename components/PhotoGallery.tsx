@@ -44,13 +44,26 @@ export default function PhotoGallery() {
         ))}
       </div>
 
+      {/* Lightbox */}
       {lightbox && (
-        <div className="fixed inset-0 z-50 bg-black/90 flex items-center justify-center p-4" onClick={() => setLightbox(null)}>
-          <button className="absolute top-4 right-4 w-10 h-10 bg-white/10 hover:bg-white/20 rounded-full flex items-center justify-center text-white transition-colors" onClick={() => setLightbox(null)}>
+        <div
+          className="fixed inset-0 z-50 bg-black/90 flex items-center justify-center p-4"
+          onClick={() => setLightbox(null)}
+        >
+          <button
+            className="absolute top-4 right-4 w-10 h-10 bg-white/10 hover:bg-white/20 rounded-full flex items-center justify-center text-white transition-colors"
+            onClick={() => setLightbox(null)}
+          >
             <X size={20} />
           </button>
           <div className="relative max-w-3xl max-h-[85vh] w-full h-full" onClick={(e) => e.stopPropagation()}>
-            <Image src={lightbox.src} alt={lightbox.alt} fill className="object-contain" sizes="(max-width: 1200px) 100vw, 1200px" />
+            <Image
+              src={lightbox.src}
+              alt={lightbox.alt}
+              fill
+              className="object-contain"
+              sizes="(max-width: 1200px) 100vw, 1200px"
+            />
           </div>
           <p className="absolute bottom-6 left-1/2 -translate-x-1/2 text-white/70 text-sm bg-black/50 px-4 py-1.5 rounded-full">
             {lightbox.caption}

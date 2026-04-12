@@ -2,26 +2,86 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Terms of Use | AFJS Trust",
-  description: "Terms of use for the AFJS Charitable Trust website.",
+  description: "Terms of use for joyfullsmiles.org — AFJS Charitable Trust.",
+  robots: { index: false, follow: true },
 };
 
 export default function TermsPage() {
   return (
-    <div className="max-w-3xl mx-auto px-4 pt-28 pb-16">
-      <h1 className="text-3xl font-extrabold text-gray-900 mb-6">Terms of Use</h1>
-      <p className="text-gray-500 text-sm mb-8">Last updated: April 2026</p>
-      <div className="prose prose-gray max-w-none space-y-6 text-gray-600 leading-relaxed">
-        <p>By using joyfullsmiles.org, you agree to these terms. Please read them carefully.</p>
-        <h2 className="text-xl font-bold text-gray-900">Use of Site</h2>
-        <p>This website is operated by AFJS Charitable Trust for informational and donation purposes. You agree not to misuse the site, attempt to gain unauthorized access, or use it for any unlawful purpose.</p>
-        <h2 className="text-xl font-bold text-gray-900">Donations</h2>
-        <p>All donations made through this website are voluntary and non-refundable. AFJS Charitable Trust is a registered trust (Darpan Reg: GJ/2025/0719739). Donations may be eligible for 80G tax deductions under the Indian Income Tax Act — consult your tax advisor for specifics.</p>
-        <h2 className="text-xl font-bold text-gray-900">Intellectual Property</h2>
-        <p>All content on this website — including text, images, and graphics — is the property of AFJS Charitable Trust unless otherwise noted. You may not reproduce or distribute content without written permission.</p>
-        <h2 className="text-xl font-bold text-gray-900">Limitation of Liability</h2>
-        <p>AFJS Charitable Trust is not liable for any indirect, incidental, or consequential damages arising from your use of this website.</p>
-        <h2 className="text-xl font-bold text-gray-900">Contact</h2>
-        <p>For questions about these terms, email Afjs.charitable@gmail.com.</p>
+    <div className="pt-24 pb-20 px-4 max-w-3xl mx-auto">
+      <h1 className="text-3xl font-bold text-gray-900 mb-2">Terms of Use</h1>
+      <p className="text-gray-400 text-sm mb-10">Last updated: April 2026</p>
+
+      <div className="prose prose-gray max-w-none space-y-8 text-gray-600 leading-relaxed">
+        <section>
+          <h2 className="text-xl font-bold text-gray-900 mb-3">1. Acceptance</h2>
+          <p>
+            By using joyfullsmiles.org, you agree to these terms. If you do not agree, please do
+            not use this site. AFJS Charitable Trust reserves the right to update these terms at any time.
+          </p>
+        </section>
+
+        <section>
+          <h2 className="text-xl font-bold text-gray-900 mb-3">2. Donations</h2>
+          <p>
+            All donations made through this website are voluntary and non-refundable unless there
+            was a technical error resulting in a duplicate or incorrect charge. Donation receipts
+            for 80G tax purposes are issued as per Indian Income Tax Act requirements.
+          </p>
+        </section>
+
+        <section>
+          <h2 className="text-xl font-bold text-gray-900 mb-3">3. Use of Content</h2>
+          <p>
+            All content on this website — text, images, program descriptions, and impact data —
+            is the property of AFJS Charitable Trust. You may share content for awareness purposes
+            with attribution. Commercial reproduction is prohibited without written consent.
+          </p>
+        </section>
+
+        <section>
+          <h2 className="text-xl font-bold text-gray-900 mb-3">4. Children&apos;s Privacy</h2>
+          <p>
+            We are committed to protecting the privacy and dignity of children we work with.
+            Photos and case studies on this site have been obtained with appropriate consent.
+            Personally identifiable information of beneficiary children is never published.
+          </p>
+        </section>
+
+        <section>
+          <h2 className="text-xl font-bold text-gray-900 mb-3">5. Third-Party Links</h2>
+          <p>
+            Our site may link to third-party sites (e.g., Razorpay, WhatsApp, Instagram). We are
+            not responsible for the content or privacy practices of those sites.
+          </p>
+        </section>
+
+        <section>
+          <h2 className="text-xl font-bold text-gray-900 mb-3">6. Limitation of Liability</h2>
+          <p>
+            AFJS Charitable Trust is not liable for any damages arising from use of this website.
+            The site is provided &ldquo;as is&rdquo; without warranty of any kind.
+          </p>
+        </section>
+
+        <section>
+          <h2 className="text-xl font-bold text-gray-900 mb-3">7. Governing Law</h2>
+          <p>
+            These terms are governed by the laws of India. Any disputes shall be subject to the
+            jurisdiction of courts in Bhavnagar, Gujarat.
+          </p>
+        </section>
+
+        <section>
+          <h2 className="text-xl font-bold text-gray-900 mb-3">8. Contact</h2>
+          <p>
+            Questions about these terms? Email{" "}
+            <a href="mailto:Afjs.charitable@gmail.com" className="text-teal-500 hover:underline">
+              Afjs.charitable@gmail.com
+            </a>
+            .
+          </p>
+        </section>
       </div>
     </div>
   );

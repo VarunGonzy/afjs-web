@@ -2,7 +2,11 @@
 module.exports = {
   siteUrl: "https://joyfullsmiles.org",
   generateRobotsTxt: true,
-  changefreq: "weekly",
-  priority: 0.7,
   exclude: ["/case-studies"],
+  robotsTxtOptions: {
+    policies: [
+      { userAgent: "*", allow: "/" },
+      { userAgent: "*", disallow: ["/case-studies"] },
+    ],
+  },
 };

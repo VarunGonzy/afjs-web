@@ -23,6 +23,7 @@ export default function FoodNutritionPage() {
           <div>
             <h2 className="text-2xl font-bold text-gray-900 mb-4">Why Nutrition Matters</h2>
             <p className="text-gray-600 leading-relaxed mb-4">Malnutrition is a silent barrier to education. Children who are hungry cannot concentrate, cannot learn, and often stop attending school. Our Food & Nutrition Drive addresses this directly by providing regular, wholesome meals to children and families in need.</p>
+            <p className="text-gray-600 leading-relaxed mb-4">We organize nutrition drives multiple times per month across Bhavnagar and Ahmedabad, reaching hundreds of children with balanced, nutritious meals prepared with care by our volunteers.</p>
             <ul className="space-y-2 text-sm text-gray-600">
               {["4+ nutrition drives per month", "Hot, wholesome meals for children and families", "Serving Bhavnagar and Ahmedabad communities", "Volunteers cook and distribute meals personally", "Focus on school-going children", "Emergency nutrition support during hardship"].map(i => (
                 <li key={i} className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-gold-500 shrink-0" />{i}</li>

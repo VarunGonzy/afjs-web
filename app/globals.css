@@ -1,35 +1,41 @@
 @import "tailwindcss";
 
 @theme {
-  --color-teal-50: #f0fdfa;
-  --color-teal-100: #ccfbf1;
-  --color-teal-200: #99f6e4;
-  --color-teal-300: #5eead4;
-  --color-teal-400: #2dd4bf;
+  --color-teal-50: #f0fafa;
+  --color-teal-100: #cceeef;
+  --color-teal-200: #99dcde;
+  --color-teal-300: #66c9ce;
+  --color-teal-400: #33b7bd;
   --color-teal-500: #2A9DA5;
-  --color-teal-600: #0d9488;
-  --color-teal-700: #0f766e;
-  --color-teal-800: #115e59;
-  --color-teal-900: #134e4a;
-  --color-teal-950: #1C2B2D;
+  --color-teal-600: #22838a;
+  --color-teal-700: #1a6870;
+  --color-teal-800: #114e55;
+  --color-teal-900: #093339;
+  --color-teal-950: #051e22;
 
-  --color-coral-50: #fff5f3;
-  --color-coral-100: #ffe0da;
-  --color-coral-200: #ffc4b8;
-  --color-coral-300: #ffa08a;
+  --color-coral-50: #fef4f1;
+  --color-coral-100: #fde0d8;
+  --color-coral-200: #fbc1b1;
+  --color-coral-300: #f4a28a;
   --color-coral-400: #E8735A;
-  --color-coral-500: #e05a3f;
-  --color-coral-600: #c94427;
+  --color-coral-500: #d45a41;
+  --color-coral-600: #b84532;
 
-  --color-gold-50: #fffbeb;
-  --color-gold-100: #fef3c7;
-  --color-gold-200: #fde68a;
-  --color-gold-300: #fcd34d;
+  --color-gold-50: #fffaeb;
+  --color-gold-100: #fff0c0;
+  --color-gold-200: #ffe08a;
+  --color-gold-300: #ffcf54;
   --color-gold-400: #F5C518;
-  --color-gold-500: #f59e0b;
-  --color-gold-600: #d97706;
+  --color-gold-500: #e0b010;
+  --color-gold-600: #c09508;
 
-  --font-sans: "Inter", "Lato", ui-sans-serif, system-ui, sans-serif;
+  --color-dark-900: #1C2B2D;
+
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 html {
@@ -40,4 +46,11 @@ body {
   font-family: var(--font-sans);
   color: #1A1A2E;
   background: #ffffff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Prose overrides for blog */
+.prose h2 {
+  color: #1A1A2E;
 }
