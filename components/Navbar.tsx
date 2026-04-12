@@ -39,7 +39,7 @@ export default function Navbar() {
           <Link href="/" className="flex items-center gap-3 group">
             <div className="relative w-10 h-10 lg:w-12 lg:h-12 rounded-full overflow-hidden ring-2 ring-teal-500/30 group-hover:ring-teal-500 transition-all">
               <Image
-                src="/images/logo-icon.jpg"
+                src="/images/logo-icon-clean.png"
                 alt="AFJS Trust Logo"
                 fill
                 className="object-cover"

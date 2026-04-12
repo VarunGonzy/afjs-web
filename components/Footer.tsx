@@ -57,7 +57,7 @@ export default function Footer() {
           <div className="lg:col-span-1">
             <div className="flex items-center gap-3 mb-4">
               <div className="relative w-12 h-12 rounded-full overflow-hidden ring-2 ring-teal-400/30">
-                <Image src="/images/logo-icon.jpg" alt="AFJS Trust" fill className="object-cover" />
+                <Image src="/images/logo-icon-clean.png" alt="AFJS Trust" fill className="object-cover object-center" />
               </div>
               <div>
                 <p className="text-xs text-teal-400 uppercase tracking-wider font-semibold">All For Joyful Smiles</p>
