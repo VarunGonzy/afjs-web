@@ -1,116 +1,114 @@
-import type { Metadata } from "next";
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
+import { useEffect, useRef, useState } from "react";
+import HeroSection from "@/components/HeroSection";
 import ProgramsSection from "@/components/ProgramsSection";
 import DonationWidget from "@/components/DonationWidget";
+import PhotoGallery from "@/components/PhotoGallery";
 
-export const metadata: Metadata = {
-  title: "AFJS Trust | Child Education, Girl Empowerment & Nutrition NGO India",
-  description:
-    "Donate to AFJS Charitable Trust — supporting underprivileged children in Gujarat through education, girl empowerment, food drives, and family welfare. 80G tax exemption. Bhavnagar, India.",
-  alternates: { canonical: "https://joyfullsmiles.org" },
-};
+// ── Animated count-up hook ────────────────────────────────────────────────────
+function useCountUp(target: number, duration = 1800, start = false) {
+  const [count, setCount] = useState(0);
+  useEffect(() => {
+    if (!start) return;
+    let startTime: number | null = null;
+    const step = (timestamp: number) => {
+      if (!startTime) startTime = timestamp;
+      const progress = Math.min((timestamp - startTime) / duration, 1);
+      setCount(Math.floor(progress * target));
+      if (progress < 1) requestAnimationFrame(step);
+    };
+    requestAnimationFrame(step);
+  }, [start, target, duration]);
+  return count;
+}
 
-const stats = [
-  { value: "100+", label: "Children Supported" },
-  { value: "₹1L+", label: "Donated in 6 Months" },
-  { value: "4", label: "Active Programs" },
-  { value: "2", label: "Cities Served" },
+// ── Impact Counter ────────────────────────────────────────────────────────────
+function ImpactCounter() {
+  const ref = useRef<HTMLDivElement>(null);
+  const [visible, setVisible] = useState(false);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      ([entry]) => { if (entry.isIntersecting) setVisible(true); },
+      { threshold: 0.3 }
+    );
+    if (ref.current) observer.observe(ref.current);
+    return () => observer.disconnect();
+  }, []);
+
+  const children = useCountUp(100, 1600, visible);
+  const families = useCountUp(60, 1400, visible);
+  const meals = useCountUp(500, 2000, visible);
+  const donors = useCountUp(80, 1500, visible);
+
+  const stats = [
+    { value: children, suffix: "+", label: "Children Supported" },
+    { value: families, suffix: "+", label: "Families Helped" },
+    { value: meals,    suffix: "+", label: "Meals Served" },
+    { value: donors,   suffix: "+", label: "Generous Donors" },
+  ];
+
+  return (
+    <div ref={ref} className="grid grid-cols-2 md:grid-cols-4 gap-8">
+      {stats.map((s) => (
+        <div key={s.label} className="text-center">
+          <p className="text-4xl md:text-5xl font-extrabold text-white mb-1">
+            {s.value}{s.suffix}
+          </p>
+          <p className="text-teal-200 text-sm font-medium">{s.label}</p>
+        </div>
+      ))}
+    </div>
+  );
+}
+
+// ── Testimonials ──────────────────────────────────────────────────────────────
+const testimonials = [
+  {
+    quote:
+      "Because of AFJS Trust, my daughter's school fees were paid. She is now studying in standard 6th and dreams of becoming a doctor. We had no hope before.",
+    name: "Parent of a sponsored child",
+    location: "Bhavnagar, Gujarat",
+    initials: "FN",
+    color: "bg-teal-500",
+  },
+  {
+    quote:
+      "I donated ₹2,500 expecting little — then I received a handwritten 'Thank You' note from a child. I've been donating every month since. This trust is the real deal.",
+    name: "Ms. Ramakrishnan",
+    location: "Donor, India",
+    initials: "MR",
+    color: "bg-coral-400",
+  },
+  {
+    quote:
+      "As a donor from Germany, it was important for me to trust where my money goes. AFJS sends photos, receipts, and updates. Total transparency. I sponsor a child annually.",
+    name: "Nikhitha",
+    location: "Donor, Europe",
+    initials: "NK",
+    color: "bg-gold-500",
+  },
 ];
 
-const galleryImages = [
-  { src: "/images/education-group.jpg", alt: "Children at St. Xavier's school, Bhavnagar" },
-  { src: "/images/girl-empowerment-1.jpg", alt: "Girl proudly showing her school report" },
-  { src: "/images/nutrition-kids-2.jpg", alt: "Children receiving meals at AFJS nutrition drive" },
-  { src: "/images/impact-donation.jpg", alt: "AFJS Trust founders with sponsored children" },
-];
-
+// ── Page ──────────────────────────────────────────────────────────────────────
 export default function HomePage() {
+  const [activeTestimonial, setActiveTestimonial] = useState(0);
+
   return (
     <>
       {/* ── HERO ── */}
-      <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-        {/* Background image */}
-        <div className="absolute inset-0">
-          <Image
-            src="/images/homepage-banner.jpg"
-            alt="AFJS Charitable Trust — Educating Futures"
-            fill
-            className="object-cover object-center"
-            priority
-          />
-          <div className="absolute inset-0 bg-gradient-to-br from-teal-950/85 via-teal-900/70 to-teal-800/50" />
-        </div>
+      <HeroSection />
 
-        <div className="relative z-10 max-w-5xl mx-auto px-4 text-center pt-24 pb-16">
-          <span className="inline-block px-4 py-1.5 bg-white/15 text-white text-xs font-bold rounded-full uppercase tracking-widest mb-6 backdrop-blur-sm">
-            All For Joyful Smiles · Bhavnagar, Gujarat
-          </span>
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-extrabold text-white leading-tight mb-6">
-            Every Child Deserves<br />
-            <span className="text-gold-400">a Joyful Future</span>
-          </h1>
-          <p className="text-teal-100 text-lg md:text-xl max-w-2xl mx-auto mb-10 leading-relaxed">
-            AFJS Charitable Trust provides education, nutrition, girl empowerment, and family support
-            to underprivileged children in Gujarat. <strong className="text-white">Your ₹25,000 sponsors one child&apos;s entire year of school.</strong>
+      {/* ── ANIMATED IMPACT COUNTER ── */}
+      <section className="bg-teal-500 py-16 px-4">
+        <div className="max-w-5xl mx-auto">
+          <p className="text-center text-teal-100 text-sm font-semibold uppercase tracking-widest mb-10">
+            Our Impact So Far
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link
-              href="/donate"
-              className="px-8 py-4 bg-coral-400 hover:bg-coral-500 text-white font-bold text-lg rounded-full shadow-2xl shadow-coral-400/40 hover:shadow-coral-400/60 transition-all duration-200 hover:-translate-y-0.5"
-            >
-              Donate Now ❤
-            </Link>
-            <a
-              href="https://wa.me/916357369174"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="px-8 py-4 bg-green-500 hover:bg-green-600 text-white font-bold text-lg rounded-full shadow-2xl shadow-green-500/30 transition-all duration-200 hover:-translate-y-0.5"
-            >
-              💬 Chat on WhatsApp
-            </a>
-          </div>
-
-          {/* Trust badges */}
-          <div className="flex flex-wrap items-center justify-center gap-4 mt-10 text-white/70 text-xs">
-            <span className="flex items-center gap-1.5">
-              <svg className="w-4 h-4 text-green-400" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" /></svg>
-              80G Tax Exempt
-            </span>
-            <span className="flex items-center gap-1.5">
-              <svg className="w-4 h-4 text-green-400" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" /></svg>
-              Registered Trust
-            </span>
-            <span className="flex items-center gap-1.5">
-              <svg className="w-4 h-4 text-green-400" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" /></svg>
-              PAN: AALTA7481L
-            </span>
-            <span className="flex items-center gap-1.5">
-              <svg className="w-4 h-4 text-green-400" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" /></svg>
-              Secured by Razorpay
-            </span>
-          </div>
-        </div>
-
-        {/* Scroll indicator */}
-        <div className="absolute bottom-8 left-1/2 -translate-x-1/2 text-white/50 animate-bounce">
-          <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-          </svg>
-        </div>
-      </section>
-
-      {/* ── IMPACT STATS ── */}
-      <section className="bg-teal-500 py-12">
-        <div className="max-w-5xl mx-auto px-4">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-            {stats.map((s) => (
-              <div key={s.label} className="text-center">
-                <p className="text-3xl md:text-4xl font-extrabold text-white mb-1">{s.value}</p>
-                <p className="text-teal-100 text-sm font-medium">{s.label}</p>
-              </div>
-            ))}
-          </div>
+          <ImpactCounter />
         </div>
       </section>
 
@@ -122,10 +120,12 @@ export default function HomePage() {
               What We Do
             </span>
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Four Programs. <span className="text-teal-500">One Mission.</span>
+              Four Programs.{" "}
+              <span className="text-teal-500">One Mission.</span>
             </h2>
             <p className="text-gray-500 max-w-xl mx-auto">
-              Every program is designed to address a real barrier preventing children from reaching their potential.
+              Every program is designed to address a real barrier preventing
+              children from reaching their potential.
             </p>
           </div>
           <ProgramsSection />
@@ -143,12 +143,17 @@ export default function HomePage() {
       {/* ── SPONSORSHIP CTA BANNER ── */}
       <section className="py-14 px-4 bg-coral-400">
         <div className="max-w-4xl mx-auto text-center">
-          <p className="text-white/80 text-sm font-semibold uppercase tracking-widest mb-3">Child Sponsorship</p>
+          <p className="text-white/80 text-sm font-semibold uppercase tracking-widest mb-3">
+            Child Sponsorship
+          </p>
           <h2 className="text-2xl md:text-4xl font-extrabold text-white mb-4">
-            ₹25,000 sponsors one child&apos;s<br />entire year of education
+            ₹25,000 sponsors one child&apos;s
+            <br />
+            entire year of education
           </h2>
           <p className="text-coral-100 text-base mb-8 max-w-xl mx-auto">
-            Books, fees, meals, mentorship — everything a child needs to flourish for a full academic year.
+            Books, fees, meals, mentorship — everything a child needs to
+            flourish for a full academic year.
           </p>
           <Link
             href="/donate"
@@ -169,12 +174,17 @@ export default function HomePage() {
             <h2 className="text-3xl font-bold text-gray-900 mb-3">
               Make a Difference Today
             </h2>
-            <p className="text-gray-500">Every rupee goes directly to children in need. 80G tax exemption available.</p>
+            <p className="text-gray-500">
+              Every rupee goes directly to children in need. 80G tax exemption
+              available.
+            </p>
           </div>
           <DonationWidget />
           <p className="text-center text-gray-400 text-xs mt-6">
-            Prefer to donate via UPI or bank transfer?{" "}
-            <Link href="/donate" className="text-teal-500 hover:underline">See all payment options →</Link>
+            Prefer UPI or bank transfer?{" "}
+            <Link href="/donate" className="text-teal-500 hover:underline">
+              See all payment options →
+            </Link>
           </p>
         </div>
       </section>
@@ -186,26 +196,76 @@ export default function HomePage() {
             <span className="inline-block px-4 py-1.5 bg-teal-100 text-teal-700 text-xs font-bold rounded-full uppercase tracking-widest mb-4">
               Our Impact in Photos
             </span>
-            <h2 className="text-3xl font-bold text-gray-900">Smiles We&apos;ve Created</h2>
+            <h2 className="text-3xl font-bold text-gray-900">
+              Smiles We&apos;ve Created
+            </h2>
           </div>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
-            {galleryImages.map((img) => (
-              <div key={img.src} className="relative aspect-square rounded-2xl overflow-hidden group">
-                <Image
-                  src={img.src}
-                  alt={img.alt}
-                  fill
-                  className="object-cover group-hover:scale-105 transition-transform duration-500"
-                  sizes="(max-width: 768px) 50vw, 25vw"
-                />
-                <div className="absolute inset-0 bg-teal-900/0 group-hover:bg-teal-900/30 transition-colors duration-300" />
-              </div>
-            ))}
-          </div>
+          <PhotoGallery />
           <div className="text-center mt-8">
-            <Link href="/impact" className="text-teal-500 font-semibold hover:underline">
+            <Link
+              href="/impact"
+              className="text-teal-500 font-semibold hover:underline"
+            >
               See our full impact story →
             </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* ── TESTIMONIALS ── */}
+      <section className="py-20 px-4 bg-white">
+        <div className="max-w-4xl mx-auto">
+          <div className="text-center mb-12">
+            <span className="inline-block px-4 py-1.5 bg-teal-100 text-teal-700 text-xs font-bold rounded-full uppercase tracking-widest mb-4">
+              Stories
+            </span>
+            <h2 className="text-3xl font-bold text-gray-900">
+              Voices of Change
+            </h2>
+          </div>
+
+          <div className="relative bg-gray-50 rounded-3xl p-8 md:p-12 min-h-[220px]">
+            <svg
+              className="absolute top-6 left-8 w-10 h-10 text-teal-200"
+              fill="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
+            </svg>
+            <blockquote className="text-gray-700 text-lg leading-relaxed mb-6 pt-6">
+              {testimonials[activeTestimonial].quote}
+            </blockquote>
+            <div className="flex items-center gap-3">
+              <div
+                className={`w-10 h-10 rounded-full ${testimonials[activeTestimonial].color} flex items-center justify-center text-white font-bold text-sm`}
+              >
+                {testimonials[activeTestimonial].initials}
+              </div>
+              <div>
+                <p className="font-semibold text-gray-900">
+                  {testimonials[activeTestimonial].name}
+                </p>
+                <p className="text-gray-400 text-xs">
+                  {testimonials[activeTestimonial].location}
+                </p>
+              </div>
+            </div>
+          </div>
+
+          {/* Dots */}
+          <div className="flex justify-center gap-2 mt-6">
+            {testimonials.map((_, i) => (
+              <button
+                key={i}
+                onClick={() => setActiveTestimonial(i)}
+                className={`w-2.5 h-2.5 rounded-full transition-all ${
+                  i === activeTestimonial
+                    ? "bg-teal-500 w-6"
+                    : "bg-gray-300 hover:bg-gray-400"
+                }`}
+                aria-label={`Testimonial ${i + 1}`}
+              />
+            ))}
           </div>
         </div>
       </section>
@@ -219,17 +279,20 @@ export default function HomePage() {
                 Our Story
               </span>
               <h2 className="text-3xl md:text-4xl font-bold text-white mb-5">
-                Two childhood friends.<br />
+                Two childhood friends.
+                <br />
                 <span className="text-teal-400">One shared promise.</span>
               </h2>
               <p className="text-teal-200 leading-relaxed mb-5">
-                John Dsouza and Varun Gonsalves grew up together in Bhavnagar. They saw children
-                drop out of school due to poverty. They saw girls pulled out of classrooms before
-                reaching their potential. They never forgot those children.
+                John Dsouza and Varun Gonsalves grew up together in Bhavnagar.
+                They saw children drop out of school due to poverty. They saw
+                girls pulled out of classrooms before reaching their potential.
+                They never forgot those children.
               </p>
               <p className="text-teal-200 leading-relaxed mb-8">
-                In 2025, they founded AFJS Charitable Trust — <em>All For Joyful Smiles</em> —
-                to make sure as many children as possible get the education and support they deserve.
+                In 2025, they founded AFJS Charitable Trust —{" "}
+                <em>All For Joyful Smiles</em> — to make sure as many children
+                as possible get the education and support they deserve.
               </p>
               <Link
                 href="/about"
@@ -258,14 +321,22 @@ export default function HomePage() {
             Ready to change a child&apos;s life?
           </h2>
           <p className="text-gray-500 text-lg mb-8">
-            Every donation — big or small — directly impacts a child&apos;s education and future.
+            Every donation — big or small — directly impacts a child&apos;s
+            education and future.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link href="/donate" className="px-10 py-4 bg-coral-400 hover:bg-coral-500 text-white font-bold text-lg rounded-full shadow-xl shadow-coral-400/30 transition-all hover:-translate-y-0.5">
+            <Link
+              href="/donate"
+              className="px-10 py-4 bg-coral-400 hover:bg-coral-500 text-white font-bold text-lg rounded-full shadow-xl shadow-coral-400/30 transition-all hover:-translate-y-0.5"
+            >
               Donate Now ❤
             </Link>
-            <a href="https://wa.me/916357369174" target="_blank" rel="noopener noreferrer"
-              className="px-10 py-4 bg-green-500 hover:bg-green-600 text-white font-bold text-lg rounded-full shadow-xl transition-all hover:-translate-y-0.5">
+            <a
+              href="https://wa.me/916357369174"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-10 py-4 bg-green-500 hover:bg-green-600 text-white font-bold text-lg rounded-full shadow-xl transition-all hover:-translate-y-0.5"
+            >
               💬 WhatsApp Us
             </a>
           </div>
