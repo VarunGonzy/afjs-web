@@ -7,9 +7,20 @@ export const metadata: Metadata = {
   description: "AFJS Trust's family welfare program provides holistic support to underprivileged families in Bhavnagar, enabling them to keep their children in school and build a better future.",
 };
 
+const breadcrumb = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://joyfullsmiles.org" },
+    { "@type": "ListItem", position: 2, name: "Programs", item: "https://joyfullsmiles.org/programs" },
+    { "@type": "ListItem", position: 3, name: "Family Welfare", item: "https://joyfullsmiles.org/programs/family-welfare" },
+  ],
+};
+
 export default function FamilyWelfarePage() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumb) }} />
       <div className="relative bg-gradient-to-br from-teal-950 to-teal-700 pt-28 pb-16 px-4 overflow-hidden">
         <div className="absolute inset-0 opacity-20"><Image src="/images/family-welfare-1.jpg" alt="" fill className="object-cover" style={{ objectPosition: "center 40%" }} /></div>
         <div className="relative max-w-3xl mx-auto text-center">

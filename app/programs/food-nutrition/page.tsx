@@ -7,9 +7,20 @@ export const metadata: Metadata = {
   description: "AFJS Trust runs regular food and nutrition drives providing wholesome meals to underprivileged children in Bhavnagar and Ahmedabad. Donate to support our nutrition program.",
 };
 
+const breadcrumb = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://joyfullsmiles.org" },
+    { "@type": "ListItem", position: 2, name: "Programs", item: "https://joyfullsmiles.org/programs" },
+    { "@type": "ListItem", position: 3, name: "Food & Nutrition", item: "https://joyfullsmiles.org/programs/food-nutrition" },
+  ],
+};
+
 export default function FoodNutritionPage() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumb) }} />
       <div className="relative bg-gradient-to-br from-gold-600 to-gold-400 pt-28 pb-16 px-4 overflow-hidden">
         <div className="absolute inset-0 opacity-20"><Image src="/images/nutrition-kids-2.jpg" alt="" fill className="object-cover" /></div>
         <div className="relative max-w-3xl mx-auto text-center">

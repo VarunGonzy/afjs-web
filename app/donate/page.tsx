@@ -29,9 +29,22 @@ const donateSchema = {
   target: "https://joyfullsmiles.org/donate",
 };
 
+const breadcrumb = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://joyfullsmiles.org" },
+    { "@type": "ListItem", position: 2, name: "Donate", item: "https://joyfullsmiles.org/donate" },
+  ],
+};
+
 export default function DonatePage() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumb) }}
+      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(donateSchema) }}

@@ -7,9 +7,20 @@ export const metadata: Metadata = {
   description: "AFJS Trust's child education program provides after-school tutoring, learning materials, and scholarships to underprivileged children at St. Xavier's Primary School, Bhavnagar. Donate to sponsor a child for ₹25,000/year.",
 };
 
+const breadcrumb = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://joyfullsmiles.org" },
+    { "@type": "ListItem", position: 2, name: "Programs", item: "https://joyfullsmiles.org/programs" },
+    { "@type": "ListItem", position: 3, name: "Child Education", item: "https://joyfullsmiles.org/programs/child-education" },
+  ],
+};
+
 export default function ChildEducationPage() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumb) }} />
       <div className="relative bg-gradient-to-br from-teal-950 to-teal-600 pt-28 pb-16 px-4 overflow-hidden">
         <div className="absolute inset-0 opacity-20"><Image src="/images/education-group.jpg" alt="" fill className="object-cover" /></div>
         <div className="relative max-w-3xl mx-auto text-center">

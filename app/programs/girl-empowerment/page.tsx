@@ -7,9 +7,20 @@ export const metadata: Metadata = {
   description: "AFJS Trust's girl empowerment program provides education, mentorship, and confidence-building for girls in Bhavnagar, Gujarat. Donate to support girl empowerment in India.",
 };
 
+const breadcrumb = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://joyfullsmiles.org" },
+    { "@type": "ListItem", position: 2, name: "Programs", item: "https://joyfullsmiles.org/programs" },
+    { "@type": "ListItem", position: 3, name: "Girl Empowerment", item: "https://joyfullsmiles.org/programs/girl-empowerment" },
+  ],
+};
+
 export default function GirlEmpowermentPage() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumb) }} />
       <div className="relative bg-gradient-to-br from-coral-600 to-coral-400 pt-28 pb-16 px-4 overflow-hidden">
         <div className="absolute inset-0 opacity-20"><Image src="/images/girl-empowerment-2.jpg" alt="" fill className="object-cover" style={{ objectPosition: "center 33%" }} /></div>
         <div className="relative max-w-3xl mx-auto text-center">
