@@ -1,90 +1,221 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Case Studies | Real Stories of Change | AFJS Trust",
   description:
-    "Real stories of transformation from AFJS Trust's programmes in Bhavnagar and Ahmedabad — coming soon. Follow us on Instagram for the latest updates.",
-  robots: { index: false, follow: true },
+    "Five real stories of children and families transformed through AFJS Charitable Trust's education, nutrition, and welfare programmes in Bhavnagar, Gujarat.",
+  openGraph: {
+    title: "Case Studies | Real Stories of Change | AFJS Trust",
+    description:
+      "Read how AFJS Trust changed lives — from a girl who won a school competition to a family that stayed together because a child's fees were paid.",
+    images: ["/images/education-group.jpg"],
+  },
 };
+
+const caseStudies = [
+  {
+    id: "fatima",
+    name: "Fatima",
+    age: "Class 6, St. Xavier's Primary School",
+    program: "Child Education",
+    programColor: "bg-teal-500",
+    image: "/images/girl-empowerment-1.jpg",
+    tagline: "From dropout risk to Rangoli champion",
+    story: [
+      "Fatima Arifbhai Numadiya was at serious risk of dropping out of school. Her family, like many in Bhavnagar's underprivileged communities, could not keep up with school fees. With ₹19,400 in annual fees and a significant pending balance, the school was Fatima's last thread to education.",
+      "AFJS Trust, through donor support, stepped in to cover Fatima's school fees at St. Xavier's Primary School, Bhavnagar. A donation cheque was raised and handed directly to the school. The principal acknowledged the contribution, and Fatima's enrolment for the academic year June 2025 – May 2026 was secured.",
+      "What happened next is the reason AFJS Trust exists. With her place in school assured, Fatima thrived. She went on to win 2nd place in the Rangoli competition at St. Xavier's Higher Secondary School in the year 2025–26 — a certificate of achievement she earned on merit, in front of the entire school.",
+      "Today, Fatima comes to school every day. She wants to be an artist. Her teachers say she is one of the most focused students in her class.",
+    ],
+    quote: "When someone paid my fees, I felt like someone believed in me. I don't want to let them down.",
+    impact: ["School fees secured for full academic year", "2nd place in school Rangoli competition", "Zero absences since enrolment"],
+    donor: "Sponsored by Ms. Ramakrishnan",
+  },
+  {
+    id: "varun-g",
+    name: "Varun",
+    age: "Class 4, St. Xavier's Primary School",
+    program: "Child Education",
+    programColor: "bg-teal-500",
+    image: "/images/education-banner.jpg",
+    tagline: "A boy who almost had to choose between school and his family",
+    story: [
+      "Varun Dhirendrabhai Gondaliya was in Class 4 at St. Xavier's Primary School when his family found themselves unable to pay his school fees. The total annual fee was ₹19,400, of which ₹15,900 remained pending — a sum completely out of reach for his household.",
+      "Without intervention, Varun would have been asked to leave the school. His parents were already discussing whether he should start helping with the family's small income instead.",
+      "AFJS Trust arranged for ₹3,500 to be deposited directly to the school in Term 1, with a further payment plan to cover the remaining balance. The school confirmed the receipt with a stamped fee certificate. Varun's seat was saved.",
+      "Varun is now in regular attendance. His favourite subject is mathematics. His parents, who initially feared he would never finish primary school, say they now dare to imagine him completing secondary education.",
+    ],
+    quote: "My father used to say school was a dream. Now he says it's a plan.",
+    impact: ["Immediate fee crisis resolved", "Full-year enrolment secured", "Family no longer considering withdrawal"],
+    donor: "Sponsored by Riddhi Parmar",
+  },
+  {
+    id: "nutrition-drive",
+    name: "The November Nutrition Drive",
+    age: "80+ children and families, Bhavnagar",
+    program: "Food & Nutrition",
+    programColor: "bg-gold-500",
+    image: "/images/nutrition-kids-2.jpg",
+    tagline: "Hot meals in the rain — because hunger doesn't stop for weather",
+    story: [
+      "On a wet November morning in Bhavnagar, when most people would have stayed indoors, AFJS Trust's food drive vehicle rolled into one of the city's most underserved localities. Eight children were waiting — plates in hand, standing in the rain without umbrellas, smiling.",
+      "The November 2025 nutrition drive was one of the trust's most challenging and most memorable. The rains had made road access difficult, and the team had to navigate waterlogged streets to reach the distribution point on time.",
+      "Over the course of the morning, the team served hot, freshly cooked meals to over 80 individuals — children, parents, and elderly residents. The AFJS standee banner stood in the rain as a marker for people to find the distribution point.",
+      "This drive was funded entirely by donations collected through the trust's WhatsApp network and Instagram following. Several donors from the UK and Germany contributed after seeing a video posted on social media.",
+      "What made this drive different was not the numbers, but the moment captured on camera: eight children, soaked and barefoot, holding their plates up with huge grins. That image became the most-shared post in AFJS Trust's history.",
+    ],
+    quote: "They came in the rain for our children. Nobody does that.",
+    impact: ["80+ individuals served", "Hot, freshly cooked meals provided", "International donors triggered by social media post"],
+    donor: "Funded by diaspora donors — India, UK, Germany",
+  },
+  {
+    id: "laptops-girls",
+    name: "Priya & Riya",
+    age: "Class 8 & 9, Bhavnagar",
+    program: "Girl Empowerment",
+    programColor: "bg-coral-400",
+    image: "/images/education-laptops.jpg",
+    tagline: "The day two girls from Bhavnagar held a laptop for the first time",
+    story: [
+      "Priya and Riya had never touched a laptop before December 2025. Like many girls in their neighbourhood, their education had been largely paper-based — textbooks, notebooks, and a shared phone at home that was mostly used by the adults.",
+      "As part of AFJS Trust's Girl Empowerment programme, the trust organised a digital literacy session in December 2025, bringing two laptops to the classroom and spending an afternoon teaching the girls basic computer skills.",
+      "The photographs from that session tell the story better than words. Both girls are absorbed — completely focused on the screens, navigating with cautious confidence. Riya figured out how to search for her school name online. Priya opened a word processor and typed her own name for the first time.",
+      "The session sparked a conversation about careers. Priya, who had previously said she wanted to be a teacher, went home and told her mother she now also wanted to know more about computers. Riya asked if there were schools where she could learn more.",
+      "AFJS Trust is now working to establish a regular digital literacy component in its Girl Empowerment programme, with the goal of giving every girl in the programme basic computer skills before they finish secondary school.",
+    ],
+    quote: "I didn't know I could do this. I thought computers were for boys and rich people.",
+    impact: ["First-ever digital literacy session for the group", "Both girls expressed interest in tech careers", "New digital curriculum being developed"],
+    donor: "Programme funded by AFJS General Fund",
+  },
+  {
+    id: "birthday-community",
+    name: "A Birthday Worth Remembering",
+    age: "Community event, Bhavnagar",
+    program: "Family Welfare",
+    programColor: "bg-teal-700",
+    image: "/images/community-birthday.jpg",
+    tagline: "When a donor's birthday became a village celebration",
+    story: [
+      "When Nikhitha — a generous donor who had been sponsoring children's education through AFJS Trust — mentioned her upcoming birthday to John Dsouza, she did not expect what happened next.",
+      "John quietly organised a surprise. On the day of her birthday, AFJS Trust ran a community nutrition drive in her name, gathering the children and families they support in Bhavnagar and presenting a handmade birthday greeting from the children — signed with their names and decorated with drawings.",
+      "The children held up a banner reading 'Happy Birthday Nikhitha', made with cardboard and coloured pens. Some had drawn stars and flowers. One child wrote 'Thank you for my school fees' beside her name.",
+      "The photographs from that morning — children laughing, holding plates of food, gathered around a birthday banner in front of the AFJS standee — went around the world. Nikhitha, watching from abroad, said it was the most meaningful birthday she had ever had.",
+      "This case study is not about education or nutrition in isolation. It is about what happens when a community of donors and beneficiaries becomes something more — when generosity is met with gratitude, and everyone feels seen.",
+    ],
+    quote: "I've had birthday cakes. I've never had something like this.",
+    impact: ["Community drive run in donor's name", "Handmade cards from 20+ children", "Strengthened donor-community relationship"],
+    donor: "In honour of Nikhitha, donor & sponsor",
+  },
+];
 
 export default function CaseStudiesPage() {
   return (
     <>
       {/* Hero */}
-      <div className="bg-gradient-to-br from-teal-950 to-teal-700 pt-28 pb-16 px-4 text-center">
-        <span className="inline-block px-4 py-1.5 bg-white/15 text-white text-xs font-bold rounded-full uppercase tracking-widest mb-4">
-          Real Stories
-        </span>
-        <h1 className="text-3xl md:text-5xl font-extrabold text-white mb-4">Case Studies</h1>
-        <p className="text-teal-100 text-lg max-w-2xl mx-auto">
-          Behind every number in our impact report is a real person. We are documenting their stories — with their permission — and will share them here soon.
-        </p>
+      <div className="relative bg-gradient-to-br from-teal-950 to-teal-700 pt-28 pb-20 px-4 overflow-hidden">
+        <div className="absolute inset-0 opacity-10">
+          <Image src="/images/education-group.jpg" alt="" fill className="object-cover" />
+        </div>
+        <div className="relative max-w-4xl mx-auto text-center">
+          <span className="inline-block px-4 py-1.5 bg-white/15 text-white text-xs font-bold rounded-full uppercase tracking-widest mb-4">
+            Real Stories
+          </span>
+          <h1 className="text-3xl md:text-5xl font-extrabold text-white mb-4">
+            Case Studies
+          </h1>
+          <p className="text-teal-100 text-xl max-w-2xl mx-auto">
+            Behind every number in our impact report is a real person. These are five of their stories.
+          </p>
+        </div>
       </div>
 
-      {/* Placeholder content */}
-      <div className="max-w-3xl mx-auto px-4 py-20 text-center">
-        {/* Coming soon icon */}
-        <div className="w-24 h-24 mx-auto mb-8 rounded-full bg-teal-50 flex items-center justify-center">
-          <svg viewBox="0 0 24 24" fill="none" className="w-12 h-12 text-teal-500" stroke="currentColor" strokeWidth={1.5}>
-            <path strokeLinecap="round" strokeLinejoin="round" d="M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .513v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6 2.292m0-14.25v14.25" />
-          </svg>
-        </div>
+      {/* Case Studies */}
+      <div className="max-w-5xl mx-auto px-4 sm:px-6 py-20 space-y-24">
+        {caseStudies.map((cs, i) => (
+          <article key={cs.id} className="scroll-mt-24" id={cs.id}>
+            <div className={`grid md:grid-cols-2 gap-12 items-start ${i % 2 === 1 ? "md:[direction:rtl]" : ""}`}>
+              {/* Image */}
+              <div className={`relative h-72 md:h-96 rounded-3xl overflow-hidden shadow-xl ${i % 2 === 1 ? "md:[direction:ltr]" : ""}`}>
+                <Image
+                  src={cs.image}
+                  alt={cs.name}
+                  fill
+                  className="object-cover"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                />
+                <div className="absolute top-4 left-4">
+                  <span className={`px-3 py-1 ${cs.programColor} text-white text-xs font-bold rounded-full`}>
+                    {cs.program}
+                  </span>
+                </div>
+              </div>
 
-        <h2 className="text-2xl md:text-3xl font-extrabold text-gray-900 mb-4">
-          Stories Coming Soon
+              {/* Content */}
+              <div className={i % 2 === 1 ? "md:[direction:ltr]" : ""}>
+                <p className="text-teal-500 text-xs font-bold uppercase tracking-widest mb-2">{cs.age}</p>
+                <h2 className="text-2xl md:text-3xl font-extrabold text-gray-900 mb-1">{cs.name}</h2>
+                <p className="text-gray-500 italic mb-6">{cs.tagline}</p>
+
+                <div className="space-y-3 text-gray-600 leading-relaxed text-sm mb-6">
+                  {cs.story.map((para, j) => (
+                    <p key={j}>{para}</p>
+                  ))}
+                </div>
+
+                {/* Quote */}
+                <blockquote className="border-l-4 border-teal-400 pl-4 italic text-gray-700 mb-6">
+                  &ldquo;{cs.quote}&rdquo;
+                </blockquote>
+
+                {/* Impact bullets */}
+                <div className="bg-teal-50 rounded-2xl p-5 mb-4">
+                  <p className="text-xs font-bold text-teal-700 uppercase tracking-widest mb-3">Impact</p>
+                  <ul className="space-y-1.5">
+                    {cs.impact.map((item) => (
+                      <li key={item} className="flex items-start gap-2 text-sm text-gray-700">
+                        <svg className="w-4 h-4 text-teal-500 mt-0.5 shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                          <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                        </svg>
+                        {item}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+
+                <p className="text-xs text-gray-400 italic">{cs.donor}</p>
+              </div>
+            </div>
+
+            {i < caseStudies.length - 1 && (
+              <div className="mt-24 border-t border-gray-100" />
+            )}
+          </article>
+        ))}
+      </div>
+
+      {/* CTA */}
+      <div className="bg-teal-500 py-16 px-4 text-center">
+        <h2 className="text-2xl md:text-3xl font-bold text-white mb-4">
+          Be part of the next story
         </h2>
-        <p className="text-gray-600 text-lg leading-relaxed mb-6 max-w-xl mx-auto">
-          We are on the ground every day — running nutrition drives, enrolling children, and supporting families in Bhavnagar and Ahmedabad. We are documenting the real stories of people our programmes have reached, with their knowledge and consent, and will publish them here.
+        <p className="text-teal-100 mb-8 max-w-xl mx-auto">
+          Every donation creates a story like the ones above. ₹25,000 sponsors one child&apos;s entire year of education.
         </p>
-        <p className="text-gray-500 leading-relaxed mb-10 max-w-xl mx-auto">
-          In the meantime, you can follow our work in real time on Instagram, or read about our programmes and the impact we&apos;ve had so far.
-        </p>
-
-        {/* CTAs */}
-        <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
-          <a
-            href="https://www.instagram.com/afjs_charitable_trust/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center justify-center gap-2.5 px-8 py-3.5 bg-gradient-to-br from-pink-500 to-purple-600 text-white font-bold rounded-full shadow-lg transition-all duration-200 hover:-translate-y-0.5"
+        <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <Link
+            href="/donate"
+            className="px-8 py-4 bg-coral-400 hover:bg-coral-500 text-white font-bold rounded-full shadow-xl transition-all hover:-translate-y-0.5"
           >
-            <svg viewBox="0 0 24 24" fill="currentColor" className="w-5 h-5">
-              <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/>
-            </svg>
-            Follow on Instagram
-          </a>
+            Donate Now ❤
+          </Link>
           <Link
             href="/impact"
-            className="inline-flex items-center justify-center gap-2 px-8 py-3.5 bg-teal-500 hover:bg-teal-600 text-white font-bold rounded-full shadow-lg transition-all duration-200 hover:-translate-y-0.5"
+            className="px-8 py-4 bg-white text-teal-600 font-bold rounded-full shadow-xl transition-all hover:-translate-y-0.5"
           >
-            See Our Impact
+            See Full Impact
           </Link>
-          <Link
-            href="/blog"
-            className="inline-flex items-center justify-center gap-2 px-8 py-3.5 bg-white hover:bg-gray-50 text-gray-700 font-bold rounded-full shadow-sm border border-gray-200 transition-all duration-200 hover:-translate-y-0.5"
-          >
-            Read Our Blog
-          </Link>
-        </div>
-
-        {/* Notify / WhatsApp */}
-        <div className="bg-teal-50 rounded-3xl p-8">
-          <h3 className="font-bold text-gray-900 text-lg mb-2">Want to be notified when stories go live?</h3>
-          <p className="text-gray-600 text-sm mb-5">
-            WhatsApp us and we&apos;ll let you know as soon as we publish our first real case studies.
-          </p>
-          <a
-            href="https://wa.me/916357369174?text=Hi%2C%20please%20notify%20me%20when%20the%20case%20studies%20are%20published."
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2.5 px-8 py-3.5 bg-green-500 hover:bg-green-600 text-white font-bold rounded-full shadow-lg shadow-green-500/30 transition-all duration-200 hover:-translate-y-0.5"
-          >
-            <svg viewBox="0 0 24 24" fill="currentColor" className="w-5 h-5">
-              <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z" />
-            </svg>
-            Notify Me on WhatsApp
-          </a>
         </div>
       </div>
     </>
