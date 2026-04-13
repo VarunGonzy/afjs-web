@@ -77,10 +77,10 @@ const testimonials = [
   },
   {
     quote:
-      "I donated ₹2,500 expecting little — then I received a handwritten 'Thank You' note from a child. I've been donating every month since. This trust is the real deal.",
-    name: "Ms. Ramakrishnan",
-    location: "Donor, India",
-    initials: "MR",
+      "My son used to skip school because we couldn't afford the fees. AFJS Trust stepped in — they paid everything and even gave him notebooks. He hasn't missed a day since.",
+    name: "Father of a sponsored child",
+    location: "Bhavnagar, Gujarat",
+    initials: "RB",
     color: "bg-coral-400",
   },
   {
