@@ -23,10 +23,10 @@ const stories = [
   },
   {
     title: "Breaking Barriers for Girls",
-    image: "/images/girl-empowerment-1.jpg",
+    image: "/images/girl-empowerment-right.jpg",
     program: "Girl Empowerment",
-    story: "Meera's family initially resisted sending her to school, believing education was unnecessary for girls. Through our family engagement program and scholarship support, she is now in 7th grade — and her parents are her biggest supporters.",
-    impact: "2 years of education + family counseling",
+    story: "Her family initially resisted sending her to school, believing education was unnecessary for girls. AFJS Trust supported her through school fees, mentorship, and family engagement. She completed her 12th standard — the first girl in her family to do so.",
+    impact: "Completed 12th std · First in family to finish secondary school",
   },
   {
     title: "No Child Goes Hungry",

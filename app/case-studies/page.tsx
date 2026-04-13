@@ -49,7 +49,7 @@ const caseStudies = [
     ],
     quote: "My father used to say school was a dream. Now he says it's a plan.",
     impact: ["Immediate fee crisis resolved", "Full-year enrolment secured", "Family no longer considering withdrawal"],
-    donor: "Sponsored by Riddhi Parmar",
+    donor: "Sponsored by Sanjana R.",
   },
   {
     id: "nutrition-drive",
@@ -69,6 +69,24 @@ const caseStudies = [
     quote: "They came in the rain for our children. Nobody does that.",
     impact: ["80+ individuals served", "Hot, freshly cooked meals provided", "International donors triggered by social media post"],
     donor: "Funded by diaspora donors — India, UK, Germany",
+  },
+  {
+    id: "aisha",
+    name: "Aisha",
+    age: "Class 5, St. Xavier's Primary School",
+    program: "Child Education",
+    programColor: "bg-teal-500",
+    image: "/images/community-celebration.jpg",
+    tagline: "A quiet girl who just needed someone to believe in her",
+    story: [
+      "Aisha was in Class 5 when her family's financial situation worsened sharply. Her father's daily wage work had dried up and the family was struggling to cover basic expenses. School fees — ₹19,400 for the year — had become completely out of reach.",
+      "Aisha's teacher flagged the situation to AFJS Trust. She was one of the most attentive students in class, rarely missed a day, and had never caused a moment of trouble. She was precisely the kind of child who slips through cracks silently — no loud crisis, no visible distress. Just a slowly accumulating fee balance and a family too proud to ask for help.",
+      "Riddhi Parmar, a donor who had been following AFJS Trust's work, stepped forward to sponsor Aisha's fees in full. The cheque was delivered directly to the school. The school issued a stamped receipt and confirmed Aisha's enrolment for the academic year.",
+      "Aisha's teacher later told us that after the fees were paid, Aisha started raising her hand in class for the first time. Something had shifted. When you know your seat is secure, you can stop worrying about it and start learning.",
+    ],
+    quote: "She never said anything to us. But we could see it — she smiled more after that.",
+    impact: ["Full year fees paid directly to school", "Continued uninterrupted attendance", "Noticeable improvement in classroom confidence"],
+    donor: "Sponsored by Riddhi Parmar",
   },
   {
     id: "laptops-girls",

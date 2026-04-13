@@ -129,7 +129,7 @@ export default function AboutPage() {
             <div className="bg-gradient-to-br from-teal-50 to-white rounded-3xl p-8 border border-teal-100 shadow-sm hover:shadow-lg transition-shadow">
               <div className="flex items-start gap-4 mb-5">
                 <div className="w-16 h-16 rounded-2xl overflow-hidden shrink-0 shadow-lg shadow-teal-500/30">
-                  <Image src="/images/john-1.png" alt="John Dsouza" width={64} height={64} className="w-full h-full object-cover" />
+                  <Image src="/images/john-2.png" alt="John Dsouza" width={64} height={64} className="w-full h-full object-cover" />
                 </div>
                 <div>
                   <h3 className="text-xl font-extrabold text-gray-900">John Dsouza</h3>

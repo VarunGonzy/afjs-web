@@ -7,12 +7,9 @@ import { Menu, X } from "lucide-react";
 import LanguageSelector from "@/components/LanguageSelector";
 
 const navLinks = [
-  { label: "Home", href: "/" },
-  { label: "About Us", href: "/about" },
+  { label: "About", href: "/about" },
   { label: "Programs", href: "/programs" },
-  { label: "Sponsor a Child", href: "/sponsor-a-child" },
-  { label: "Our Impact", href: "/impact" },
-  { label: "Case Studies", href: "/case-studies" },
+  { label: "Impact", href: "/impact" },
   { label: "Blog", href: "/blog" },
   { label: "Contact", href: "/contact" },
 ];

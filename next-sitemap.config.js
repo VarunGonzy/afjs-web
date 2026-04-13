@@ -19,7 +19,7 @@ module.exports = {
       "monthly",
     priority:
       path === "/" ? 1.0 :
-      path === "/donate" || path === "/sponsor-a-child" ? 0.9 :
+      path === "/donate" ? 0.9 :
       path.startsWith("/programs") ? 0.8 :
       path.startsWith("/blog") ? 0.7 :
       path === "/about" || path === "/impact" || path === "/case-studies" ? 0.7 :
@@ -31,7 +31,6 @@ module.exports = {
     await config.transform(config, "/programs/girl-empowerment"),
     await config.transform(config, "/programs/food-nutrition"),
     await config.transform(config, "/programs/family-welfare"),
-    await config.transform(config, "/sponsor-a-child"),
     await config.transform(config, "/ngo-bhavnagar"),
     await config.transform(config, "/donate/80g-tax-exemption"),
   ],
