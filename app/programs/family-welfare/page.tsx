@@ -5,6 +5,12 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Family Welfare Program | AFJS Trust - Support Families in Gujarat",
   description: "AFJS Trust's family welfare program provides holistic support to underprivileged families in Bhavnagar, enabling them to keep their children in school and build a better future.",
+  openGraph: {
+    title: "Family Welfare Program | AFJS Trust - Support Families in Gujarat",
+    description: "Holistic support for underprivileged families in Bhavnagar — keeping children in school through family stability. Donate to AFJS Trust.",
+    images: [{ url: "/images/family-welfare-1.jpg", width: 1200, height: 630, alt: "AFJS Trust family welfare programme — Bhavnagar" }],
+  },
+  twitter: { card: "summary_large_image", images: ["/images/family-welfare-1.jpg"] },
 };
 
 const breadcrumb = {
@@ -25,7 +31,7 @@ export default function FamilyWelfarePage() {
         <div className="absolute inset-0 opacity-20"><Image src="/images/family-welfare-1.jpg" alt="" fill className="object-cover" style={{ objectPosition: "center 40%" }} /></div>
         <div className="relative max-w-3xl mx-auto text-center">
           <span className="inline-block px-4 py-1.5 bg-white/15 text-white text-xs font-bold rounded-full uppercase tracking-widest mb-4">Program 4 of 4</span>
-          <h1 className="text-3xl md:text-5xl font-extrabold text-white mb-4">Family Welfare</h1>
+          <h1 className="text-3xl md:text-5xl font-extrabold text-white mb-4">Family Welfare Support Programme in Bhavnagar</h1>
           <p className="text-teal-100 text-xl">When you help one child, you help an entire family.</p>
         </div>
       </div>

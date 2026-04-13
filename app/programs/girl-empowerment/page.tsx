@@ -5,6 +5,12 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Girl Empowerment Program | Donate to Girl Education in India | AFJS Trust",
   description: "AFJS Trust's girl empowerment program provides education, mentorship, and confidence-building for girls in Bhavnagar, Gujarat. Donate to support girl empowerment in India.",
+  openGraph: {
+    title: "Girl Empowerment Program | Donate to Girl Education in India | AFJS Trust",
+    description: "Education, mentorship and confidence-building for girls at risk of dropping out in Bhavnagar, Gujarat. Donate to AFJS Trust.",
+    images: [{ url: "/images/girl-empowerment-1.jpg", width: 1200, height: 630, alt: "Girl empowerment programme — AFJS Trust Bhavnagar" }],
+  },
+  twitter: { card: "summary_large_image", images: ["/images/girl-empowerment-1.jpg"] },
 };
 
 const breadcrumb = {
@@ -25,7 +31,7 @@ export default function GirlEmpowermentPage() {
         <div className="absolute inset-0 opacity-20"><Image src="/images/girl-empowerment-2.jpg" alt="" fill className="object-cover" style={{ objectPosition: "center 33%" }} /></div>
         <div className="relative max-w-3xl mx-auto text-center">
           <span className="inline-block px-4 py-1.5 bg-white/20 text-white text-xs font-bold rounded-full uppercase tracking-widest mb-4">Program 2 of 4</span>
-          <h1 className="text-3xl md:text-5xl font-extrabold text-white mb-4">Girl Empowerment</h1>
+          <h1 className="text-3xl md:text-5xl font-extrabold text-white mb-4">Girl Empowerment &amp; Education Programme — AFJS Trust</h1>
           <p className="text-orange-100 text-xl">Educate a girl. Change her family. Transform a generation.</p>
         </div>
       </div>

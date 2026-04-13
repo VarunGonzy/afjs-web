@@ -15,6 +15,15 @@ export const metadata: Metadata = {
   },
 };
 
+const breadcrumb = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Home", item: "https://joyfullsmiles.org" },
+    { "@type": "ListItem", position: 2, name: "About Us", item: "https://joyfullsmiles.org/about" },
+  ],
+};
+
 const founderSchema = {
   "@context": "https://schema.org",
   "@type": "AboutPage",
@@ -35,6 +44,7 @@ const founderSchema = {
 export default function AboutPage() {
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumb) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(founderSchema) }} />
 
       {/* Hero */}
@@ -47,7 +57,7 @@ export default function AboutPage() {
             Our Story
           </span>
           <h1 className="text-3xl md:text-5xl font-extrabold text-white mb-4">
-            All For Joyful Smiles
+            About AFJS Charitable Trust — Child Education NGO in Bhavnagar, Gujarat
           </h1>
           <p className="text-teal-100 text-xl font-light">
             Empowering Communities. Educating Futures.

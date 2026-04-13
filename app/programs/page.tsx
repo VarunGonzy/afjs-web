@@ -6,6 +6,12 @@ export const metadata: Metadata = {
   title: "Our Programs | Child Education, Girl Empowerment, Nutrition & Family Welfare",
   description:
     "AFJS Trust runs four core programs: Child Education, Girl Empowerment, Food & Nutrition Drive, and Family Welfare — all serving underprivileged communities in Bhavnagar and Ahmedabad.",
+  openGraph: {
+    title: "AFJS Trust Programs | Child Education, Girl Empowerment & Nutrition — Bhavnagar",
+    description: "Four programmes changing lives in Bhavnagar and Ahmedabad: education, girl empowerment, food & nutrition, and family welfare.",
+    images: [{ url: "/images/education-group.jpg", width: 1200, height: 630 }],
+  },
+  twitter: { card: "summary_large_image", images: ["/images/education-group.jpg"] },
 };
 
 const programs = [

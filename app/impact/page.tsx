@@ -5,6 +5,12 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Our Impact | Stories of Change | AFJS Trust",
   description: "See the real impact of your donations. AFJS Trust has supported 500+ children and 200+ families in Bhavnagar and Ahmedabad. Read impact stories and see our photo gallery.",
+  openGraph: {
+    title: "Our Impact | AFJS Trust — 500+ Children, 200+ Families in Gujarat",
+    description: "Real stories, real numbers. See what donations to AFJS Trust have achieved for children and families in Bhavnagar and Ahmedabad.",
+    images: [{ url: "/images/education-group.jpg", width: 1200, height: 630 }],
+  },
+  twitter: { card: "summary_large_image", images: ["/images/education-group.jpg"] },
 };
 
 const stories = [

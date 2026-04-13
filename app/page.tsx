@@ -99,11 +99,21 @@ export default function HomePage() {
 
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        url: "https://joyfullsmiles.org",
+        speakable: {
+          "@type": "SpeakableSpecification",
+          cssSelector: [".impact-stats", ".about-snippet"],
+        },
+      })}} />
+
       {/* ── HERO ── */}
       <HeroSection />
 
       {/* ── ANIMATED IMPACT COUNTER ── */}
-      <section className="bg-teal-500 py-16 px-4">
+      <section className="bg-teal-500 py-16 px-4 impact-stats">
         <div className="max-w-5xl mx-auto">
           <p className="text-center text-teal-100 text-sm font-semibold uppercase tracking-widest mb-10">
             Our Impact So Far
@@ -271,7 +281,7 @@ export default function HomePage() {
       </section>
 
       {/* ── ABOUT SNIPPET ── */}
-      <section className="py-20 px-4 bg-teal-950">
+      <section className="py-20 px-4 bg-teal-950 about-snippet">
         <div className="max-w-5xl mx-auto">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>

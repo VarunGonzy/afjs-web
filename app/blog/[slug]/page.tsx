@@ -318,34 +318,73 @@ Family welfare is not charity. It is long-term investment in communities.`,
     readTime: "4 min",
     image: "/images/education-group.jpg",
     excerpt: "Sponsoring a child's education is more than a transaction. Here's the full story of what your ₹25,000 actually does over the course of a year.",
-    content: `Child sponsorship has become a well-known concept in international development. But what does it actually mean when you sponsor a child through AFJS Trust? Here's the complete picture.
+    content: `Child sponsorship is one of the most direct forms of philanthropic giving: you commit a sum, a specific child benefits, and you receive updates on their progress. But every organisation does it differently. Here is exactly what it means to sponsor a child through AFJS Charitable Trust.
 
-**What ₹25,000 Covers**
-When you commit to sponsoring a child for ₹25,000 per year, here is how that investment is used:
+**The Basic Commitment: ₹25,000 per Year**
+₹25,000 per year — roughly ₹2,100 per month, or ₹70 per day — sponsors one child's complete year of education at St. Xavier's Primary School, Devbagh, Bhavnagar.
 
-- **School Fees** (paid directly to St. Xavier's Primary School, Bhavnagar): ₹12,000–14,000
-- **Books, Notebooks, and Stationery**: ₹2,000–3,000
-- **School Uniform** (2 sets, shoes, bag): ₹2,500–3,000
-- **After-School Tutoring** (volunteer-run but with operational costs): ₹2,000
-- **Nutrition Support** (allocated contribution to monthly drives): ₹3,000–4,000
-- **Administrative and coordination costs**: <5% of total
+That number covers everything:
 
-Every rupee is documented and accounted for. We maintain records for every child enrolled and can provide full reporting upon request.
+| Item | Cost |
+|------|------|
+| Annual school fees (paid directly to St. Xavier's) | ₹12,000–14,000 |
+| Books, notebooks, stationery | ₹2,000–3,000 |
+| School uniform — 2 sets, shoes, school bag | ₹2,500–3,000 |
+| After-school tutoring (operational costs) | ₹2,000 |
+| Nutrition support allocation | ₹3,000–4,000 |
+| Administrative and coordination | <5% of total |
 
-**What You Won't Get**
-We want to be honest: AFJS Trust is a small, early-stage organisation. We do not yet offer the kind of formal "meet your child" pen-pal programmes that some larger NGOs provide. Privacy concerns for children and families, combined with resource constraints, mean we operate differently.
+Every rupee is documented. We maintain a child-level record for every enrolment: fee receipts, attendance records, progress notes. If you ask for a full accounting of how your ₹25,000 was used, we will provide it.
 
-What we do offer is full transparency — photos from our programmes (anonymised as appropriate), regular impact updates, and direct communication via WhatsApp or email.
+**How the Money Actually Moves**
+When you sponsor a child, here is what happens mechanically:
 
-**The Commitment We Make**
-When you sponsor a child, we commit to:
-- Enrolling and maintaining the child's school attendance
-- Providing all educational materials
-- Regular check-ins on the child's progress
-- Immediate communication if any circumstances change
-- A full year-end impact report on how your funds were used
+1. We identify a child whose school place is at risk due to unpaid fees
+2. We verify the family's situation through our community contacts and direct conversation
+3. A donation cheque is raised and delivered directly to the school, in the child's name
+4. The school issues a stamped receipt confirming payment
+5. We photograph the receipt and send it to the sponsoring donor
+6. The child's enrolment is confirmed for the full academic year
+7. We begin tracking the child's attendance and progress
 
-Your ₹25,000 is not a donation. It is a partnership.`,
+There is no cash handling at any point in this process. The fee goes from donor to school, documented with receipts that we share.
+
+**Partial Sponsorship — It Also Works**
+Not everyone can commit ₹25,000. We have donors who give ₹5,000 or ₹10,000 and whose contributions are pooled to cover a child's expenses. Smaller amounts are never wasted — they directly reduce the shortfall between what a family can afford and what the school requires.
+
+- ₹5,000 covers nutrition support for a child for a full year
+- ₹10,000 covers educational materials, uniforms, and tutoring for a year
+- ₹15,000+ starts approaching partial fee coverage
+
+**What You Will Receive as a Sponsor**
+We want to be completely honest about what we can and cannot offer, because we have seen the inflated promises that some larger NGOs make.
+
+What we offer:
+- **Photos**: Photographs from our programmes, showing children in school, at nutrition drives, at community events. We are careful about child privacy and will always seek appropriate permissions.
+- **Impact updates**: Regular WhatsApp or email updates about programme activity
+- **Your child's story**: When you sponsor a specific child, we will share their story with you (with appropriate permissions) and provide updates on their progress
+- **Annual report**: A year-end accounting of how your funds were used
+- **Receipts**: Official donation receipts for 80G tax purposes if you require them
+
+What we do not yet offer: formal pen-pal programmes, video calls with the sponsored child, or the kind of relationship-building that requires significant infrastructure to manage. We are a small, founder-led organisation. Our bandwidth for administration is limited. We put it into the children, not into donor relations.
+
+**A Story: Ms. Ramakrishnan and Fatima**
+When Ms. Ramakrishnan reached out to John Dsouza about sponsoring a child's education, she did not ask for anything elaborate. She asked for confirmation that her money would reach a child.
+
+We enrolled Fatima — a Class 6 student at St. Xavier's whose fees were critically in arrears. The cheque was written. The receipt was issued. The photograph was sent to Ms. Ramakrishnan.
+
+Fatima, with her school place secured, went on to win second place in the school's Rangoli competition that year. She wants to be an artist.
+
+Ms. Ramakrishnan saw that photograph of the certificate. She renewed her sponsorship for the following year.
+
+That is what child sponsorship through AFJS Trust looks like.
+
+**How to Become a Sponsor**
+The simplest way is to WhatsApp John Dsouza directly at +91 63573 69174. Tell him you'd like to sponsor a child. He will match you with a child whose education is most at risk, share the full details, and coordinate payment.
+
+You can also donate online at joyfullsmiles.org/donate and note "Child Sponsorship" in your payment reference. We will follow up within 24 hours.
+
+Your ₹25,000 is not just a donation. It is a year in a child's life.`,
   },
   "from-germany-with-love": {
     title: "From Germany With Love: How Varun Supports AFJS Trust from Abroad",
@@ -426,30 +465,53 @@ We are grateful for every form of support. The children don't know how you helpe
     readTime: "5 min",
     image: "/images/community-food.jpg",
     excerpt: "Bhavnagar is a city of contrasts. Understanding its underserved communities is the first step to changing them.",
-    content: `Bhavnagar sits on the Saurashtra coast of Gujarat — a city of around 700,000 people that is simultaneously one of Gujarat's most historically significant cities and one of its most economically stratified.
+    content: `Bhavnagar sits on the Saurashtra coast of Gujarat — a city of around 700,000 people that is simultaneously one of Gujarat's most historically significant cities and one of its most economically stratified. If you want to understand why AFJS Trust exists, you have to understand Bhavnagar.
 
 **A City of Contrasts**
-The old city of Bhavnagar has magnificent architecture: palaces, wide promenades, a former princely grandeur. The port area was once a centre of ship-breaking — one of the world's largest and most dangerous industries, which employed thousands of men in brutal, hazardous work.
+The old city has magnificent architecture: palaces, wide promenades, a former princely grandeur that still shows in the old market squares and carved havelis. The port area was once the centre of Alang — one of the world's largest ship-breaking yards, which employed tens of thousands of men in brutal, hazardous work for decades.
 
-Today, Bhavnagar is growing as a commercial and educational hub. New schools and colleges have expanded. The middle class has risen. And in the lanes behind the main roads, in communities that don't make it onto tourist maps, families have been left behind.
+Today, Bhavnagar is growing as a commercial and educational hub. New engineering colleges and schools have expanded rapidly. The middle class has grown. The city is changing.
+
+And in the lanes behind the main roads — in communities that don't make it onto tourist maps, that don't appear in the promotional literature of the Gujarat government's development narrative — families have been left behind.
 
 **Who Lives in the Communities We Serve**
-The families we support are predominantly:
-- Former or current daily wage workers in construction, domestic service, and informal manufacturing
-- Families who migrated from rural Gujarat seeking work and found only precarious employment
-- Single-parent households, often headed by women, managing on unpredictable income
-- Families with disabled members whose care absorbs most available resources
-- Muslim, Dalit, and adivasi communities that face compounding layers of marginalisation
+The families AFJS Trust supports are not a homogeneous group. They include:
 
-**Why Bhavnagar**
-We work in Bhavnagar because it is where we are from. John Dsouza grew up here. He knows these lanes. He knows these families. Relationships built over years of community presence are worth more than the most sophisticated intervention from outside.
+- Former daily-wage labourers from the ship-breaking industry, many of whom carry occupational illnesses and injuries
+- Families who migrated from rural Saurashtra and Kutch seeking work in Bhavnagar's informal economy, and found only precarious employment in construction and domestic service
+- Single-parent households, frequently headed by women who earn ₹3,000–5,000 per month doing domestic work, managing three or four children on an income that barely covers rent and food
+- Families with disabled members, whose care absorbs most available resources, leaving nothing for school fees or books
+- Muslim, Dalit, and adivasi communities who face compounding layers of economic and social marginalisation
 
-We also work in Ahmedabad, where similar communities exist and where many Bhavnagar families have migrated seeking work.
+The one thing these families have in common is that the formal systems — government welfare programmes, school fee waivers, health schemes — exist on paper but are practically inaccessible to them. The paperwork is too complex. The offices are too far. The officials too difficult to reach.
 
-**The Future We're Working Toward**
-Bhavnagar deserves to be a city where every child — regardless of caste, religion, gender, or economic background — has a genuine shot at a joyful, empowered future.
+This is the gap that AFJS Trust fills.
 
-That future is not inevitable. It requires work. We are doing that work, every day, one child at a time.`,
+**The School We Work With**
+Our primary education partner is St. Xavier's Primary School in Devbagh, Bhavnagar. It is one of the most respected schools in the city — a school that produces children who go on to become engineers, doctors, and business owners.
+
+It is not a school for the poor. It is a school that happens to charge fees that most of the families we support cannot afford. Our job is to bridge that gap — to get children from the lanes of Bhavnagar into classrooms that genuinely serve their potential.
+
+**What We See When We Get It Right**
+When a child from a daily-wage family walks into St. Xavier's with a new uniform, a full bag, and a paid fee receipt, something shifts — not just for the child but for the family. Parents who never dared imagine their child finishing primary school start asking about secondary schools. Siblings begin asking why they can't go too.
+
+Education is contagious. That's not a slogan. It's what we observe, year after year, in Bhavnagar's underserved communities.
+
+**Why Bhavnagar, and Not Somewhere Else?**
+We work in Bhavnagar because it is where John Dsouza grew up. He knows these lanes. He knows these families by name. He understands the local power structures, the community dynamics, the religious and caste sensitivities that determine whether a family will trust an outside organisation.
+
+Relationships built over years of community presence are worth more than the most sophisticated intervention parachuted in from outside. We are not outsiders. We are from here.
+
+We also have a growing presence in Ahmedabad, where similar communities exist and where many Bhavnagar families have migrated in search of work and better opportunities.
+
+**The NGO Landscape in Bhavnagar**
+There are organisations working in Bhavnagar — government schemes, larger state-level NGOs, international development programmes. We are not competing with them. We are filling the gaps they leave.
+
+AFJS Trust is particularly focused on the last mile: the families that even well-intentioned programmes cannot reach because they lack documentation, because they don't speak the right language, because they don't know the right people.
+
+If you've been looking for an NGO in Bhavnagar that you can trust, that you can verify, and that does honest, documented work in the communities that need it most — this is what we are.
+
+Visit us at joyfullsmiles.org, or WhatsApp John directly at +91 63573 69174. He'll tell you everything.`,
   },
   "women-literacy-development": {
     title: "Women's Literacy: The Lever That Moves Everything",
@@ -614,35 +676,90 @@ If you want to permanently change a child's trajectory, invest in their educatio
     readTime: "5 min",
     image: "/images/impact-donation.jpg",
     excerpt: "A full accounting of what AFJS Trust achieved in 2024 — the children reached, the meals served, the lives changed — and what it cost.",
-    content: `Transparency is not a policy for AFJS Trust. It is a value. And so, as we close out the 2024 programme year, we want to share a complete account of what we accomplished — and what it took.
+    content: `Transparency is not a policy for AFJS Trust. It is a value. And so, as we close out the 2024 programme year, we want to share a complete, unvarnished account of what we accomplished — what we got right, what was harder than expected, and what comes next.
+
+This is not a fundraising document. It is an honest reckoning.
 
 **Children Enrolled and Retained**
-In 2024, AFJS Trust supported the enrolment and retention of 200+ children across Bhavnagar and Ahmedabad. This includes both new enrolments and children whose continued school attendance was at risk without our intervention.
+In 2024, AFJS Trust supported the enrolment and continued attendance of 200+ children across Bhavnagar and Ahmedabad.
 
-Of these children, over 90% completed the academic year — a retention rate we are proud of and committed to improving further.
+This figure includes:
+- Children enrolled for the first time through AFJS Trust scholarship support
+- Children whose continued attendance was at immediate risk due to unpaid fees and who were retained through our intervention
+- Children in our after-school tutoring programme who were not directly scholarship-supported but received learning support
 
-**Nutrition Drives**
-We ran 52 nutrition drives across the year — more than one per week. Total meals served: approximately 4,000. Every meal was freshly prepared by our volunteer team, documented, and distributed to families in our programme communities.
+Of the children in our direct scholarship programme, over 90% completed the academic year. The children who did not complete did so primarily for family-level reasons — sudden migration, medical crises, family relocation — rather than because they chose to leave school.
 
-**Girl Empowerment**
-Our girl empowerment programme reached 150+ girls in 2024. Workshops on confidence, life skills, legal rights, and mentorship were attended by girls aged 10-18. Dropout prevention interventions helped retain 30 girls who were at immediate risk of leaving school.
+**Nutrition Drives — 52 in 12 Months**
+We ran 52 food and nutrition drives in 2024 — more than one per week. Total meals served: approximately 4,000.
 
-**Family Welfare**
-Our family welfare team conducted 200+ home visits, connecting families with government schemes they were entitled to but not accessing, providing counselling support, and facilitating access to healthcare.
+Every meal was freshly prepared on the day of the drive. No packaged rations. No powdered supplements. Real food, cooked by volunteers, delivered hot to communities in Bhavnagar and Ahmedabad.
 
-**The Financials**
-Total expenditure in 2024: ₹18,00,000 (approximately)
-- Education (fees, materials, uniforms): 55%
-- Nutrition programmes: 25%
-- Family welfare and administration: 15%
-- Communications and outreach: 5%
+The drives that stand out from 2024:
+- **The monsoon drives**: Running nutrition drives through the Gujarat monsoon season is logistically challenging. Our teams navigated waterlogged streets in July and August to reach distribution points on time. No drives were cancelled due to weather.
+- **The Diwali community celebration**: We combined a nutrition drive with a community Diwali celebration, serving 150 families and distributing sweets to the children. The photographs from that evening remain some of our most viewed.
+- **The birthday drive**: When donor Nikhitha mentioned her upcoming birthday, John organised a surprise — a nutrition drive run in her name, with the children presenting a handmade birthday card decorated with drawings. The photographs circled the world.
 
-For every ₹100 received, ₹95 goes directly to programme delivery.
+**Girl Empowerment Programme**
+Our girl empowerment work reached 150+ girls in 2024.
 
-**What Comes Next**
-2025 targets: 300 children, 60 nutrition drives, expanded women's literacy programme, and the launch of our formal case study documentation system.
+Programme activities included:
+- Weekly confidence and life-skills workshops (attended by 80+ girls regularly)
+- Mentorship sessions with female role models from the community
+- Legal rights education — property rights, marriage age, right to education
+- Family engagement sessions with 60+ parents to shift attitudes toward daughters' education
+- Dropout intervention: 30 girls who were at immediate risk of leaving school were retained through targeted support
 
-We could not have done any of this without our donors, volunteers, and community partners. Thank you.`,
+The digital literacy sessions in December 2024 were a milestone we had not anticipated when we planned the year. Two laptop computers, an afternoon in a classroom, and girls discovering for the first time that technology was something they could use, not just observe. Priya and Riya — the first girls in their families to ever touch a laptop — became emblematic of why this work matters.
+
+**Family Welfare Programme**
+Our family welfare team conducted 200+ home visits in 2024.
+
+The majority of these visits were focused on:
+- Connecting families with government welfare schemes they were eligible for but not accessing (PMJAY health coverage, BPL ration cards, MGNREGA entitlements)
+- Counselling support for families in crisis
+- Facilitation of access to healthcare — particularly for elderly members and children with chronic conditions
+- Support with documentation for families attempting to access formal services
+
+Family welfare is our quietest programme. It produces no photographs of children smiling with new books. It produces families who stay together, children who stay in school, and crises that are resolved before they become catastrophes.
+
+**The Financial Transparency You Deserve**
+Total expenditure in 2024: approximately ₹18,00,000
+
+| Category | Percentage | Amount (approx.) |
+|----------|-----------|-----------------|
+| Education (fees, materials, uniforms) | 55% | ₹9,90,000 |
+| Nutrition programmes | 25% | ₹4,50,000 |
+| Family welfare and administration | 15% | ₹2,70,000 |
+| Communications and outreach | 5% | ₹90,000 |
+
+For every ₹100 received, ₹95 went directly to programme delivery. Our administrative overhead — which covers documentation, communication, coordination, and reporting — was maintained below 5%.
+
+All expenditure is documented. School fee receipts are photographed and filed. Nutrition drive costs are logged by event. We can provide a full expenditure breakdown to any donor who requests it.
+
+**What Was Harder Than Expected**
+We want to be honest about the challenges.
+
+Donor consistency was our biggest challenge in 2024. We had moments of significant funding — driven by social media posts that reached new audiences — followed by quieter periods where commitments didn't materialise. This made planning difficult.
+
+The gap between children who need support and children we could afford to support was painful. We turned away families we could have helped if funding had been available.
+
+We are working on building a more stable monthly donor base precisely to solve this problem.
+
+**What Comes Next in 2025**
+Our 2025 targets:
+- 300 children in direct education support
+- 60+ nutrition drives (at least one per week, every week)
+- Formal digital literacy curriculum as part of the Girl Empowerment programme
+- Expanded women's literacy component
+- Full case study documentation system — publishing verified impact stories with photographs and documentation
+
+We set these targets knowing they require more funding than we currently have committed. That is why we publish them: because donors deserve to know what their support makes possible, and because ambition, made public, becomes commitment.
+
+**Thank You**
+Every child we supported in 2024 was supported because someone, somewhere, chose to give. Donors in India, Germany, the UK, the UAE. Volunteers in Bhavnagar who gave their evenings. Community members who trusted us with their children.
+
+We do not take that trust lightly. We never will.`,
   },
   "how-your-donation-educates-a-child": {
     title: "How Your Donation Educates a Child in India",
@@ -652,24 +769,55 @@ We could not have done any of this without our donors, volunteers, and community
     readTime: "4 min",
     image: "/images/education-group.jpg",
     excerpt: "Every rupee you donate to AFJS Trust goes directly to a child's education.",
-    content: `When you donate to AFJS Charitable Trust, you're not just sending money — you're investing in a child's future. Here's exactly what happens with every rupee.
+    content: `When you donate to AFJS Charitable Trust, you're not just sending money — you're investing in a child's entire future. Here's exactly what happens with every rupee you give, from the moment your payment clears to the moment a child walks into class with a new notebook.
 
-**School Fees at St. Xavier's Primary School**
-We enroll underprivileged children at St. Xavier's Primary School, Devbagh, Bhavnagar — one of the region's most reputed institutions. Annual fees, paid directly to the school, ensure consistent, quality education.
+**School Fees Paid Directly to the School**
+We enrol underprivileged children at St. Xavier's Primary School, Devbagh, Bhavnagar — one of the most respected institutions in the region. Annual fees are paid directly to the school on behalf of the child. We do not hold funds — the cheque goes to the principal's office, a receipt is issued, and the child's place is confirmed.
+
+This direct model is deliberate. It eliminates any possibility of misuse, creates a paper trail, and builds a relationship between AFJS Trust and the school that benefits every family we serve. You can see photographs of these transactions in our case studies.
 
 **Books, Stationery, and Uniforms**
-A child without books or a proper uniform faces daily humiliation and barriers to learning. We provide complete learning kits — notebooks, stationery, and school uniforms — so children can attend with confidence.
+A child without books or a proper uniform faces daily humiliation. In many communities, arriving at school without the right supplies marks a child as different — and different, in childhood, means excluded.
+
+We provide complete learning kits: notebooks, pens, pencils, geometry sets, and school bags. We also provide school uniforms — two sets, along with shoes and socks — so children can attend with confidence and dignity. These are not luxuries. They are the difference between a child who stays in school and one who stops going.
 
 **After-School Tutoring and Mentorship**
-Many children in underprivileged families lack the home environment needed for homework or self-study. Our volunteer mentors provide after-school tutoring sessions that bridge this gap.
+Most underprivileged children go home to environments that do not support study. Small homes with multiple family members, no study desk, no quiet corner, no parent who can help with homework. This is not a failure of the family — it is the arithmetic of poverty.
+
+Our volunteer mentors run after-school tutoring sessions three days a week. They work through homework, address gaps in understanding, and — just as importantly — give children someone to talk to. Many of our mentors grew up in similar circumstances. They are not charity workers. They are proof of what's possible.
 
 **Nutrition Support**
-A hungry child cannot learn. Alongside education, we ensure children receive nutrition support through our Food & Nutrition Drive, so they arrive at school ready to engage and absorb.
+A hungry child cannot learn. This is not a metaphor — it is a neurological reality. Malnourished children have lower attention spans, poorer memory retention, and higher absence rates.
 
-**The Total: ₹25,000 per child per year**
-That's the full cost of transforming a child's educational trajectory for an entire year. Less than ₹2,100 per month. Less than ₹70 per day.
+Alongside education, every child in our programme receives nutrition support through our Food & Nutrition Drive. Hot, freshly prepared meals are delivered regularly to the communities we serve. The children we support arrive at school with full stomachs and the energy to engage.
 
-Every rupee counts. Even ₹100 buys notebooks for a week. ₹1,000 covers a month of meals. Whatever you can give, it goes directly to a child who needs it.`,
+**What ₹25,000 Covers — In Full**
+This is where the numbers become real:
+
+- School fees at St. Xavier's: ₹12,000–14,000 (paid directly to school)
+- Books, notebooks, stationery: ₹2,000–3,000
+- School uniform — 2 sets, shoes, bag: ₹2,500–3,000
+- After-school tutoring programme (operational costs): ₹2,000
+- Nutrition support contribution: ₹3,000–4,000
+- Administrative costs (documentation, coordination): under 5%
+
+**What Smaller Donations Do**
+Not everyone can commit to ₹25,000, and that's absolutely fine. Here's what smaller donations achieve:
+
+- ₹100 buys notebooks and stationery for a child for a week
+- ₹500 covers nutritious meals for a child for two weeks
+- ₹1,000 sponsors a full month of nutrition support
+- ₹2,500 provides complete school supplies for one semester
+- ₹5,000 covers one term of after-school tutoring support
+
+**Transparency You Can See**
+Every donation made to AFJS Trust is documented. We maintain records for every child enrolled, every fee paid, every item purchased. We send donors photos and updates. We share fee receipts. We write case studies.
+
+We are a small organisation. We cannot afford to be anything less than completely transparent. And we are proud of that.
+
+Your donation — whatever amount — goes directly to a child who needs it. There is no corporate overhead, no advertising spend, no layer of management between your generosity and that child's school desk.
+
+Donate today at joyfullsmiles.org/donate.`,
   },
   "girl-empowerment-through-education": {
     title: "Girl Empowerment Through Education: Why It Changes Everything",
@@ -679,25 +827,58 @@ Every rupee counts. Even ₹100 buys notebooks for a week. ₹1,000 covers a mon
     readTime: "5 min",
     image: "/images/girl-empowerment-1.jpg",
     excerpt: "The data is clear — educating girls produces the highest returns of any development investment.",
-    content: `The numbers are stark. In India, approximately 40% of girls drop out of school before completing secondary education. In Gujarat's underprivileged communities, this number is even higher.
+    content: `The numbers are stark. In India, approximately 40% of girls drop out of school before completing secondary education. In Gujarat's underprivileged communities, this number is even higher — and in the specific communities AFJS Trust serves in Bhavnagar, we see it firsthand.
 
-**Why Girls Drop Out**
-The reasons are complex and interconnected: economic pressure on families to have daughters contribute through domestic work, early marriage, lack of safety on the way to school, and deep-rooted cultural beliefs that education is less important for girls.
+Girls who were in our programme last year. Girls who are not, this year. The reasons vary, but they are almost always the same underneath: economics, expectations, and the quiet assumption that a girl's education is a luxury the family cannot afford.
 
-**The Multiplier Effect**
-But here's what the data shows: educating girls is the single highest-return investment in human development. When a girl stays in school:
-- Her children are 50% more likely to survive past age 5
-- Her family's income increases by 10-20% for each additional year of schooling
-- She is far less likely to marry before 18
-- Her own daughters are more likely to attend school
+We disagree. Here's why.
 
-**What AFJS Trust Does**
-Our Girl Empowerment program specifically identifies girls at the highest risk of dropping out. We provide:
-- Full educational scholarships
-- Female mentors who serve as role models
-- Confidence and life-skills workshops
-- Family engagement sessions that shift parental attitudes
-- Safe community spaces where girls can study and socialize
+**Why Girls Drop Out — The Real Reasons**
+The surface explanation is usually money. The family can't afford the fees. But the deeper reasons are more complex and more stubborn:
+
+**Economic pressure**: In households where every member's contribution matters, daughters are often expected to take on domestic work — cooking, childcare, household labour — that allows other members to work. School interrupts this. School, from a certain perspective, is a cost and not an investment.
+
+**Early marriage**: In several of the communities we work in, girls are considered of marriageable age from 15 or 16. Families worry that an educated girl will become harder to marry, or that continuing school will delay a marriage that is seen as the family's primary responsibility toward a daughter.
+
+**Safety**: The walk to school, the journey home, the unsupervised hours — these are real concerns for families in under-resourced communities. A daughter who doesn't go to school can't face dangers on the road.
+
+**Cultural beliefs**: Deep-rooted assumptions that education is more important for boys — that girls will "anyway leave" to another family, that their future is in the home — are not eliminated by school enrolment data. They require active engagement to shift.
+
+**The Multiplier Effect of Girls' Education**
+The data on this is unambiguous and has been replicated across every region of the world:
+
+- For each additional year of secondary education, a woman's earnings increase by 10–20%
+- Educated mothers are far more likely to have educated children — the effect compounds across generations
+- Girls who finish secondary school are significantly less likely to marry before 18
+- Children of educated mothers have dramatically lower rates of child mortality and malnutrition
+- Communities where women are educated have higher civic participation, better governance, and lower rates of domestic violence
+
+Educating girls is not a social justice cause. It is the most rational investment in community development available.
+
+**What AFJS Trust's Girl Empowerment Programme Does**
+Our Girl Empowerment programme is built around a simple philosophy: identify the girls most at risk, address the actual barriers preventing their education, and stay with them.
+
+We provide:
+
+**Full educational scholarships**: School fees paid directly to St. Xavier's Primary School, Bhavnagar, so financial barriers are removed entirely.
+
+**Female mentors**: Every girl in our programme is matched with a female mentor — often a young woman from the same community who has finished school. These mentors are not motivational speakers. They are proof. They are what's possible.
+
+**Confidence and life-skills workshops**: Weekly sessions that address practical and psychological barriers — confidence, communication, body safety, legal rights, career awareness. Girls in our programme report feeling seen and capable in ways they did not before.
+
+**Family engagement**: We work with parents, not around them. Shifting parental attitudes about girls' education requires trust and time. Our community workers spend hours in conversation with mothers, fathers, and grandparents — presenting the data, sharing stories, and making the case that a daughter's education is the family's best investment.
+
+**A Real Story: Fatima**
+Fatima was at serious risk of dropping out of St. Xavier's Primary School when AFJS Trust intervened. Her fees were in arrears. The school was preparing to ask her to leave. A donor's contribution paid her fees for the full academic year.
+
+What happened next is why we exist. With her school place secure, Fatima flourished. She won second place in the school's Rangoli competition — a certificate of achievement she earned in front of the entire school. Her teacher says she is one of the most focused students in her class. She wants to be an artist.
+
+That is what girl empowerment looks like in practice. Not a policy statement. A girl who came to school, stayed, and discovered what she was capable of.
+
+**How You Can Help**
+₹25,000 sponsors one girl's complete year of education at St. Xavier's. ₹10,000 covers educational materials and tutoring support for a semester. Whatever you can give creates a ripple effect that extends far beyond the individual child.
+
+Donate at joyfullsmiles.org/donate, or WhatsApp us at +91 63573 69174.
 
 **Real Change in Real Time**
 Since our program began, we have supported over 150 girls in Bhavnagar and Ahmedabad. Many have gone on to pursue secondary education, a pathway their mothers never had.
@@ -712,32 +893,64 @@ Education is not just a right. For girls, it is a lifeline — for themselves, a
     readTime: "6 min",
     image: "/images/impact-donation.jpg",
     excerpt: "Your donation to a registered Indian NGO can save you in tax. Here's how Section 80G works.",
-    content: `One of the most underutilized benefits for Indian taxpayers is the Section 80G deduction — a provision that lets you claim tax deductions on donations made to registered charitable organizations.
+    content: `Every year, thousands of Indian taxpayers miss out on one of the simplest, most impactful deductions available to them: Section 80G. If you donate to a registered NGO like AFJS Charitable Trust, the government rewards you for it — by reducing your taxable income.
 
-**What is Section 80G?**
-Section 80G of the Income Tax Act, 1961 allows donors to deduct donations made to registered NGOs from their taxable income. Depending on the organization's registration, you may claim 50% or 100% of the donated amount as a deduction.
+Here's everything you need to know.
 
-**How Much Can You Save?**
-If you're in the 30% tax bracket and donate ₹10,000, you save ₹1,500 in tax (on a 50% deduction). The actual cost of your ₹10,000 donation is just ₹8,500.
+**What is Section 80G of the Income Tax Act?**
+Section 80G of the Income Tax Act, 1961, allows individuals and companies to claim a deduction on donations made to approved charitable organisations. Depending on the category of the recipient institution, you can deduct 50% or 100% of the donated amount from your taxable income.
 
-**AFJS Trust's Registration**
-AFJS Charitable Trust is registered under:
+AFJS Charitable Trust falls under the category that qualifies for a 50% deduction — meaning half of whatever you donate can be subtracted from your gross total income before tax is calculated.
+
+**How Much Can You Actually Save?**
+Let's make this concrete. Suppose you are in the 30% income tax bracket and you donate ₹10,000 to AFJS Trust.
+
+- Deductible amount (50% of ₹10,000): ₹5,000
+- Tax saved at 30%: ₹1,500
+- Net cost of your ₹10,000 donation: ₹8,500
+
+If you donate ₹25,000 (enough to sponsor one child's full year of education):
+- Deductible amount: ₹12,500
+- Tax saved at 30%: ₹3,750
+- Net cost: ₹21,250
+
+The more you give, the more significant the tax benefit becomes. And the child you're supporting doesn't care about the tax maths — they just get to go to school.
+
+**AFJS Charitable Trust's Registration Details**
+To be eligible for 80G deductions, the organisation you donate to must be registered with the Income Tax Department. AFJS Charitable Trust is fully registered:
+
 - Darpan Registration: GJ/2025/0719739
 - PAN: AALTA7481L
-- Trust Registration: F/3788/Bhavnagar
+- Trust Registration Act: F/3788/Bhavnagar
+- Registered under: The Bombay Public Trusts Act, 1950
 
-For the most current 80G certificate and to request your official tax receipt, please contact us at Afjs.charitable@gmail.com or WhatsApp +91 63573 69174.
+Our PAN number (AALTA7481L) is what you will need when filing your Income Tax Return (ITR). Please keep your donation receipt safely — it will have this number printed on it.
 
-**How to Claim**
-1. Donate online via our Razorpay gateway
-2. Request your 80G certificate and donation receipt from us
-3. Include the donation under Section 80G deductions when filing your ITR
-4. Save your receipt for at least 6 years
+**How to Claim Your 80G Deduction — Step by Step**
+1. **Donate** via Razorpay at joyfullsmiles.org/donate, or via UPI (63573690174@sbi), or direct bank transfer
+2. **Request your receipt**: Contact us at Afjs.charitable@gmail.com or WhatsApp +91 63573 69174 with your name, PAN, address, and donation amount
+3. **Receive your 80G receipt**: We issue an official donation receipt with our PAN, Trust Registration, and all required details
+4. **File your ITR**: In your Income Tax Return, declare the donation under "Deductions — Chapter VI-A — Section 80G"
+5. **Keep the receipt for 6 years**: The Income Tax Department may request documentation during assessment
 
-**For NRI Donors**
-If you are an NRI, tax deductibility depends on your country of residence and any applicable Double Taxation Avoidance Agreements (DTAA). Please consult your tax advisor for guidance specific to your situation.
+**What Documents You Need**
+- Your PAN card (the deduction cannot be claimed without a PAN)
+- The donation receipt from AFJS Trust (we provide this)
+- Bank statement confirming the transfer (for large donations)
 
-Donating is now more rewarding than ever — you help a child, and your government helps you.`,
+Note: Section 80G deductions cannot be claimed for donations made in cash exceeding ₹2,000. Online payments, cheques, and UPI are all fully eligible.
+
+**Can NRIs Claim 80G?**
+NRIs can donate to AFJS Trust, and the donation is certainly used fully for our programmes. However, 80G deductions under the Indian Income Tax Act apply to Indian taxable income. If you are an NRI with taxable income in India, you may be able to claim the deduction. Please consult your CA or tax advisor.
+
+For NRIs without Indian taxable income, the donation is still fully impactful — you simply won't have an Indian tax benefit to claim. Many of our international donors give without the tax advantage and find the impact more than sufficient motivation.
+
+**Why This Matters for AFJS Trust**
+Every rupee we receive goes toward children's education, nutrition, and welfare. The 80G benefit means your government is effectively co-sponsoring the impact — you give ₹25,000, the government refunds up to ₹3,750 in reduced tax, and a child gets a full year of school.
+
+This is the most efficient philanthropy available to Indian taxpayers. You would be surprised how few people use it.
+
+Donate today at joyfullsmiles.org/donate. We'll handle the receipt.`,
   },
   "how-to-donate-from-usa-uk-eu": {
     title: "How to Donate to an Indian NGO from the US, UK, or EU",
@@ -747,29 +960,62 @@ Donating is now more rewarding than ever — you help a child, and your governme
     readTime: "5 min",
     image: "/images/hero-community.jpg",
     excerpt: "Living abroad but want to support children in India? Here's your complete guide.",
-    content: `Many of our most generous supporters live outside India — in the US, UK, and across Europe. If you're an Indian diaspora member or simply someone moved by the cause, here's how you can donate from abroad.
+    content: `Some of our most committed supporters live in Germany, the United Kingdom, the United States, and across Europe. Distance has never stopped generosity — but it can create confusion about how to actually send money. This guide removes all of that confusion.
 
-**Option 1: Online via Razorpay (Easiest)**
-Our Razorpay payment gateway accepts international debit and credit cards (Visa, Mastercard, Amex). Simply visit joyfullsmiles.org/donate, select your amount, and pay with your international card.
+**Why People Outside India Donate to AFJS Trust**
+Many donors are Indian diaspora members who grew up in Gujarat and want to give back to the communities they left behind. Others are international supporters who discovered our work through social media and were moved by what they saw — children standing in the rain holding plates, waiting for a meal; girls typing their names for the first time on a laptop.
 
-Note: International card payments may attract a small currency conversion fee from your bank.
+Whatever brought you here: you can donate. Here's how.
 
-**Option 2: WhatsApp Us for Bank Transfer**
-For larger donations or if you prefer a direct bank transfer, WhatsApp us at +91 63573 69174. We'll provide our bank account details for NEFT/SWIFT transfers.
+**Option 1: Razorpay with an International Card (Easiest)**
+Our payment gateway is Razorpay, one of India's most trusted payment processors. Razorpay accepts:
+- Visa and Mastercard (debit and credit)
+- American Express
+- Most international cards from major banks
+
+Visit joyfullsmiles.org/donate, choose your amount, click Donate Now, and complete the payment with your international card. The entire process takes under three minutes.
+
+Note: Your bank may apply a small foreign transaction fee (typically 1–3%). This is charged by your bank, not by us.
+
+**Option 2: Direct Bank Transfer (For Larger Donations)**
+If you're making a larger donation and prefer a direct transfer, WhatsApp us at +91 63573 69174. We will provide full bank transfer details including:
+- Bank name and branch (State Bank of India)
+- Account number and IFSC code
+- SWIFT code for international wires
+
+For SWIFT transfers, processing typically takes 3–5 working days. We will send you a receipt once funds are received and confirmed.
 
 **Option 3: UPI (For NRIs with Indian Bank Accounts)**
-If you maintain an NRI account with an Indian bank, you can donate directly via UPI. Contact us for our UPI details.
+If you maintain an NRI Savings Account (NRO or NRE) with an Indian bank, you can donate directly via UPI. Our UPI ID is: 63573690174@sbi
 
-**Tax Deductibility Outside India**
-- **USA**: Donations to Indian NGOs are generally not tax-deductible in the US unless routed through a 501(c)(3) partner. Contact us to explore this option.
-- **UK**: Gift Aid applies only to UK-registered charities. We are working on partnership arrangements.
-- **EU**: Tax deductibility varies by country. Consult your local tax advisor.
+This is often the fastest and lowest-cost method for NRIs with Indian banking access.
 
-**FCRA Compliance**
-For large foreign donations, FCRA (Foreign Contribution Regulation Act) compliance is required. Please contact us directly to ensure your donation meets all regulatory requirements.
+**Option 4: PayPal or Google Pay (Contact Us)**
+We receive occasional donations via PayPal and Google Pay for international transfers. Contact us directly at Afjs.charitable@gmail.com to arrange this.
 
-**We Make It Easy**
-Whatever your location, we'll work with you to find the best way to donate. WhatsApp us at +91 63573 69174 and we'll guide you through the entire process.`,
+**What About Tax Deductibility?**
+
+This is the most common question from international donors. Here's the honest answer:
+
+- **India (80G)**: If you have taxable income in India, your donation is eligible for a 50% deduction under Section 80G. We can issue an official 80G receipt.
+- **USA**: Donations to Indian NGOs are not directly tax-deductible in the US unless made through a 501(c)(3) partner organisation. We are currently exploring partnership options. Contact us for the latest status.
+- **UK**: Gift Aid applies only to UK-registered charities. We are not currently UK-registered.
+- **Germany and EU**: Tax deductibility for foreign charitable donations varies significantly by country and individual circumstances. Consult your Steuerberater or local tax advisor.
+
+Most of our international donors give without a local tax benefit — and find that supporting a child's education is more than enough reason to do so.
+
+**FCRA (Foreign Contribution Regulation Act)**
+India's FCRA regulations govern large foreign donations to NGOs. AFJS Trust is in the process of obtaining FCRA registration. Until that registration is complete, large foreign donations should be discussed with us directly to ensure compliance. Contact us at Afjs.charitable@gmail.com before making a large transfer.
+
+For most individual donations (under ₹50,000 equivalent), this does not present a practical issue.
+
+**Getting Your Donation Receipt**
+Regardless of how you donate, we will issue you a receipt. If you need a formal 80G receipt (for Indian tax purposes), provide us with your name, PAN, and Indian address when contacting us. For international donors, we provide a standard donation acknowledgement.
+
+**Talk to Us First if You're Unsure**
+If you're unsure which method works best for you, just WhatsApp us at +91 63573 69174. We respond within 24 hours. We've guided donors from Germany, the UK, Australia, Canada, and the US through the donation process — it's genuinely straightforward once you know the path.
+
+Your generosity, wherever you are in the world, directly changes a child's life in Bhavnagar.`,
   },
   "nutrition-learning-full-stomach-better-future": {
     title: "Nutrition and Learning: Why a Full Stomach Means a Better Future",
@@ -779,34 +1025,62 @@ Whatever your location, we'll work with you to find the best way to donate. What
     readTime: "4 min",
     image: "/images/nutrition-kids-1.jpg",
     excerpt: "Malnourished children are 20% less likely to attend school regularly. Our nutrition drive addresses this invisible barrier.",
-    content: `There's an invisible barrier between millions of Indian children and education. It's not the lack of schools. It's not even the lack of teachers. It's hunger.
+    content: `There is an invisible barrier between millions of Indian children and their education. It is not the lack of schools — India builds schools. It is not the lack of teachers — there are teachers in every district. The invisible barrier is hunger.
 
-**The Research is Clear**
-Children who are malnourished are:
-- 20% less likely to attend school regularly
-- Significantly less able to concentrate and retain information
-- More likely to drop out before completing primary education
+A hungry child cannot learn. Not because they are unwilling or incapable, but because the human brain literally cannot process information efficiently when it is underfed. This is neuroscience, not sentiment.
 
-In Bhavnagar and Ahmedabad's underserved communities, this is not an abstract statistic. It's a daily reality for hundreds of families.
+In Bhavnagar and Ahmedabad's underserved communities, food insecurity is not an edge case. It is the daily reality for a significant proportion of the families we serve.
 
-**Why We Run Nutrition Drives**
-AFJS Trust's Food & Nutrition Drive was born from a simple observation: the children we were enrolling in school were struggling to focus — not because of lack of intelligence or willingness, but because they were hungry.
+**What the Research Shows**
+The relationship between nutrition and learning outcomes is one of the most consistently replicated findings in development economics:
 
-We now run 4+ nutrition drives per month, delivering hot, wholesome meals to children and families across Bhavnagar and Ahmedabad. Every meal is prepared with care by our volunteers, using fresh, nutritious ingredients.
+- Malnourished children are 20% less likely to attend school regularly
+- Children who skip breakfast show measurably lower cognitive performance on the same morning
+- Iron deficiency — extremely common in low-income communities — directly impairs attention, memory, and IQ development
+- Children who receive regular meals at school are significantly less likely to drop out
 
-**The Results We See**
-Children who receive regular nutrition support through our program show:
-- Higher school attendance
-- Better engagement in after-school tutoring
-- Improved energy and concentration
-- Stronger family participation in education programs
+The World Food Programme, UNICEF, and countless independent studies have reached the same conclusion: you cannot educate a hungry child. Feed them first.
 
-**How You Can Help**
-₹100 buys nutritious meals for a child for a week.
-₹1,000 covers an entire month of meal support.
-₹5,000 funds a full community nutrition drive.
+**What We Saw on the Ground**
+AFJS Trust began as an education programme. We enrolled children, paid fees, provided books. And we noticed something: the children we were supporting were often too tired to concentrate. They arrived at tutoring sessions lethargic, distracted.
 
-A full stomach is the foundation of a bright future. Donate today and help us keep it full.`,
+We started asking questions. The answers were consistent. Many of these children had not eaten a proper meal that day. Some had not eaten since the previous evening.
+
+The Food & Nutrition Drive grew out of this simple observation. It was not a programme we planned from a strategic overview. It was a response to what we saw.
+
+**The November 2025 Drive — A Story Worth Telling**
+On a wet November morning in Bhavnagar, with roads waterlogged and most sensible people staying indoors, our nutrition drive vehicle navigated flooded streets to reach the distribution point on time. Eight children were waiting when we arrived — plates in hand, standing in the rain without umbrellas, smiling.
+
+Over the course of that morning, we served hot, freshly prepared meals to over 80 individuals: children, parents, elderly residents. The photograph of those eight children, soaked and barefoot, holding their plates up with huge grins, became the most-shared post in AFJS Trust's history.
+
+International donors from Germany and the UK contributed to the following month's drive after seeing that photograph.
+
+**What Our Nutrition Drives Look Like**
+We run 4+ nutrition drives per month across Bhavnagar and Ahmedabad. Each drive:
+
+- Serves hot, freshly prepared meals (not packaged rations)
+- Uses ingredients sourced the same day, prepared by volunteers
+- Is delivered to the community, not from a central location — we come to where families are
+- Is documented with photographs and participant counts
+- Is reported transparently to our donors
+
+We do not serve the same meal every time. We vary the menu. Children look forward to the drives not just because they are hungry but because the meal is something they actually enjoy.
+
+**The Connection to Education**
+We track attendance for children who receive nutrition support alongside their educational scholarship. The correlation is clear: children who receive both have higher attendance rates, better engagement in tutoring sessions, and lower dropout risk.
+
+A full stomach is not a luxury. It is infrastructure.
+
+**What Your Donation Does**
+- ₹100 provides nutritious meals for a child for a week
+- ₹500 covers two weeks of meal support for one child
+- ₹1,000 sponsors a full month of nutrition for one child
+- ₹5,000 funds a complete community nutrition drive serving 50+ families
+- ₹10,000 provides two months of combined nutrition and education support
+
+Every amount is tracked, photographed, and reported. We believe in showing you exactly what your money did — not in vague statistics, but in specific meals served on a specific morning to children whose names we know.
+
+Donate at joyfullsmiles.org/donate. A full stomach is the foundation of a bright future.`,
   },
 };
 
@@ -821,7 +1095,20 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   return {
     title: post.title,
     description: post.excerpt,
-    openGraph: { title: post.title, description: post.excerpt, images: [post.image], type: "article" },
+    openGraph: {
+      title: post.title,
+      description: post.excerpt,
+      type: "article",
+      publishedTime: post.date,
+      authors: [post.author],
+      images: [{ url: post.image, width: 1200, height: 630, alt: post.title }],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: post.title,
+      description: post.excerpt,
+      images: [post.image],
+    },
   };
 }
 

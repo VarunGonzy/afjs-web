@@ -4,6 +4,12 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Blog & Resources | Child Education, Nutrition & NGO Insights | AFJS Trust",
   description: "Read AFJS Trust's blog for insights on child education in India, girl empowerment, how to donate to NGOs, Section 80G tax benefits, and inspiring impact stories from Gujarat.",
+  openGraph: {
+    title: "AFJS Trust Blog | Child Education, NGO Insights & 80G Donation Guide",
+    description: "25 articles on child education, girl empowerment, nutrition, Section 80G, and how to donate to Indian NGOs from abroad.",
+    images: [{ url: "/images/education-group.jpg", width: 1200, height: 630 }],
+  },
+  twitter: { card: "summary_large_image", images: ["/images/education-group.jpg"] },
 };
 
 const posts = [

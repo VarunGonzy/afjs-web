@@ -8,6 +8,12 @@ export const metadata: Metadata = {
   title: "Donate Online | Support Child Education & Girl Empowerment",
   description:
     "Donate to AFJS Charitable Trust via Razorpay. Support child education, girl empowerment, food & nutrition, and family welfare. 80G tax exemption. Presets: ₹100, ₹1,000, ₹2,500, ₹5,000, ₹10,000 or custom. Sponsor a child at ₹25,000/year.",
+  openGraph: {
+    title: "Donate to AFJS Trust | Child Education NGO India | 80G Tax Exempt",
+    description: "Donate online via Razorpay. ₹25,000 sponsors one child's full year of education. 80G tax receipt provided. UPI, cards, net banking accepted.",
+    images: [{ url: "/images/education-group.jpg", width: 1200, height: 630, alt: "Donate to AFJS Trust — child education India" }],
+  },
+  twitter: { card: "summary_large_image", images: ["/images/education-group.jpg"] },
 };
 
 const impactRows = [
@@ -38,6 +44,19 @@ const breadcrumb = {
   ],
 };
 
+const howToSchema = {
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  name: "How to Donate to AFJS Trust Online",
+  description: "Donate to AFJS Charitable Trust in 3 steps. 80G tax receipt provided automatically.",
+  totalTime: "PT5M",
+  step: [
+    { "@type": "HowToStep", name: "Choose your amount", text: "Select ₹100, ₹1,000, ₹2,500, ₹5,000, ₹10,000, ₹25,000 or a custom amount." },
+    { "@type": "HowToStep", name: "Complete payment", text: "Pay via Razorpay (UPI, credit/debit card, net banking) or scan the SBI UPI QR code." },
+    { "@type": "HowToStep", name: "Receive your 80G receipt", text: "An 80G tax exemption receipt is sent to your email automatically after payment." },
+  ],
+};
+
 export default function DonatePage() {
   return (
     <>
@@ -48,6 +67,10 @@ export default function DonatePage() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(donateSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema) }}
       />
 
       {/* Hero */}

@@ -5,6 +5,12 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Child Education Program | AFJS Trust - Sponsor a Child in India",
   description: "AFJS Trust's child education program provides after-school tutoring, learning materials, and scholarships to underprivileged children at St. Xavier's Primary School, Bhavnagar. Donate to sponsor a child for ₹25,000/year.",
+  openGraph: {
+    title: "Child Education Program | AFJS Trust - Sponsor a Child in India",
+    description: "Scholarships, tutoring and materials for underprivileged children at St. Xavier's, Bhavnagar. Sponsor a child for ₹25,000/year.",
+    images: [{ url: "/images/education-group.jpg", width: 1200, height: 630, alt: "Children in school supported by AFJS Trust" }],
+  },
+  twitter: { card: "summary_large_image", images: ["/images/education-group.jpg"] },
 };
 
 const breadcrumb = {
@@ -25,7 +31,7 @@ export default function ChildEducationPage() {
         <div className="absolute inset-0 opacity-20"><Image src="/images/education-group.jpg" alt="" fill className="object-cover" /></div>
         <div className="relative max-w-3xl mx-auto text-center">
           <span className="inline-block px-4 py-1.5 bg-white/15 text-white text-xs font-bold rounded-full uppercase tracking-widest mb-4">Program 1 of 4</span>
-          <h1 className="text-3xl md:text-5xl font-extrabold text-white mb-4">Child Education</h1>
+          <h1 className="text-3xl md:text-5xl font-extrabold text-white mb-4">Child Education Programme in Bhavnagar, India</h1>
           <p className="text-teal-100 text-xl">Every child deserves the chance to learn, grow, and dream.</p>
         </div>
       </div>

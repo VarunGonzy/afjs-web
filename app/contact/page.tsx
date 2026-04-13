@@ -6,6 +6,12 @@ export const metadata: Metadata = {
   title: "Contact Us | AFJS Trust - Chat on WhatsApp or Email",
   description:
     "Contact AFJS Charitable Trust. Chat with us on WhatsApp at +91 63573 69174, email Afjs.charitable@gmail.com, or visit us at Bhavnagar, Gujarat. We respond within 24 hours.",
+  openGraph: {
+    title: "Contact AFJS Trust | WhatsApp or Email — Bhavnagar, Gujarat",
+    description: "Chat with us on WhatsApp at +91 63573 69174 or email Afjs.charitable@gmail.com. We respond within 24 hours.",
+    images: [{ url: "/images/hero-community.jpg", width: 1200, height: 630 }],
+  },
+  twitter: { card: "summary_large_image", images: ["/images/hero-community.jpg"] },
 };
 
 const contactSchema = {

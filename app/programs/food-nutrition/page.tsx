@@ -5,6 +5,12 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Food & Nutrition Drive | Donate to Feed Children in India | AFJS Trust",
   description: "AFJS Trust runs regular food and nutrition drives providing wholesome meals to underprivileged children in Bhavnagar and Ahmedabad. Donate to support our nutrition program.",
+  openGraph: {
+    title: "Food & Nutrition Drive | Donate to Feed Children in India | AFJS Trust",
+    description: "Hot meals for children in Bhavnagar and Ahmedabad — every week. 80+ served in one drive. Donate to AFJS Trust's nutrition programme.",
+    images: [{ url: "/images/nutrition-kids-2.jpg", width: 1200, height: 630, alt: "AFJS Trust nutrition drive — children receiving meals in Bhavnagar" }],
+  },
+  twitter: { card: "summary_large_image", images: ["/images/nutrition-kids-2.jpg"] },
 };
 
 const breadcrumb = {
@@ -17,15 +23,33 @@ const breadcrumb = {
   ],
 };
 
+const novDriveEvent = {
+  "@context": "https://schema.org",
+  "@type": "Event",
+  name: "November 2025 Nutrition Drive — Bhavnagar",
+  startDate: "2025-11-02",
+  location: {
+    "@type": "Place",
+    name: "Bhavnagar",
+    address: { "@type": "PostalAddress", addressLocality: "Bhavnagar", addressRegion: "Gujarat", addressCountry: "IN" },
+  },
+  organizer: { "@type": "NGO", name: "AFJS Charitable Trust", url: "https://joyfullsmiles.org" },
+  description: "Food distribution drive in heavy rain, serving 80+ children and families in Bhavnagar.",
+  image: "https://joyfullsmiles.org/images/nutrition-kids-2.jpg",
+  eventStatus: "https://schema.org/EventScheduled",
+  eventAttendanceMode: "https://schema.org/OfflineEventAttendanceMode",
+};
+
 export default function FoodNutritionPage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumb) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(novDriveEvent) }} />
       <div className="relative bg-gradient-to-br from-gold-600 to-gold-400 pt-28 pb-16 px-4 overflow-hidden">
         <div className="absolute inset-0 opacity-20"><Image src="/images/nutrition-kids-2.jpg" alt="" fill className="object-cover" /></div>
         <div className="relative max-w-3xl mx-auto text-center">
           <span className="inline-block px-4 py-1.5 bg-white/20 text-white text-xs font-bold rounded-full uppercase tracking-widest mb-4">Program 3 of 4</span>
-          <h1 className="text-3xl md:text-5xl font-extrabold text-white mb-4">Food & Nutrition Drive</h1>
+          <h1 className="text-3xl md:text-5xl font-extrabold text-white mb-4">Food &amp; Nutrition Drive for Children in Gujarat</h1>
           <p className="text-yellow-100 text-xl">A nourished child is a learning child.</p>
         </div>
       </div>
