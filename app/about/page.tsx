@@ -29,6 +29,7 @@ const founderSchema = {
   "@type": "AboutPage",
   name: "About AFJS Trust",
   url: "https://joyfullsmiles.org/about",
+  dateModified: "2026-04-14",
   description: "Learn about AFJS Charitable Trust, founded by John Dsouza and supported by Varun Gonsalves — two childhood friends from Bhavnagar dedicated to child education and community empowerment.",
   mainEntity: {
     "@type": "NGO",

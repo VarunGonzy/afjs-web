@@ -31,7 +31,7 @@ const faqs = [
   },
   {
     q: "How much does it cost to sponsor a child for a full year?",
-    a: "₹25,000 sponsors one child's complete year of education — covering school fees at St. Xavier's Primary School, Bhavnagar, books, stationery, school uniforms, after-school tutoring, and nutrition support. This is our Child Sponsorship programme and is one of the highest-impact ways to contribute.",
+    a: "₹25,000 covers one child's full year of school fees at St. Xavier's Primary School, Bhavnagar — paid directly to the school in the child's name, with the receipt photographed and shared with the donor. This is our Child Sponsorship programme and is one of the highest-impact ways to contribute.",
   },
   {
     q: "Can I specifically sponsor a girl child?",

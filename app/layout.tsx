@@ -173,8 +173,23 @@ export default function RootLayout({
         <meta name="geo.placename" content="Bhavnagar, Gujarat, India" />
         <meta name="geo.position" content="21.7645;72.1519" />
         <meta name="ICBM" content="21.7645, 72.1519" />
+        {/* Google Translate — auto-detects browser language preference */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              function googleTranslateElementInit() {
+                new google.translate.TranslateElement(
+                  { pageLanguage: 'en', includedLanguages: 'en,hi,gu,de,fr,ar,es,it,ja,zh-CN', autoDisplay: false },
+                  'google_translate_element'
+                );
+              }
+            `,
+          }}
+        />
+        <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit" async />
       </head>
       <body className="flex flex-col min-h-screen">
+        <div id="google_translate_element" style={{ display: "none" }} />
         <Navbar />
         <main className="flex-1">{children}</main>
         <Footer />

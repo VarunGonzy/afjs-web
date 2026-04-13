@@ -5,10 +5,10 @@ import DonationWidget from "@/components/DonationWidget";
 
 export const metadata: Metadata = {
   title: "Sponsor a Child's Education in India | ₹25,000/year | AFJS Trust",
-  description: "Sponsor a girl child or boy child in Bhavnagar, India for ₹25,000/year. Covers school fees, books, meals, uniform and mentorship at St. Xavier's Primary School. 80G tax exempt. AFJS Charitable Trust.",
+  description: "Sponsor a girl child or boy child in Bhavnagar, India for ₹25,000/year. Covers one full year of school fees at St. Xavier's Primary School — paid directly to the school. 80G tax exempt. AFJS Charitable Trust.",
   openGraph: {
     title: "Sponsor a Child's Education in India — ₹25,000/year | AFJS Trust",
-    description: "₹25,000 sponsors one child's full year of school — fees, books, meals, uniform, mentorship. 80G tax receipt. Direct impact, verified receipts.",
+    description: "₹25,000 covers one child's full year of school fees at St. Xavier's Primary School, Bhavnagar — paid directly to the school. 80G tax receipt. Direct impact, verified receipts.",
     images: [{ url: "/images/girl-empowerment-1.jpg", width: 1200, height: 630, alt: "Sponsor a child's education — AFJS Trust India" }],
   },
   twitter: { card: "summary_large_image", images: ["/images/girl-empowerment-1.jpg"] },
@@ -51,10 +51,10 @@ const tiers = [
     amount: "₹25,000 / year",
     color: "bg-teal-500",
     items: [
-      "School fees paid directly to St. Xavier's Primary School",
-      "Full set of books, stationery, and school uniform",
-      "After-school tutoring (full year)",
-      "Nutrition support allocation",
+      "Full year of school fees paid directly to St. Xavier's Primary School",
+      "Fee receipt photographed and sent to you as proof",
+      "Child's enrolment confirmed for the full academic year",
+      "Regular progress updates throughout the year",
       "Year-end impact report and photos",
     ],
   },
@@ -101,7 +101,7 @@ export default function SponsorAChildPage() {
             Sponsor a Child&apos;s Education in India
           </h1>
           <p className="text-teal-100 text-xl max-w-2xl mx-auto mb-8">
-            ₹25,000 covers one child&apos;s full year at school — fees, books, meals, uniform, and mentorship. 80G tax exempt.
+            ₹25,000 covers one child&apos;s full year of school fees at St. Xavier&apos;s Primary School — paid directly to the school, receipt shared with you. 80G tax exempt.
           </p>
           <Link
             href="/donate"
@@ -161,7 +161,7 @@ export default function SponsorAChildPage() {
           </div>
           <ol className="space-y-6">
             {[
-              { n: "1", title: "You choose an amount", desc: "Select ₹25,000 (full year), ₹10,000 (education materials), or ₹5,000 (nutrition). Or contribute any amount — every rupee helps." },
+              { n: "1", title: "You choose an amount", desc: "₹25,000 covers one child's full year of school fees. ₹10,000 or ₹5,000 goes toward our broader education and nutrition programmes. Or contribute any amount — every rupee helps." },
               { n: "2", title: "We match you with a child", desc: "We identify a child whose school place is at risk due to unpaid fees and match them to your contribution. You'll receive a brief profile." },
               { n: "3", title: "Fees are paid directly to the school", desc: "A cheque or transfer goes directly to St. Xavier's Primary School in the child's name. We photograph the receipt and send it to you." },
               { n: "4", title: "You receive updates throughout the year", desc: "Photos, WhatsApp messages, and an end-of-year report on the child's attendance and progress. You are a partner, not just a donor." },
@@ -180,24 +180,24 @@ export default function SponsorAChildPage() {
         </div>
       </section>
 
-      {/* Fatima case study */}
+      {/* Noor case study */}
       <section className="py-20 px-4 bg-white">
         <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-12 items-center">
           <div className="relative h-80 rounded-3xl overflow-hidden shadow-xl">
-            <Image src="/images/girl-empowerment-1.jpg" alt="Fatima — sponsored child, AFJS Trust" fill className="object-cover" sizes="(max-width: 768px) 100vw, 50vw" />
+            <Image src="/images/girl-empowerment-1.jpg" alt="Noor — sponsored child, AFJS Trust" fill className="object-cover" sizes="(max-width: 768px) 100vw, 50vw" />
           </div>
           <div>
             <span className="inline-block px-3 py-1 bg-teal-100 text-teal-700 text-xs font-bold rounded-full mb-4">Real Story</span>
-            <h2 className="text-2xl font-bold text-gray-900 mb-2">Fatima — From Dropout Risk to Rangoli Champion</h2>
+            <h2 className="text-2xl font-bold text-gray-900 mb-2">Noor — From Dropout Risk to Rangoli Champion</h2>
             <p className="text-gray-500 italic mb-5">Class 6, St. Xavier&apos;s Primary School, Bhavnagar</p>
             <p className="text-gray-600 leading-relaxed mb-4">
-              Fatima was at serious risk of dropping out of school. Her family could not keep up with fees. With ₹19,400 in annual fees and a significant pending balance, she was about to lose her place.
+              Noor was at serious risk of dropping out of school. Her family could not keep up with fees. With ₹19,400 in annual fees and a significant pending balance, she was about to lose her place.
             </p>
             <p className="text-gray-600 leading-relaxed mb-4">
-              A donor stepped in through AFJS Trust. Fees were paid directly to the school. Fatima&apos;s seat was secured for the full academic year.
+              A donor stepped in through AFJS Trust. Fees were paid directly to the school. Noor&apos;s seat was secured for the full academic year.
             </p>
             <p className="text-gray-600 leading-relaxed mb-6">
-              What happened next is why we exist. With her place in school assured, Fatima won 2nd place in the school&apos;s Rangoli competition. Her teacher says she is one of the most focused students in her class. She wants to be an artist.
+              What happened next is why we exist. With her place in school assured, Noor won 2nd place in the school&apos;s Rangoli competition. Her teacher says she is one of the most focused students in her class. She wants to be an artist.
             </p>
             <blockquote className="border-l-4 border-teal-400 pl-4 italic text-gray-700">
               &ldquo;When someone paid my fees, I felt like someone believed in me. I don&apos;t want to let them down.&rdquo;

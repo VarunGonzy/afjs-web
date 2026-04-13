@@ -4,11 +4,13 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { Menu, X } from "lucide-react";
+import LanguageSelector from "@/components/LanguageSelector";
 
 const navLinks = [
   { label: "Home", href: "/" },
   { label: "About Us", href: "/about" },
   { label: "Programs", href: "/programs" },
+  { label: "Sponsor a Child", href: "/sponsor-a-child" },
   { label: "Our Impact", href: "/impact" },
   { label: "Case Studies", href: "/case-studies" },
   { label: "Blog", href: "/blog" },
@@ -69,8 +71,9 @@ export default function Navbar() {
             ))}
           </nav>
 
-          {/* Donate CTA */}
-          <div className="hidden lg:flex items-center gap-3">
+          {/* Donate CTA + Language selector */}
+          <div className="hidden lg:flex items-center gap-2">
+            <LanguageSelector />
             <Link
               href="/donate"
               className="px-5 py-2.5 bg-coral-400 hover:bg-coral-500 text-white text-sm font-bold rounded-full shadow-lg shadow-coral-400/30 hover:shadow-coral-400/50 transition-all duration-200 hover:-translate-y-0.5 active:translate-y-0"
@@ -107,7 +110,7 @@ export default function Navbar() {
               {link.label}
             </Link>
           ))}
-          <div className="pt-2">
+          <div className="pt-2 flex flex-col gap-2">
             <Link
               href="/donate"
               onClick={() => setIsOpen(false)}
@@ -115,6 +118,9 @@ export default function Navbar() {
             >
               Donate Now ❤
             </Link>
+            <div className="flex justify-center pt-1">
+              <LanguageSelector />
+            </div>
           </div>
         </div>
       </div>

@@ -321,18 +321,9 @@ Family welfare is not charity. It is long-term investment in communities.`,
     content: `Child sponsorship is one of the most direct forms of philanthropic giving: you commit a sum, a specific child benefits, and you receive updates on their progress. But every organisation does it differently. Here is exactly what it means to sponsor a child through AFJS Charitable Trust.
 
 **The Basic Commitment: ₹25,000 per Year**
-₹25,000 per year — roughly ₹2,100 per month, or ₹70 per day — sponsors one child's complete year of education at St. Xavier's Primary School, Devbagh, Bhavnagar.
+₹25,000 per year — roughly ₹2,100 per month, or ₹70 per day — covers one child's full year of school fees at St. Xavier's Primary School, Devbagh, Bhavnagar. The payment goes directly from AFJS Trust to the school, in the child's name, with a stamped receipt as proof.
 
-That number covers everything:
-
-| Item | Cost |
-|------|------|
-| Annual school fees (paid directly to St. Xavier's) | ₹12,000–14,000 |
-| Books, notebooks, stationery | ₹2,000–3,000 |
-| School uniform — 2 sets, shoes, school bag | ₹2,500–3,000 |
-| After-school tutoring (operational costs) | ₹2,000 |
-| Nutrition support allocation | ₹3,000–4,000 |
-| Administrative and coordination | <5% of total |
+School fees are the primary barrier between a child and their education. When fees go unpaid, the school has no option but to ask the child to leave. Covering those fees — in full, for a full year — is the single most direct intervention we can make.
 
 Every rupee is documented. We maintain a child-level record for every enrolment: fee receipts, attendance records, progress notes. If you ask for a full accounting of how your ₹25,000 was used, we will provide it.
 
@@ -350,11 +341,11 @@ When you sponsor a child, here is what happens mechanically:
 There is no cash handling at any point in this process. The fee goes from donor to school, documented with receipts that we share.
 
 **Partial Sponsorship — It Also Works**
-Not everyone can commit ₹25,000. We have donors who give ₹5,000 or ₹10,000 and whose contributions are pooled to cover a child's expenses. Smaller amounts are never wasted — they directly reduce the shortfall between what a family can afford and what the school requires.
+Not everyone can commit ₹25,000. We have donors who give ₹5,000 or ₹10,000 and whose contributions are pooled with others to help cover a child's school fees. Smaller amounts are never wasted — they directly reduce the shortfall between what a family can afford and what the school requires.
 
-- ₹5,000 covers nutrition support for a child for a full year
-- ₹10,000 covers educational materials, uniforms, and tutoring for a year
-- ₹15,000+ starts approaching partial fee coverage
+- ₹5,000 contributes toward nutrition programme costs for the children we support
+- ₹10,000 contributes toward our broader education and welfare programmes
+- ₹15,000+ can be pooled with other contributions to co-sponsor a child's full fees
 
 **What You Will Receive as a Sponsor**
 We want to be completely honest about what we can and cannot offer, because we have seen the inflated promises that some larger NGOs make.
@@ -368,12 +359,12 @@ What we offer:
 
 What we do not yet offer: formal pen-pal programmes, video calls with the sponsored child, or the kind of relationship-building that requires significant infrastructure to manage. We are a small, founder-led organisation. Our bandwidth for administration is limited. We put it into the children, not into donor relations.
 
-**A Story: Ms. Ramakrishnan and Fatima**
+**A Story: A Sponsored Child**
 When Ms. Ramakrishnan reached out to John Dsouza about sponsoring a child's education, she did not ask for anything elaborate. She asked for confirmation that her money would reach a child.
 
-We enrolled Fatima — a Class 6 student at St. Xavier's whose fees were critically in arrears. The cheque was written. The receipt was issued. The photograph was sent to Ms. Ramakrishnan.
+We enrolled Noor — a Class 6 student at St. Xavier's whose fees were critically in arrears. The cheque was written. The receipt was issued. The photograph was sent to Ms. Ramakrishnan.
 
-Fatima, with her school place secured, went on to win second place in the school's Rangoli competition that year. She wants to be an artist.
+Noor, with her school place secured, went on to win second place in the school's Rangoli competition that year. She wants to be an artist.
 
 Ms. Ramakrishnan saw that photograph of the certificate. She renewed her sponsorship for the following year.
 
@@ -710,7 +701,7 @@ Programme activities included:
 - Family engagement sessions with 60+ parents to shift attitudes toward daughters' education
 - Dropout intervention: 30 girls who were at immediate risk of leaving school were retained through targeted support
 
-The digital literacy sessions in December 2024 were a milestone we had not anticipated when we planned the year. Two laptop computers, an afternoon in a classroom, and girls discovering for the first time that technology was something they could use, not just observe. Priya and Riya — the first girls in their families to ever touch a laptop — became emblematic of why this work matters.
+The digital literacy sessions in December 2024 were a milestone we had not anticipated when we planned the year. Two laptop computers, an afternoon in a classroom, and girls discovering for the first time that technology was something they could use, not just observe. Meera and Asha — the first girls in their families to ever touch a laptop — became emblematic of why this work matters.
 
 **Family Welfare Programme**
 Our family welfare team conducted 200+ home visits in 2024.
@@ -766,58 +757,68 @@ We do not take that trust lightly. We never will.`,
     date: "March 15, 2026",
     author: "John Dsouza",
     category: "Transparency",
-    readTime: "4 min",
+    readTime: "5 min",
     image: "/images/education-group.jpg",
-    excerpt: "Every rupee you donate to AFJS Trust goes directly to a child's education.",
-    content: `When you donate to AFJS Charitable Trust, you're not just sending money — you're investing in a child's entire future. Here's exactly what happens with every rupee you give, from the moment your payment clears to the moment a child walks into class with a new notebook.
+    excerpt: "Here is exactly what happens when you donate to AFJS Trust — from the moment your payment clears to the day a child's school place is confirmed.",
+    content: `Every donation we receive at AFJS Trust has one purpose: keeping a child in school. Here is exactly what that looks like in practice — no vague promises, no abstract statistics. Just the mechanics of how your money moves, who it reaches, and what it changes.
 
-**School Fees Paid Directly to the School**
-We enrol underprivileged children at St. Xavier's Primary School, Devbagh, Bhavnagar — one of the most respected institutions in the region. Annual fees are paid directly to the school on behalf of the child. We do not hold funds — the cheque goes to the principal's office, a receipt is issued, and the child's place is confirmed.
+**The Problem We Solve**
+In Bhavnagar's underprivileged communities, the barrier to education is almost always the same: unpaid school fees. Families want their children in school. They understand that education is the path out of poverty. But when the fees come due — and at St. Xavier's Primary School, Devbagh, those annual fees are ₹19,400 — many families simply cannot pay.
 
-This direct model is deliberate. It eliminates any possibility of misuse, creates a paper trail, and builds a relationship between AFJS Trust and the school that benefits every family we serve. You can see photographs of these transactions in our case studies.
+The result is predictable. The school sends a notice. The family scrambles. If nothing changes, the child is asked to leave. A boy who was doing well in maths. A girl who was drawing in the margins of every notebook she owned. Gone.
 
-**Books, Stationery, and Uniforms**
-A child without books or a proper uniform faces daily humiliation. In many communities, arriving at school without the right supplies marks a child as different — and different, in childhood, means excluded.
+This is where AFJS Trust comes in.
 
-We provide complete learning kits: notebooks, pens, pencils, geometry sets, and school bags. We also provide school uniforms — two sets, along with shoes and socks — so children can attend with confidence and dignity. These are not luxuries. They are the difference between a child who stays in school and one who stops going.
+**What We Do — Step by Step**
+When a child's school place is at risk, our process is direct and documented:
 
-**After-School Tutoring and Mentorship**
-Most underprivileged children go home to environments that do not support study. Small homes with multiple family members, no study desk, no quiet corner, no parent who can help with homework. This is not a failure of the family — it is the arithmetic of poverty.
+1. A family or teacher alerts us to a child in crisis
+2. We verify the situation through our community contacts and a direct conversation with the family
+3. We raise a donation cheque — payable to St. Xavier's Primary School, in the child's name
+4. The cheque is delivered to the school and a stamped fee receipt is issued
+5. We photograph the receipt and send it to the sponsoring donor
+6. The child's enrolment is confirmed for the full academic year
+7. We begin tracking attendance and progress
 
-Our volunteer mentors run after-school tutoring sessions three days a week. They work through homework, address gaps in understanding, and — just as importantly — give children someone to talk to. Many of our mentors grew up in similar circumstances. They are not charity workers. They are proof of what's possible.
+There is no cash at any point in this chain. The money goes from the donor's account to the school, with receipts at every step.
 
-**Nutrition Support**
-A hungry child cannot learn. This is not a metaphor — it is a neurological reality. Malnourished children have lower attention spans, poorer memory retention, and higher absence rates.
+**What ₹25,000 Covers**
+₹25,000 covers one child's full year of school fees at St. Xavier's Primary School, Devbagh, Bhavnagar — paid directly to the school in the child's name.
 
-Alongside education, every child in our programme receives nutrition support through our Food & Nutrition Drive. Hot, freshly prepared meals are delivered regularly to the communities we serve. The children we support arrive at school with full stomachs and the energy to engage.
+That is the single, specific thing your ₹25,000 does. It secures a seat. It keeps a child enrolled. It removes the one barrier — unpaid fees — that stands between a child and their education for a full academic year.
 
-**What ₹25,000 Covers — In Full**
-This is where the numbers become real:
+We do not mark it up. We do not take a percentage. The fee goes from your account to the school, documented with a stamped receipt that we photograph and share with you.
 
-- School fees at St. Xavier's: ₹12,000–14,000 (paid directly to school)
-- Books, notebooks, stationery: ₹2,000–3,000
-- School uniform — 2 sets, shoes, bag: ₹2,500–3,000
-- After-school tutoring programme (operational costs): ₹2,000
-- Nutrition support contribution: ₹3,000–4,000
-- Administrative costs (documentation, coordination): under 5%
+**A Story: What This Looks Like**
+Noor was in Class 6 at St. Xavier's when AFJS Trust first heard about her. Her fees were in arrears. The school had sent a notice. Her family had nothing left to give.
+
+A donor sponsored her fees. Within a week, the cheque was in the principal's hands, the receipt was issued, and Noor's place was confirmed for the full academic year.
+
+What happened next is why we do this. With her school place secure, something in Noor shifted. She stopped coming to class anxious and started coming to class focused. She entered the school's Rangoli competition — and won second place. Her art teacher says she is one of the most gifted students she has taught.
+
+Noor wants to be an artist. She is still in school. That is because someone donated.
 
 **What Smaller Donations Do**
-Not everyone can commit to ₹25,000, and that's absolutely fine. Here's what smaller donations achieve:
+Not everyone can commit ₹25,000, and that is completely fine. Smaller donations go toward our nutrition drives and broader welfare programmes that support the communities we serve:
 
-- ₹100 buys notebooks and stationery for a child for a week
-- ₹500 covers nutritious meals for a child for two weeks
-- ₹1,000 sponsors a full month of nutrition support
-- ₹2,500 provides complete school supplies for one semester
-- ₹5,000 covers one term of after-school tutoring support
+- ₹500 funds hot meals for children at our nutrition drives
+- ₹1,000 contributes toward a month of nutrition support for our programme children
+- ₹5,000 goes toward our Food & Nutrition Drive, feeding 80+ families per session
+- ₹10,000 and above can be pooled with other contributions toward a child's school fees
 
-**Transparency You Can See**
-Every donation made to AFJS Trust is documented. We maintain records for every child enrolled, every fee paid, every item purchased. We send donors photos and updates. We share fee receipts. We write case studies.
+Every amount matters. We are a lean organisation with zero advertising spend and no institutional overheads. What comes in goes out — to children.
 
-We are a small organisation. We cannot afford to be anything less than completely transparent. And we are proud of that.
+**Transparency Is Non-Negotiable**
+We document everything. Every child has a file: fee receipts, school confirmation letters, attendance records. Every nutrition drive has photographs. Every donor receives updates.
 
-Your donation — whatever amount — goes directly to a child who needs it. There is no corporate overhead, no advertising spend, no layer of management between your generosity and that child's school desk.
+We are a small organisation, and that is our advantage. We cannot hide behind corporate structure or bureaucratic distance. John lives in Bhavnagar. He knows these children by name. He knows their teachers. He is accountable in a way that large organisations are not — because he walks past these schools every day.
 
-Donate today at joyfullsmiles.org/donate.`,
+If you want to see exactly how your donation was used, ask us. We will send you the receipt.
+
+**How to Donate**
+Donate at joyfullsmiles.org/donate via Razorpay (UPI, card, net banking), or WhatsApp us at +91 63573 69174 for bank transfer details.
+
+₹25,000 changes a child's year. It might change their life. And you will know exactly how — because we will tell you.`,
   },
   "girl-empowerment-through-education": {
     title: "Girl Empowerment Through Education: Why It Changes Everything",
@@ -868,10 +869,10 @@ We provide:
 
 **Family engagement**: We work with parents, not around them. Shifting parental attitudes about girls' education requires trust and time. Our community workers spend hours in conversation with mothers, fathers, and grandparents — presenting the data, sharing stories, and making the case that a daughter's education is the family's best investment.
 
-**A Real Story: Fatima**
-Fatima was at serious risk of dropping out of St. Xavier's Primary School when AFJS Trust intervened. Her fees were in arrears. The school was preparing to ask her to leave. A donor's contribution paid her fees for the full academic year.
+**A Real Story: Noor**
+Noor was at serious risk of dropping out of St. Xavier's Primary School when AFJS Trust intervened. Her fees were in arrears. The school was preparing to ask her to leave. A donor's contribution paid her fees for the full academic year.
 
-What happened next is why we exist. With her school place secure, Fatima flourished. She won second place in the school's Rangoli competition — a certificate of achievement she earned in front of the entire school. Her teacher says she is one of the most focused students in her class. She wants to be an artist.
+What happened next is why we exist. With her school place secure, Noor flourished. She won second place in the school's Rangoli competition — a certificate of achievement she earned in front of the entire school. Her teacher says she is one of the most focused students in her class. She wants to be an artist.
 
 That is what girl empowerment looks like in practice. Not a policy statement. A girl who came to school, stayed, and discovered what she was capable of.
 

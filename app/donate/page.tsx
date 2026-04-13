@@ -23,7 +23,7 @@ const impactRows = [
   { amount: "₹2,500", impact: "Provides full school supplies for one semester" },
   { amount: "₹5,000", impact: "Covers one term of after-school tutoring support" },
   { amount: "₹10,000", impact: "Nearly 5 months of education and nutrition support" },
-  { amount: "₹25,000", impact: "Sponsors one child's FULL year of school — tuition, books, meals, uniform" },
+  { amount: "₹25,000", impact: "Covers one child's full year of school fees at St. Xavier's Primary School, Bhavnagar — paid directly to the school" },
 ];
 
 const donateSchema = {
@@ -109,8 +109,8 @@ export default function DonatePage() {
                 <div>
                   <h3 className="font-bold text-gray-900 mb-1">Sponsor a Child — ₹25,000/year</h3>
                   <p className="text-gray-600 text-sm leading-relaxed">
-                    One sponsorship covers a child&apos;s full year: tuition at St. Xavier&apos;s Primary School,
-                    textbooks, school uniform, and nutrition support. You&apos;ll receive impact updates
+                    One sponsorship covers one child&apos;s full year of school fees at St. Xavier&apos;s Primary School,
+                    Bhavnagar — paid directly to the school. You&apos;ll receive the fee receipt and regular updates
                     about the child you&apos;re supporting.
                   </p>
                   <p className="text-xs text-gray-400 mt-2">
