@@ -18,7 +18,7 @@ const stories = [
     title: "From Dropout Risk to Star Student",
     image: "/images/education-group.jpg",
     program: "Child Education",
-    story: "Priya was at risk of dropping out of school at age 9 when her family faced severe financial hardship. AFJS Trust enrolled her at St. Xavier's Primary School with full scholarship support. Today, she ranks in the top 5 of her class and dreams of becoming a teacher.",
+    story: "A 9-year-old girl was at risk of dropping out when her family faced severe financial hardship. AFJS Trust covered her school fees at St. Xavier's Primary School, Bhavnagar. Today, she ranks in the top 5 of her class and dreams of becoming a teacher.",
     impact: "Full year scholarship + tutoring support",
   },
   {
@@ -103,71 +103,59 @@ export default function ImpactPage() {
         ))}
       </div>
 
-      {/* Real academic result */}
+      {/* Real academic results — Meera & Asha */}
       <div className="bg-teal-50 border-y border-teal-100 py-14 px-4">
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-10">
             <span className="inline-block px-4 py-1.5 bg-teal-100 text-teal-700 text-xs font-bold rounded-full uppercase tracking-widest mb-4">
-              Real Results, Real School
+              Real Results
             </span>
             <h2 className="text-2xl md:text-3xl font-bold text-gray-900">
-              Academic proof from{" "}
-              <span className="text-teal-500">St. Xavier&apos;s Primary School</span>
+              Meera &amp; Asha — Diploma Semester Results
             </h2>
-            <p className="text-gray-500 mt-3 max-w-xl mx-auto text-sm">
-              A sponsored child&apos;s Semester 1 progress report — Academic Year 2025–26. Result: <strong>PASS · 84.14%</strong>. Student name blurred to protect privacy.
+            <p className="text-gray-500 mt-3 max-w-2xl mx-auto text-sm">
+              Both girls were on the verge of dropping their Diploma in Computer Engineering. Sponsored by Nikhitha from Germany, they sat their semester exams — and both passed. Names blurred to protect privacy.
             </p>
           </div>
-          <div className="flex flex-col md:flex-row items-center gap-10">
-            {/* Report card with name blurred */}
-            <div className="relative w-full max-w-xs mx-auto shrink-0 rounded-2xl overflow-hidden shadow-2xl border border-gray-200">
-              <img
-                src="/images/child-result-1.jpeg"
-                alt="Student progress report — St. Xavier's Primary School, Bhavnagar 2025-26"
-                className="w-full h-auto block"
-                loading="lazy"
-              />
-              {/* Blur overlay over student name row */}
-              <div
-                aria-hidden="true"
-                style={{
-                  position: "absolute",
-                  top: "11.5%",
-                  left: "20%",
-                  right: "5%",
-                  height: "5%",
-                  backdropFilter: "blur(14px)",
-                  WebkitBackdropFilter: "blur(14px)",
-                  backgroundColor: "rgba(248,248,248,0.85)",
-                  borderRadius: "3px",
-                }}
-              />
+
+          {/* Two result cards side by side */}
+          <div className="grid sm:grid-cols-2 gap-6 max-w-2xl mx-auto mb-10">
+            {[
+              { src: "/images/result-1.jpeg", label: "Meera", alt: "Diploma semester result — Student 1" },
+              { src: "/images/result-2.jpeg", label: "Asha",  alt: "Diploma semester result — Student 2" },
+            ].map((r) => (
+              <div key={r.label} className="rounded-2xl overflow-hidden shadow-xl border border-gray-200 bg-white">
+                <img
+                  src={r.src}
+                  alt={r.alt}
+                  className="w-full h-auto block"
+                  loading="lazy"
+                />
+                <div className="px-4 py-3 flex items-center justify-between">
+                  <span className="text-sm font-bold text-gray-700">{r.label}</span>
+                  <span className="px-3 py-1 bg-green-100 text-green-700 text-xs font-bold rounded-full">PASS ✓</span>
+                </div>
+              </div>
+            ))}
+          </div>
+
+          {/* Context callout */}
+          <div className="max-w-2xl mx-auto space-y-4">
+            <div className="bg-teal-900 rounded-2xl p-6 text-white text-center">
+              <p className="text-sm leading-relaxed mb-2">
+                Sponsored by <strong>Nikhitha</strong> — AFJS Trust core member &amp; donor, Germany.
+                Her support covered their exam fees and provided the academic encouragement that changed everything.
+              </p>
+              <p className="text-teal-300 text-xs font-semibold mt-3">
+                Read their full story in Case Studies →
+              </p>
             </div>
-            {/* Callout stats */}
-            <div className="space-y-5 max-w-sm">
-              <div className="bg-white rounded-2xl p-5 border border-teal-100 shadow-sm">
-                <p className="text-4xl font-extrabold text-teal-500 mb-1">84.14%</p>
-                <p className="text-gray-700 font-semibold">Overall Semester Score</p>
-                <p className="text-gray-400 text-sm mt-0.5">St. Xavier&apos;s Primary School, Bhavnagar</p>
-              </div>
-              <div className="bg-white rounded-2xl p-5 border border-teal-100 shadow-sm">
-                <p className="text-2xl font-extrabold text-green-500 mb-1">PASS ✓</p>
-                <p className="text-gray-700 font-semibold">Academic Year 2025–26, Semester 1</p>
-                <p className="text-gray-400 text-sm mt-0.5">Subject scores across Gujarati, Hindi, English, Sanskrit, Social Science, Mathematics, Science &amp; Technology</p>
-              </div>
-              <div className="bg-teal-900 rounded-2xl p-5 text-white">
-                <p className="text-sm leading-relaxed">
-                  This child was enrolled at St. Xavier&apos;s through AFJS Trust&apos;s full sponsorship programme — school fees, books, uniform, and nutrition support all covered.
-                </p>
-                <p className="text-teal-300 text-xs mt-2 font-semibold">₹25,000/year sponsors one child like this.</p>
-              </div>
-              <a
-                href="/donate"
-                className="block w-full text-center px-6 py-3.5 bg-coral-400 hover:bg-coral-500 text-white font-bold rounded-full shadow-lg transition-all hover:-translate-y-0.5"
-              >
-                Sponsor a Child Now ❤
-              </a>
-            </div>
+            <a
+              href="/donate"
+              className="block w-full text-center px-6 py-3.5 bg-coral-400 hover:bg-coral-500 text-white font-bold rounded-full shadow-lg transition-all hover:-translate-y-0.5"
+            >
+              Support a Student Like This ❤
+            </a>
           </div>
         </div>
       </div>
