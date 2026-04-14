@@ -24,11 +24,11 @@ export default function HeroSection() {
       {/* Background image */}
       <div className="absolute inset-0">
         <Image
-          src="/images/homepage-banner.jpg"
-          alt="Children from AFJS Trust community, Bhavnagar"
+          src="/images/nutrition-kids-2.jpg"
+          alt="Children from AFJS Trust nutrition drive, Bhavnagar"
           fill
           className="object-cover"
-          style={{ objectPosition: "center 15%" }}
+          style={{ objectPosition: "center 30%" }}
           priority
           sizes="100vw"
           quality={85}
