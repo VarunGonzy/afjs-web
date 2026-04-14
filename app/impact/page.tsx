@@ -121,7 +121,7 @@ export default function ImpactPage() {
           {/* Two result cards side by side */}
           <div className="grid sm:grid-cols-2 gap-6 max-w-2xl mx-auto mb-10">
             {[
-              { src: "/images/result-1.jpeg", label: "Meera", alt: "Diploma semester result — Student 1" },
+              { src: "/images/result-1.png", label: "Meera", alt: "Diploma semester result — Student 1" },
               { src: "/images/result-3.png", label: "Asha",  alt: "Diploma semester result — Student 2" },
             ].map((r) => (
               <div key={r.label} className="rounded-2xl overflow-hidden shadow-xl border border-gray-200 bg-white">
