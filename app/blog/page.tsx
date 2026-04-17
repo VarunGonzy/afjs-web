@@ -276,7 +276,7 @@ const categoryColors: Record<string, string> = {
   "Founder Story": "bg-amber-100 text-amber-700",
 };
 
-const categories = ["All", ...Array.from(new Set(posts.map(p => p.category)))];
+const allCategories = ["All", ...Array.from(new Set(posts.map((p) => p.category)))];
 
 const breadcrumb = {
   "@context": "https://schema.org",
@@ -287,7 +287,17 @@ const breadcrumb = {
   ],
 };
 
-export default function BlogPage() {
+export default async function BlogPage({
+  searchParams,
+}: {
+  searchParams: Promise<{ category?: string }>;
+}) {
+  const { category } = await searchParams;
+  const active = category && allCategories.includes(category) ? category : "All";
+  const filtered = active === "All" ? posts : posts.filter((p) => p.category === active);
+  const featured = filtered[0];
+  const rest = filtered.slice(1);
+
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumb) }} />
@@ -297,79 +307,98 @@ export default function BlogPage() {
         <p className="text-teal-100 text-lg max-w-2xl mx-auto">Insights on child education, girl empowerment, and how your donations make a real difference. Written by our founders from Bhavnagar.</p>
       </div>
 
-      {/* Category filter - decorative only (static rendering) */}
+      {/* Category filter — URL-based, works without JS */}
       <div className="bg-white border-b border-gray-100 sticky top-16 z-10">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-3 flex gap-2 overflow-x-auto scrollbar-none">
-          {categories.map((cat) => (
-            <span
-              key={cat}
-              className={`shrink-0 px-4 py-1.5 rounded-full text-xs font-bold cursor-default transition-colors ${
-                cat === "All"
-                  ? "bg-teal-500 text-white"
-                  : categoryColors[cat] || "bg-gray-100 text-gray-600"
-              }`}
-            >
-              {cat}
-            </span>
-          ))}
+          {allCategories.map((cat) => {
+            const isActive = cat === active;
+            return (
+              <Link
+                key={cat}
+                href={cat === "All" ? "/blog" : `/blog?category=${encodeURIComponent(cat)}`}
+                scroll={false}
+                className={`shrink-0 px-4 py-1.5 rounded-full text-xs font-bold transition-colors ${
+                  isActive
+                    ? cat === "All"
+                      ? "bg-teal-500 text-white"
+                      : (categoryColors[cat] || "bg-gray-200 text-gray-700") + " ring-2 ring-offset-1 ring-teal-400"
+                    : cat === "All"
+                    ? "bg-gray-100 text-gray-600 hover:bg-teal-50 hover:text-teal-600"
+                    : (categoryColors[cat] || "bg-gray-100 text-gray-600") + " opacity-70 hover:opacity-100"
+                }`}
+              >
+                {cat}
+              </Link>
+            );
+          })}
         </div>
       </div>
 
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-        {/* Featured post */}
-        <Link
-          href={`/blog/${posts[0].slug}`}
-          className="group block mb-12 bg-white rounded-3xl overflow-hidden border border-gray-100 hover:border-teal-200 shadow-sm hover:shadow-xl hover:shadow-teal-500/10 transition-all duration-300"
-        >
-          <div className="md:flex">
-            <div className="md:w-1/2 relative h-64 md:h-auto overflow-hidden">
-              <img src={posts[0].image} alt={posts[0].title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" />
-              <div className="absolute inset-0 bg-gradient-to-r from-transparent to-black/10" />
-            </div>
-            <div className="md:w-1/2 p-8 flex flex-col justify-center">
-              <div className="flex items-center gap-2 mb-4">
-                <span className="px-3 py-1 bg-teal-500 text-white rounded-full text-xs font-bold">Latest</span>
-                <span className={`px-2.5 py-0.5 rounded-full text-xs font-bold ${categoryColors[posts[0].category] || "bg-gray-100 text-gray-600"}`}>{posts[0].category}</span>
-              </div>
-              <h2 className="text-2xl font-extrabold text-gray-900 mb-3 group-hover:text-teal-600 transition-colors leading-tight">{posts[0].title}</h2>
-              <p className="text-gray-500 leading-relaxed mb-5">{posts[0].excerpt}</p>
-              <div className="flex items-center gap-3 text-sm text-gray-400">
-                <span>{posts[0].date}</span>
-                <span>·</span>
-                <span>{posts[0].readTime} read</span>
-                <span>·</span>
-                <span>By {posts[0].author}</span>
-              </div>
-            </div>
-          </div>
-        </Link>
-
-        {/* Grid of remaining posts */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-7">
-          {posts.slice(1).map((post) => (
-            <Link key={post.slug} href={`/blog/${post.slug}`} className="group bg-white rounded-2xl overflow-hidden border border-gray-100 hover:border-teal-200 shadow-sm hover:shadow-xl hover:shadow-teal-500/10 transition-all duration-300 hover:-translate-y-1 flex flex-col">
-              <div className="relative h-44 overflow-hidden">
-                <img src={post.image} alt={post.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent" />
-              </div>
-              <div className="p-5 flex-1 flex flex-col">
-                <div className="flex items-center gap-2 mb-3">
-                  <span className={`px-2.5 py-0.5 rounded-full text-xs font-bold ${categoryColors[post.category] || "bg-gray-100 text-gray-600"}`}>{post.category}</span>
-                  <span className="text-gray-400 text-xs">{post.readTime} read</span>
+        {filtered.length === 0 ? (
+          <p className="text-center text-gray-500 py-20">No posts in this category yet.</p>
+        ) : (
+          <>
+            {/* Featured post */}
+            <Link
+              href={`/blog/${featured.slug}`}
+              className="group block mb-12 bg-white rounded-3xl overflow-hidden border border-gray-100 hover:border-teal-200 shadow-sm hover:shadow-xl hover:shadow-teal-500/10 transition-all duration-300"
+            >
+              <div className="md:flex">
+                <div className="md:w-1/2 relative h-64 md:h-auto overflow-hidden">
+                  <img src={featured.image} alt={featured.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" />
+                  <div className="absolute inset-0 bg-gradient-to-r from-transparent to-black/10" />
                 </div>
-                <h2 className="font-bold text-gray-900 text-base mb-2 group-hover:text-teal-600 transition-colors leading-snug">{post.title}</h2>
-                <p className="text-gray-500 text-sm leading-relaxed flex-1">{post.excerpt}</p>
-                <div className="flex items-center justify-between mt-4 pt-4 border-t border-gray-100">
-                  <div>
-                    <span className="text-xs text-gray-400 block">{post.date}</span>
-                    <span className="text-xs text-gray-500">By {post.author}</span>
+                <div className="md:w-1/2 p-8 flex flex-col justify-center">
+                  <div className="flex items-center gap-2 mb-4">
+                    <span className="px-3 py-1 bg-teal-500 text-white rounded-full text-xs font-bold">
+                      {active === "All" ? "Latest" : "Top Pick"}
+                    </span>
+                    <span className={`px-2.5 py-0.5 rounded-full text-xs font-bold ${categoryColors[featured.category] || "bg-gray-100 text-gray-600"}`}>{featured.category}</span>
                   </div>
-                  <span className="text-teal-500 text-xs font-semibold group-hover:translate-x-0.5 transition-transform inline-flex items-center gap-0.5">Read →</span>
+                  <h2 className="text-2xl font-extrabold text-gray-900 mb-3 group-hover:text-teal-600 transition-colors leading-tight">{featured.title}</h2>
+                  <p className="text-gray-500 leading-relaxed mb-5">{featured.excerpt}</p>
+                  <div className="flex items-center gap-3 text-sm text-gray-400">
+                    <span>{featured.date}</span>
+                    <span>·</span>
+                    <span>{featured.readTime} read</span>
+                    <span>·</span>
+                    <span>By {featured.author}</span>
+                  </div>
                 </div>
               </div>
             </Link>
-          ))}
-        </div>
+
+            {/* Grid of remaining posts */}
+            {rest.length > 0 && (
+              <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-7">
+                {rest.map((post) => (
+                  <Link key={post.slug} href={`/blog/${post.slug}`} className="group bg-white rounded-2xl overflow-hidden border border-gray-100 hover:border-teal-200 shadow-sm hover:shadow-xl hover:shadow-teal-500/10 transition-all duration-300 hover:-translate-y-1 flex flex-col">
+                    <div className="relative h-44 overflow-hidden">
+                      <img src={post.image} alt={post.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" />
+                      <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent" />
+                    </div>
+                    <div className="p-5 flex-1 flex flex-col">
+                      <div className="flex items-center gap-2 mb-3">
+                        <span className={`px-2.5 py-0.5 rounded-full text-xs font-bold ${categoryColors[post.category] || "bg-gray-100 text-gray-600"}`}>{post.category}</span>
+                        <span className="text-gray-400 text-xs">{post.readTime} read</span>
+                      </div>
+                      <h2 className="font-bold text-gray-900 text-base mb-2 group-hover:text-teal-600 transition-colors leading-snug">{post.title}</h2>
+                      <p className="text-gray-500 text-sm leading-relaxed flex-1">{post.excerpt}</p>
+                      <div className="flex items-center justify-between mt-4 pt-4 border-t border-gray-100">
+                        <div>
+                          <span className="text-xs text-gray-400 block">{post.date}</span>
+                          <span className="text-xs text-gray-500">By {post.author}</span>
+                        </div>
+                        <span className="text-teal-500 text-xs font-semibold group-hover:translate-x-0.5 transition-transform inline-flex items-center gap-0.5">Read →</span>
+                      </div>
+                    </div>
+                  </Link>
+                ))}
+              </div>
+            )}
+          </>
+        )}
 
         <div className="mt-12 bg-teal-50 rounded-3xl p-8 text-center">
           <h3 className="text-xl font-bold text-gray-900 mb-2">Ready to make a difference?</h3>
