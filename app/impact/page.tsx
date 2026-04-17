@@ -166,7 +166,7 @@ export default function ImpactPage() {
           <h2 className="text-2xl font-bold text-gray-900 text-center mb-8">Moments from the Field</h2>
           <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
             {["/images/girl-empowerment-2.jpg", "/images/impact-donation.jpg", "/images/nutrition-kids-3.jpg",
-              "/images/girl-empowerment-3.jpg", "/images/community-food.jpg", "/images/education-laptops.jpg"].map((src, i) => (
+              "/images/girl-empowerment-3.jpg", "/images/community-food.jpg", "/images/community-birthday.jpg"].map((src, i) => (
               <div key={i} className="relative aspect-square rounded-2xl overflow-hidden">
                 <Image src={src} alt="AFJS Trust impact" fill className="object-cover hover:scale-105 transition-transform duration-500" sizes="(max-width: 768px) 50vw, 33vw" />
               </div>
