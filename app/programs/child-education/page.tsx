@@ -55,7 +55,7 @@ export default function ChildEducationPage() {
           <h3 className="text-2xl font-bold text-teal-900 mb-2">₹25,000 = One Child's Full Year</h3>
           <p className="text-gray-600 mb-6 max-w-xl mx-auto">Your sponsorship covers tuition at St. Xavier's Primary School, textbooks, school uniform, and nutrition support for an entire academic year.</p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
-            <Link href="/donate#sponsor" className="px-8 py-3.5 bg-coral-400 hover:bg-coral-500 text-white font-bold rounded-full shadow-lg transition-all hover:-translate-y-0.5">Sponsor a Child — ₹25,000</Link>
+            <Link href="/donate#sponsor" className="px-8 py-3.5 bg-coral-400 hover:bg-coral-500 text-white font-bold rounded-full shadow-lg transition-all hover:-translate-y-0.5">Sponsor a Child: ₹25,000</Link>
             <Link href="/donate" className="px-8 py-3.5 bg-teal-500 hover:bg-teal-600 text-white font-bold rounded-full shadow-lg transition-all hover:-translate-y-0.5">Any Amount Helps</Link>
           </div>
         </div>

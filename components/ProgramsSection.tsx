@@ -19,7 +19,7 @@ const programs = [
     icon: Users,
     title: "Girl Empowerment",
     description:
-      "Breaking barriers through education, confidence-building programs, and mentorship — because educating a girl changes her entire family.",
+      "Breaking barriers through education, confidence-building programs, and mentorship, because educating a girl changes her entire family.",
     image: "/images/girl-empowerment-1.jpg",
     objectPosition: "center 30%",
     href: "/programs/girl-empowerment",
@@ -30,7 +30,7 @@ const programs = [
     icon: Apple,
     title: "Food & Nutrition Drive",
     description:
-      "Regular nutrition drives ensuring children have access to wholesome meals — because a nourished child is a learning child.",
+      "Regular nutrition drives ensuring children have access to wholesome meals, because a nourished child is a learning child.",
     image: "/images/nutrition-kids-1.jpg",
     href: "/programs/food-nutrition",
     color: "from-gold-400 to-gold-600",

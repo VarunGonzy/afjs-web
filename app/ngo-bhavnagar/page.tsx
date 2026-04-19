@@ -3,12 +3,12 @@ import Link from "next/link";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "NGO in Bhavnagar Gujarat | AFJS Charitable Trust — Child Education & Welfare",
+  title: "NGO in Bhavnagar Gujarat | AFJS Charitable Trust: Child Education & Welfare",
   description: "AFJS Charitable Trust is a registered NGO in Bhavnagar, Gujarat. We support underprivileged children through education, nutrition, and family welfare. Darpan Reg: GJ/2025/0719739.",
   openGraph: {
     title: "Registered NGO in Bhavnagar, Gujarat | AFJS Charitable Trust",
-    description: "Child education, girl empowerment, nutrition and family welfare in Bhavnagar. Verified NGO — Darpan Reg: GJ/2025/0719739.",
-    images: [{ url: "/images/hero-community.jpg", width: 1200, height: 630, alt: "AFJS Trust — NGO in Bhavnagar Gujarat" }],
+    description: "Child education, girl empowerment, nutrition and family welfare in Bhavnagar. Verified NGO. Darpan Reg: GJ/2025/0719739.",
+    images: [{ url: "/images/hero-community.jpg", width: 1200, height: 630, alt: "AFJS Trust, NGO in Bhavnagar Gujarat" }],
   },
   twitter: { card: "summary_large_image", images: ["/images/hero-community.jpg"] },
 };
@@ -91,7 +91,7 @@ export default function NgoBhavnagarPage() {
             Registered NGO in Bhavnagar, Gujarat
           </h1>
           <p className="text-teal-100 text-xl max-w-2xl mx-auto mb-8">
-            AFJS Charitable Trust works in Bhavnagar&apos;s underserved communities — educating children, empowering girls, and supporting families since 2025.
+            AFJS Charitable Trust works in Bhavnagar&apos;s underserved communities, educating children, empowering girls, and supporting families since 2025.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/donate" className="px-8 py-4 bg-coral-400 hover:bg-coral-500 text-white font-bold rounded-full shadow-xl transition-all hover:-translate-y-0.5">
@@ -128,7 +128,7 @@ export default function NgoBhavnagarPage() {
             <span className="inline-block px-4 py-1.5 bg-teal-100 text-teal-700 text-xs font-bold rounded-full uppercase tracking-widest mb-4">Why Bhavnagar</span>
             <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-5">Community-Rooted, Founder-Led</h2>
             <p className="text-gray-600 leading-relaxed mb-4">
-              AFJS Trust was founded by John Dsouza and Varun Gonsalves — two people who grew up in Bhavnagar and saw firsthand what poverty does to children&apos;s futures. John still lives here. He knows these lanes. He knows these families.
+              AFJS Trust was founded by John Dsouza and Varun Gonsalves, two people who grew up in Bhavnagar and saw firsthand what poverty does to children&apos;s futures. John still lives here. He knows these lanes. He knows these families.
             </p>
             <p className="text-gray-600 leading-relaxed mb-4">
               Our primary partner institution is <strong>St. Xavier&apos;s Primary School, Devbagh, Bhavnagar</strong> — one of the city&apos;s most respected schools. We pay fees directly to the school, with receipts photographed and shared with donors.
@@ -168,10 +168,10 @@ export default function NgoBhavnagarPage() {
           <h2 className="text-2xl font-bold text-gray-900 text-center mb-10">Our Work in Bhavnagar</h2>
           <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
             {[
-              { src: "/images/nutrition-kids-2.jpg", alt: "Nutrition drive — children receiving meals in Bhavnagar" },
-              { src: "/images/girl-empowerment-1.jpg", alt: "Girl empowerment programme — Bhavnagar" },
+              { src: "/images/nutrition-kids-2.jpg", alt: "Nutrition drive: children receiving meals in Bhavnagar" },
+              { src: "/images/girl-empowerment-1.jpg", alt: "Girl empowerment programme in Bhavnagar" },
               { src: "/images/education-group.jpg", alt: "Children supported by AFJS Trust, Bhavnagar" },
-              { src: "/images/community-food.jpg", alt: "Community food distribution — AFJS Trust" },
+              { src: "/images/community-food.jpg", alt: "Community food distribution by AFJS Trust" },
               { src: "/images/education-laptops.jpg", alt: "Digital literacy session for girls" },
               { src: "/images/hero-community.jpg", alt: "AFJS Trust community outreach, Bhavnagar" },
             ].map((img) => (

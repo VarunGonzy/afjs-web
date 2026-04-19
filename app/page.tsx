@@ -77,7 +77,7 @@ const testimonials = [
   },
   {
     quote:
-      "My son used to skip school because we couldn't afford the fees. AFJS Trust stepped in — they paid everything and even gave him notebooks. He hasn't missed a day since.",
+      "My son used to skip school because we couldn't afford the fees. AFJS Trust stepped in. They paid everything and even gave him notebooks. He hasn't missed a day since.",
     name: "Father of a sponsored child",
     location: "Bhavnagar, Gujarat",
     initials: "RB",
@@ -162,7 +162,7 @@ export default function HomePage() {
             entire year of education
           </h2>
           <p className="text-coral-100 text-base mb-8 max-w-xl mx-auto">
-            Books, fees, meals, mentorship — everything a child needs to
+            Books, fees, meals, mentorship: everything a child needs to
             flourish for a full academic year.
           </p>
           <Link
@@ -300,8 +300,8 @@ export default function HomePage() {
                 They never forgot those children.
               </p>
               <p className="text-teal-200 leading-relaxed mb-8">
-                In 2025, they founded AFJS Charitable Trust —{" "}
-                <em>All For Joyful Smiles</em> — to make sure as many children
+                In 2025, they founded AFJS Charitable Trust,{" "}
+                <em>All For Joyful Smiles</em>, to make sure as many children
                 as possible get the education and support they deserve.
               </p>
               <Link
@@ -331,7 +331,7 @@ export default function HomePage() {
             Ready to change a child&apos;s life?
           </h2>
           <p className="text-gray-500 text-lg mb-8">
-            Every donation — big or small — directly impacts a child&apos;s
+            Every donation, big or small, directly impacts a child&apos;s
             education and future.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

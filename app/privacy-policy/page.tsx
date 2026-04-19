@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Privacy Policy | AFJS Trust",
-  description: "Privacy policy for AFJS Charitable Trust — how we collect, use, and protect your data.",
+  description: "Privacy policy for AFJS Charitable Trust: how we collect, use, and protect your data.",
   robots: { index: false, follow: true },
 };
 
@@ -34,7 +34,7 @@ export default function PrivacyPolicyPage() {
           <p>We collect information you provide voluntarily:</p>
           <ul className="list-disc pl-6 space-y-1 mt-2">
             <li>Name and email address (when donating or contacting us)</li>
-            <li>Payment information (processed securely by Razorpay — we never store card details)</li>
+            <li>Payment information (processed securely by Razorpay; we never store card details)</li>
             <li>Messages you send via our contact form</li>
           </ul>
           <p className="mt-3">

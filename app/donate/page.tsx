@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Donate to AFJS Trust | Child Education NGO India | 80G Tax Exempt",
     description: "Donate online via Razorpay. ₹25,000 sponsors one child's full year of education. 80G tax receipt provided. UPI, cards, net banking accepted.",
-    images: [{ url: "/images/education-group.jpg", width: 1200, height: 630, alt: "Donate to AFJS Trust — child education India" }],
+    images: [{ url: "/images/education-group.jpg", width: 1200, height: 630, alt: "Donate to AFJS Trust for child education in India" }],
   },
   twitter: { card: "summary_large_image", images: ["/images/education-group.jpg"] },
 };
@@ -23,7 +23,7 @@ const impactRows = [
   { amount: "₹2,500", impact: "Provides full school supplies for one semester" },
   { amount: "₹5,000", impact: "Covers one term of after-school tutoring support" },
   { amount: "₹10,000", impact: "Nearly 5 months of education and nutrition support" },
-  { amount: "₹25,000", impact: "Covers one child's full year of school fees at St. Xavier's Primary School, Bhavnagar — paid directly to the school" },
+  { amount: "₹25,000", impact: "Covers one child's full year of school fees at St. Xavier's Primary School, Bhavnagar, paid directly to the school" },
 ];
 
 const donateSchema = {
@@ -107,10 +107,10 @@ export default function DonatePage() {
               <div className="flex gap-3">
                 <Heart className="text-gold-500 shrink-0 mt-0.5" size={20} />
                 <div>
-                  <h3 className="font-bold text-gray-900 mb-1">Sponsor a Child — ₹25,000/year</h3>
+                  <h3 className="font-bold text-gray-900 mb-1">Sponsor a Child: ₹25,000/year</h3>
                   <p className="text-gray-600 text-sm leading-relaxed">
                     One sponsorship covers one child&apos;s full year of school fees at St. Xavier&apos;s Primary School,
-                    Bhavnagar — paid directly to the school. You&apos;ll receive the fee receipt and regular updates
+                    Bhavnagar, paid directly to the school. You&apos;ll receive the fee receipt and regular updates
                     about the child you&apos;re supporting.
                   </p>
                   <p className="text-xs text-gray-400 mt-2">

@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: "FAQ | Frequently Asked Questions | AFJS Charitable Trust",
   description: "Everything you need to know about donating to AFJS Trust, child sponsorship, Section 80G tax exemption, international donations, and how we use your money.",
   openGraph: {
-    title: "FAQ | AFJS Charitable Trust — Donate to Child Education in India",
+    title: "FAQ | AFJS Charitable Trust: Donate to Child Education in India",
     description: "Answers to every question about AFJS Trust: 80G tax, child sponsorship, international donations, how money is used, and more.",
     images: [{ url: "/images/education-group.jpg", width: 1200, height: 630 }],
   },
@@ -39,7 +39,7 @@ const faqs = [
   },
   {
     q: "Can I donate from outside India (US, UK, EU, Germany)?",
-    a: "Yes. You can donate using any international Visa or Mastercard credit or debit card through our Razorpay payment gateway at joyfullsmiles.org/donate. For bank transfers, WhatsApp us at +91 63573 69174 for our SWIFT/account details. FCRA compliance for large foreign donations — contact us directly before transferring large sums.",
+    a: "Yes. You can donate using any international Visa or Mastercard credit or debit card through our Razorpay payment gateway at joyfullsmiles.org/donate. For bank transfers, WhatsApp us at +91 63573 69174 for our SWIFT/account details. For large foreign donations, FCRA compliance applies, so please contact us directly before transferring large sums.",
   },
   {
     q: "Can I donate in USD, EUR, or GBP?",
@@ -51,10 +51,10 @@ const faqs = [
   },
   {
     q: "Can I make a recurring monthly donation?",
-    a: "Yes. On our Donate page, you can toggle to monthly giving through Razorpay. Monthly donors are the backbone of our planning — they allow us to commit to children's full academic years rather than term by term. Even ₹500/month makes a meaningful difference over a year.",
+    a: "Yes. On our Donate page, you can toggle to monthly giving through Razorpay. Monthly donors are the backbone of our planning, as they allow us to commit to children's full academic years rather than term by term. Even ₹500/month makes a meaningful difference over a year.",
   },
   {
-    q: "What happens after I sponsor a child — do I get updates?",
+    q: "What happens after I sponsor a child? Do I get updates?",
     a: "Yes. When you sponsor a child, we commit to: (1) Sending you photographs of the enrolment and fee payment receipt, (2) Regular WhatsApp or email updates about the child's progress, (3) End-of-year impact report. We are a small organisation and do not yet offer formal pen-pal programmes, but we believe in direct, personal communication with our donors.",
   },
   {
@@ -137,7 +137,7 @@ export default function FAQPage() {
 
         <div className="mt-12 bg-teal-50 rounded-3xl p-8 text-center">
           <h2 className="text-xl font-bold text-gray-900 mb-3">Still have questions?</h2>
-          <p className="text-gray-500 mb-6">Chat with us on WhatsApp — we respond within hours.</p>
+          <p className="text-gray-500 mb-6">Chat with us on WhatsApp. We respond within hours.</p>
           <a
             href="https://wa.me/916357369174"
             target="_blank"

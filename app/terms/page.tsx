@@ -33,7 +33,7 @@ export default function TermsPage() {
         <section>
           <h2 className="text-xl font-bold text-gray-900 mb-3">3. Use of Content</h2>
           <p>
-            All content on this website — text, images, program descriptions, and impact data —
+            All content on this website, including text, images, program descriptions, and impact data,
             is the property of AFJS Charitable Trust. You may share content for awareness purposes
             with attribution. Commercial reproduction is prohibited without written consent.
           </p>

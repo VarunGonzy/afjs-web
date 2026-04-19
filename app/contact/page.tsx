@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description:
     "Contact AFJS Charitable Trust. Chat with us on WhatsApp at +91 63573 69174, email Afjs.charitable@gmail.com, or visit us at Bhavnagar, Gujarat. We respond within 24 hours.",
   openGraph: {
-    title: "Contact AFJS Trust | WhatsApp or Email — Bhavnagar, Gujarat",
+    title: "Contact AFJS Trust | WhatsApp or Email in Bhavnagar, Gujarat",
     description: "Chat with us on WhatsApp at +91 63573 69174 or email Afjs.charitable@gmail.com. We respond within 24 hours.",
     images: [{ url: "/images/hero-community.jpg", width: 1200, height: 630 }],
   },
@@ -157,7 +157,7 @@ export default function ContactPage() {
             {/* Google Maps embed for Bhavnagar */}
             <div className="rounded-2xl overflow-hidden border border-gray-200 shadow-sm h-64 md:h-80">
               <iframe
-                title="AFJS Trust Classrooms — St. Xavier's High School, Bhavnagar"
+                title="AFJS Trust Classrooms at St. Xavier's High School, Bhavnagar"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3770.5!2d72.1371951!3d21.7676824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395f5080e180432d%3A0x2fa4bf851d7e528f!2sSt.%20Xaviers%20High%20School!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
                 width="100%"
                 height="100%"
@@ -171,7 +171,7 @@ export default function ContactPage() {
             <div className="bg-teal-50 rounded-2xl p-6">
               <h3 className="font-bold text-gray-900 mb-2 text-lg">Ready to make an impact?</h3>
               <p className="text-gray-600 text-sm mb-4">
-                Whether you want to donate, volunteer, or just learn more — we&apos;d love to hear from you.
+                Whether you want to donate, volunteer, or just learn more, we would love to hear from you.
               </p>
               <div className="grid grid-cols-2 gap-3">
                 <Link

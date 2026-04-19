@@ -111,7 +111,7 @@ export default function TaxExemptionPage() {
 
         {/* AFJS Trust details */}
         <section className="bg-teal-50 rounded-3xl p-8">
-          <h2 className="text-xl font-bold text-gray-900 mb-4">AFJS Charitable Trust — Verified Registration</h2>
+          <h2 className="text-xl font-bold text-gray-900 mb-4">AFJS Charitable Trust: Verified Registration</h2>
           <div className="grid sm:grid-cols-2 gap-4">
             {[
               { label: "Darpan Registration", value: "GJ/2025/0719739" },
@@ -165,7 +165,7 @@ export default function TaxExemptionPage() {
               { n: "1", title: "Donate online", desc: "Donate via Razorpay at joyfullsmiles.org/donate, or via UPI (63573690174@sbi), or bank transfer. Retain your payment confirmation." },
               { n: "2", title: "Request your receipt", desc: "Email Afjs.charitable@gmail.com or WhatsApp +91 63573 69174 with your full name, PAN, and postal address. We issue receipts within 48 hours." },
               { n: "3", title: "Receive your official 80G receipt", desc: "Our receipt includes our PAN (AALTA7481L), Trust Registration number, your details, and the donation amount — everything required for ITR filing." },
-              { n: "4", title: "File in your ITR", desc: 'Declare the donation under "Deductions — Chapter VI-A — Section 80G" in your Income Tax Return. Keep the receipt for a minimum of 6 years.' },
+              { n: "4", title: "File in your ITR", desc: 'Declare the donation under "Deductions: Chapter VI-A, Section 80G" in your Income Tax Return. Keep the receipt for a minimum of 6 years.' },
             ].map((step) => (
               <li key={step.n} className="flex gap-4 items-start">
                 <div className="w-9 h-9 rounded-full bg-teal-500 text-white font-bold flex items-center justify-center shrink-0 text-sm">

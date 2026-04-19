@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Our Impact | Stories of Change | AFJS Trust",
   description: "See the real impact of your donations. AFJS Trust has supported 500+ children and 200+ families in Bhavnagar and Ahmedabad. Read impact stories and see our photo gallery.",
   openGraph: {
-    title: "Our Impact | AFJS Trust — 500+ Children, 200+ Families in Gujarat",
+    title: "Our Impact | AFJS Trust: 500+ Children, 200+ Families in Gujarat",
     description: "Real stories, real numbers. See what donations to AFJS Trust have achieved for children and families in Bhavnagar and Ahmedabad.",
     images: [{ url: "/images/education-group.jpg", width: 1200, height: 630 }],
   },
@@ -25,7 +25,7 @@ const stories = [
     title: "Breaking Barriers for Girls",
     image: "/images/girl-empowerment-right.jpg",
     program: "Girl Empowerment",
-    story: "Her family initially resisted sending her to school, believing education was unnecessary for girls. AFJS Trust supported her through school fees, mentorship, and family engagement. She completed her 12th standard — the first girl in her family to do so.",
+    story: "Her family initially resisted sending her to school, believing education was unnecessary for girls. AFJS Trust supported her through school fees, mentorship, and family engagement. She completed her 12th standard, the first girl in her family to do so.",
     impact: "Completed 12th std · First in family to finish secondary school",
   },
   {
@@ -52,7 +52,7 @@ const impactPageSchema = {
   name: "Our Impact | AFJS Charitable Trust",
   url: "https://joyfullsmiles.org/impact",
   dateModified: "2026-04-14",
-  description: "Real impact data from AFJS Charitable Trust — children supported, meals served, families helped in Bhavnagar and Ahmedabad.",
+  description: "Real impact data from AFJS Charitable Trust: children supported, meals served, families helped in Bhavnagar and Ahmedabad.",
 };
 
 export default function ImpactPage() {
@@ -111,18 +111,18 @@ export default function ImpactPage() {
               Real Results
             </span>
             <h2 className="text-2xl md:text-3xl font-bold text-gray-900">
-              Meera &amp; Asha — Diploma Semester Results
+              Meera &amp; Asha: Diploma Semester Results
             </h2>
             <p className="text-gray-500 mt-3 max-w-2xl mx-auto text-sm">
-              Both girls were on the verge of dropping their Diploma in Computer Engineering. Sponsored by Nikhitha from Germany, they sat their semester exams — and both passed. Names blurred to protect privacy.
+              Both girls were on the verge of dropping their Diploma in Computer Engineering. Sponsored by Nikhitha from Germany, they sat their semester exams and both passed. Names blurred to protect privacy.
             </p>
           </div>
 
           {/* Two result cards side by side */}
           <div className="grid sm:grid-cols-2 gap-6 max-w-2xl mx-auto mb-10">
             {[
-              { src: "/images/result-1.png", label: "Meera", alt: "Diploma semester result — Student 1" },
-              { src: "/images/result-3.png", label: "Asha",  alt: "Diploma semester result — Student 2" },
+              { src: "/images/result-1.png", label: "Meera", alt: "Diploma semester result: Student 1" },
+              { src: "/images/result-3.png", label: "Asha",  alt: "Diploma semester result: Student 2" },
             ].map((r) => (
               <div key={r.label} className="rounded-2xl overflow-hidden shadow-xl border border-gray-200 bg-white">
                 <img
@@ -143,7 +143,7 @@ export default function ImpactPage() {
           <div className="max-w-2xl mx-auto space-y-4">
             <div className="bg-teal-900 rounded-2xl p-6 text-white text-center">
               <p className="text-sm leading-relaxed mb-2">
-                Sponsored by <strong>Nikhitha</strong> — AFJS Trust core member &amp; donor, Germany.
+                Sponsored by <strong>Nikhitha</strong>, AFJS Trust core member &amp; donor, Germany.
                 Her support covered their exam fees and provided the academic encouragement that changed everything.
               </p>
               <p className="text-teal-300 text-xs font-semibold mt-3">

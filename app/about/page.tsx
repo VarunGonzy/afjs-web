@@ -6,7 +6,7 @@ import { MapPin, Phone, Mail, FileCheck, BookOpen, Users, Apple, Home, Heart } f
 export const metadata: Metadata = {
   title: "About Us | Our Story - John Dsouza & Varun Gonsalves | AFJS Trust",
   description:
-    "The story behind AFJS Charitable Trust — founded by John Dsouza and supported by Varun Gonsalves. Two childhood friends from Bhavnagar who turned lived experiences of hardship into a mission to educate and empower underprivileged children. Reg: GJ/2025/0719739.",
+    "The story behind AFJS Charitable Trust, founded by John Dsouza and supported by Varun Gonsalves. Two childhood friends from Bhavnagar who turned lived experiences of hardship into a mission to educate and empower underprivileged children. Reg: GJ/2025/0719739.",
   openGraph: {
     title: "About AFJS Trust | Our Story - Bhavnagar to the World",
     description:
@@ -58,13 +58,13 @@ export default function AboutPage() {
             Our Story
           </span>
           <h1 className="text-3xl md:text-5xl font-extrabold text-white mb-4">
-            About AFJS Charitable Trust — Child Education NGO in Bhavnagar, Gujarat
+            About AFJS Charitable Trust: Child Education NGO in Bhavnagar, Gujarat
           </h1>
           <p className="text-teal-100 text-xl font-light">
             Empowering Communities. Educating Futures.
           </p>
           <p className="text-teal-200 text-base mt-3 max-w-2xl mx-auto">
-            Born out of lived experience in Bhavnagar — two friends who never forgot where they came from.
+            Born out of lived experience in Bhavnagar: two friends who never forgot where they came from.
           </p>
         </div>
       </div>
@@ -84,8 +84,8 @@ export default function AboutPage() {
           </div>
           <div className="prose prose-lg max-w-none text-gray-600 leading-relaxed space-y-5">
             <p>
-              John Dsouza and Varun Gonsalves grew up together on the streets of Bhavnagar, Gujarat — 
-              a city full of warmth, culture, and community, but also one where poverty was never 
+              John Dsouza and Varun Gonsalves grew up together on the streets of Bhavnagar, Gujarat,
+              a city full of warmth, culture, and community, but also one where poverty was never
               far from sight. They watched friends drop out of school to work in their families&apos; 
               shops. They saw girls pulled out of classrooms before they could reach their potential. 
               They shared meals with families who couldn&apos;t always afford them.
@@ -103,7 +103,7 @@ export default function AboutPage() {
             </p>
             <p>
               In 2025, what had long been a shared dream became a reality. Together, they founded 
-              <strong className="text-teal-700"> AFJS Charitable Trust — All For Joyful Smiles</strong> — 
+              <strong className="text-teal-700"> AFJS Charitable Trust: All For Joyful Smiles</strong>,
               a charitable trust registered under the Public Trust Act 1950, dedicated to providing 
               education, nutrition, and holistic support to underprivileged children in Gujarat.
             </p>
@@ -225,7 +225,7 @@ export default function AboutPage() {
             <h2 className="text-2xl font-bold text-teal-900 mb-4">Our Mission</h2>
             <p className="text-gray-600 leading-relaxed">
               To provide education, nutrition, learning materials, and holistic support to
-              underprivileged children in Gujarat, particularly in Bhavnagar and Ahmedabad —
+              underprivileged children in Gujarat, particularly in Bhavnagar and Ahmedabad,
               breaking the cycle of poverty through the transformative power of education.
             </p>
           </div>
@@ -236,7 +236,7 @@ export default function AboutPage() {
             <h2 className="text-2xl font-bold text-gray-900 mb-4">Our Vision</h2>
             <p className="text-gray-600 leading-relaxed">
               Communities where education breaks the cycle of poverty and creates generations
-              of empowered, joyful families — where every child has the opportunity to reach
+              of empowered, joyful families, where every child has the opportunity to reach
               their full potential regardless of their background.
             </p>
           </div>

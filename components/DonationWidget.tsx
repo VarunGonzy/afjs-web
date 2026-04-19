@@ -152,7 +152,7 @@ export default function DonationWidget({ compact = false }: Props) {
         >
           {loading
             ? "Opening payment..."
-            : `Donate ₹${finalAmount ? finalAmount.toLocaleString("en-IN") : "—"} Securely`}
+            : `Donate Securely`}
         </button>
 
         {/* Trust row */}

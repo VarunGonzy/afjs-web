@@ -26,7 +26,7 @@ const posts = [
   {
     slug: "girl-empowerment-through-education",
     title: "Girl Empowerment Through Education: Why It Changes Everything",
-    excerpt: "The data is clear — educating girls produces the highest returns of any development investment. Here's why we focus specifically on girls.",
+    excerpt: "The data is clear: educating girls produces the highest returns of any development investment. Here's why we focus specifically on girls.",
     date: "March 5, 2026",
     author: "John Dsouza",
     category: "Programs",
@@ -66,7 +66,7 @@ const posts = [
   {
     slug: "annual-impact-highlights-2024",
     title: "Annual Impact Highlights: What We Achieved Together in 2024",
-    excerpt: "A full accounting of what AFJS Trust achieved in 2024 — the children reached, the meals served, the lives changed — and what it cost.",
+    excerpt: "A full accounting of what AFJS Trust achieved in 2024: the children reached, the meals served, the lives changed, and what it cost.",
     date: "July 15, 2025",
     author: "John Dsouza",
     category: "Transparency",
@@ -76,7 +76,7 @@ const posts = [
   {
     slug: "education-breaks-cycle-poverty",
     title: "Why Education Is the Only Thing That Permanently Breaks the Poverty Cycle",
-    excerpt: "Every other intervention treats the symptoms. Education treats the cause. Here's the evidence — and what it means for our work.",
+    excerpt: "Every other intervention treats the symptoms. Education treats the cause. Here's the evidence, and what it means for our work.",
     date: "April 3, 2025",
     author: "John Dsouza",
     category: "Education",
@@ -86,7 +86,7 @@ const posts = [
   {
     slug: "science-of-hope-community-support",
     title: "The Science of Hope: How Community Support Transforms Outcomes",
-    excerpt: "Research shows that social support is as predictive of educational outcomes as family income. Community is not a soft concept — it is a hard intervention.",
+    excerpt: "Research shows that social support is as predictive of educational outcomes as family income. Community is not a soft concept. It is a hard intervention.",
     date: "January 10, 2025",
     author: "John Dsouza",
     category: "Advocacy",
@@ -106,7 +106,7 @@ const posts = [
   {
     slug: "our-first-year-what-we-learned",
     title: "Our First Year: What We Built, What We Learned, and What Comes Next",
-    excerpt: "Every organisation makes mistakes in its first year. Transparency demands we share ours — alongside what we got right.",
+    excerpt: "Every organisation makes mistakes in its first year. Transparency demands we share ours, alongside what we got right.",
     date: "August 20, 2024",
     author: "John Dsouza",
     category: "Transparency",
@@ -116,7 +116,7 @@ const posts = [
   {
     slug: "women-literacy-development",
     title: "Women's Literacy: The Lever That Moves Everything",
-    excerpt: "When a woman can read and write, everything changes — for her, her children, and her community. Why literacy is the foundation of all development.",
+    excerpt: "When a woman can read and write, everything changes for her, her children, and her community. Why literacy is the foundation of all development.",
     date: "May 8, 2024",
     author: "John Dsouza",
     category: "Programs",
@@ -125,7 +125,7 @@ const posts = [
   },
   {
     slug: "bhavnagar-underprivileged-communities",
-    title: "Understanding Bhavnagar's Underserved Communities — and Why We Work There",
+    title: "Understanding Bhavnagar's Underserved Communities and Why We Work There",
     excerpt: "Bhavnagar is a city of contrasts. Understanding its underserved communities is the first step to changing them.",
     date: "February 28, 2024",
     author: "John Dsouza",
@@ -186,7 +186,7 @@ const posts = [
   {
     slug: "mid-day-meal-gap-ngos-fill",
     title: "Mid-Day Meal Schemes: The Gap That NGOs Like AFJS Fill",
-    excerpt: "Government mid-day meal schemes are vital but imperfect. NGOs bridge the gap — ensuring no child goes hungry in or outside school.",
+    excerpt: "Government mid-day meal schemes are vital but imperfect. NGOs bridge the gap, ensuring no child goes hungry in or outside school.",
     date: "August 10, 2022",
     author: "John Dsouza",
     category: "Programs",
@@ -205,8 +205,8 @@ const posts = [
   },
   {
     slug: "volunteering-at-afjs-trust",
-    title: "What Volunteering at AFJS Trust Looks Like — And Why It Will Change You",
-    excerpt: "You don't need to be rich to make a difference. Our volunteers discover that the biggest gift they give is also the one they receive.",
+    title: "What Volunteering at AFJS Trust Looks Like, and Why It Will Change You",
+    excerpt: "You don't need to be rich to make a difference. Our volunteers find that the biggest gift they give is also the one they receive.",
     date: "February 18, 2022",
     author: "John Dsouza",
     category: "Community",
@@ -225,8 +225,8 @@ const posts = [
   },
   {
     slug: "school-dropout-crisis-rural-india",
-    title: "The School Dropout Crisis in Rural India — And How We're Fighting It",
-    excerpt: "Millions of children in rural India drop out before completing secondary education. The reasons are complex — and solvable.",
+    title: "The School Dropout Crisis in Rural India: How We're Fighting It",
+    excerpt: "Millions of children in rural India drop out before completing secondary education. The reasons are complex, and solvable.",
     date: "April 14, 2021",
     author: "John Dsouza",
     category: "Education",
@@ -236,7 +236,7 @@ const posts = [
   {
     slug: "why-india-ngos-need-your-support",
     title: "Why India's NGOs Need Your Support Now More Than Ever",
-    excerpt: "India's informal welfare system — its network of grassroots NGOs — is stretched thin. Here's why your support has never mattered more.",
+    excerpt: "India's informal welfare system, its network of grassroots NGOs, is stretched thin. Here's why your support has never mattered more.",
     date: "January 25, 2021",
     author: "John Dsouza",
     category: "Advocacy",

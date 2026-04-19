@@ -31,7 +31,7 @@ export default function GirlEmpowermentPage() {
         <div className="absolute inset-0 opacity-20"><Image src="/images/girl-empowerment-2.jpg" alt="" fill className="object-cover" style={{ objectPosition: "center 33%" }} /></div>
         <div className="relative max-w-3xl mx-auto text-center">
           <span className="inline-block px-4 py-1.5 bg-white/20 text-white text-xs font-bold rounded-full uppercase tracking-widest mb-4">Program 2 of 4</span>
-          <h1 className="text-3xl md:text-5xl font-extrabold text-white mb-4">Girl Empowerment &amp; Education Programme — AFJS Trust</h1>
+          <h1 className="text-3xl md:text-5xl font-extrabold text-white mb-4">Girl Empowerment &amp; Education Programme by AFJS Trust</h1>
           <p className="text-orange-100 text-xl">Educate a girl. Change her family. Transform a generation.</p>
         </div>
       </div>
