@@ -31,7 +31,7 @@ const programs = [
     objectPosition: "center 30%",
     href: "/programs/girl-empowerment",
     color: "from-coral-400 to-coral-600",
-    description: "Confidence-building programs, mentorship, and educational scholarships exclusively for girls — because an educated girl uplifts her entire family.",
+    description: "Confidence-building programs, mentorship, and educational scholarships exclusively for girls. An educated girl uplifts her entire family.",
     stats: [{ label: "Girls Supported", value: "150+" }, { label: "Impact", value: "Families" }],
   },
   {
@@ -73,7 +73,7 @@ export default function ProgramsPage() {
         <span className="inline-block px-4 py-1.5 bg-white/15 text-white text-xs font-bold rounded-full uppercase tracking-widest mb-4">What We Do</span>
         <h1 className="text-3xl md:text-5xl font-extrabold text-white mb-4">Our Programs</h1>
         <p className="text-teal-100 text-lg max-w-2xl mx-auto">
-          Four pillars of lasting community change — each designed to create a ripple effect that uplifts entire families.
+          Four pillars of lasting community change, each designed to create a ripple effect that uplifts entire families.
         </p>
       </div>
 

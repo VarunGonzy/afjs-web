@@ -7,8 +7,8 @@ export const metadata: Metadata = {
   description: "AFJS Trust runs regular food and nutrition drives providing wholesome meals to underprivileged children in Bhavnagar and Ahmedabad. Donate to support our nutrition program.",
   openGraph: {
     title: "Food & Nutrition Drive | Donate to Feed Children in India | AFJS Trust",
-    description: "Hot meals for children in Bhavnagar and Ahmedabad — every week. 80+ served in one drive. Donate to AFJS Trust's nutrition programme.",
-    images: [{ url: "/images/nutrition-kids-2.jpg", width: 1200, height: 630, alt: "AFJS Trust nutrition drive — children receiving meals in Bhavnagar" }],
+    description: "Hot meals for children in Bhavnagar and Ahmedabad, every week. 80+ served in one drive. Donate to AFJS Trust's nutrition programme.",
+    images: [{ url: "/images/nutrition-kids-2.jpg", width: 1200, height: 630, alt: "AFJS Trust nutrition drive: children receiving meals in Bhavnagar" }],
   },
   twitter: { card: "summary_large_image", images: ["/images/nutrition-kids-2.jpg"] },
 };
@@ -26,7 +26,7 @@ const breadcrumb = {
 const novDriveEvent = {
   "@context": "https://schema.org",
   "@type": "Event",
-  name: "November 2025 Nutrition Drive — Bhavnagar",
+  name: "November 2025 Nutrition Drive in Bhavnagar",
   startDate: "2025-11-02",
   location: {
     "@type": "Place",

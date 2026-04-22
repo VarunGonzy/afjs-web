@@ -27,11 +27,11 @@ const faqs = [
   },
   {
     q: "What documents do I need to claim 80G tax benefits?",
-    a: "You need: (1) Your PAN card — the deduction cannot be claimed without one. (2) The official donation receipt from AFJS Trust — we issue these upon request. (3) Bank statement confirming the payment, for larger donations. Note: Cash donations above ₹2,000 are not eligible for 80G. Online payment, UPI, cheque, and bank transfer are all fully eligible.",
+    a: "You need three things. First, your PAN card, as the deduction cannot be claimed without one. Second, the official donation receipt from AFJS Trust, which we issue on request. Third, a bank statement confirming the payment for larger donations. Note: Cash donations above ₹2,000 are not eligible for 80G. Online payment, UPI, cheque, and bank transfer are all fully eligible.",
   },
   {
     q: "How much does it cost to sponsor a child for a full year?",
-    a: "₹25,000 covers one child's full year of school fees at St. Xavier's Primary School, Bhavnagar — paid directly to the school in the child's name, with the receipt photographed and shared with the donor. This is our Child Sponsorship programme and is one of the highest-impact ways to contribute.",
+    a: "₹25,000 covers one child's full year of school fees at St. Xavier's Primary School, Bhavnagar. The payment goes directly to the school in the child's name, and the receipt is photographed and shared with the donor. This is our Child Sponsorship programme and one of the highest-impact ways to contribute.",
   },
   {
     q: "Can I specifically sponsor a girl child?",
@@ -43,7 +43,7 @@ const faqs = [
   },
   {
     q: "Can I donate in USD, EUR, or GBP?",
-    a: "Our Razorpay gateway processes payments in INR, but international cards in any currency are accepted — your bank converts to INR at the prevailing exchange rate. For large donations in foreign currency, contact us directly at Afjs.charitable@gmail.com to discuss bank transfer options.",
+    a: "Our Razorpay gateway processes payments in INR, but international cards in any currency are accepted. Your bank converts to INR at the prevailing exchange rate. For large donations in foreign currency, contact us directly at Afjs.charitable@gmail.com to discuss bank transfer options.",
   },
   {
     q: "How is my donation money used?",
@@ -75,11 +75,11 @@ const faqs = [
   },
   {
     q: "What is AFJS Trust's FCRA status?",
-    a: "AFJS Trust is currently in the process of obtaining FCRA (Foreign Contribution Regulation Act) registration, which governs large donations from foreign sources. Until registration is complete, large foreign donations should be discussed with us directly before transfer to ensure regulatory compliance. Small individual international donations via Razorpay are generally straightforward — contact us if you have concerns.",
+    a: "AFJS Trust is currently in the process of obtaining FCRA (Foreign Contribution Regulation Act) registration, which governs large donations from foreign sources. Until registration is complete, large foreign donations should be discussed with us directly before transfer to ensure regulatory compliance. Small individual international donations via Razorpay are generally straightforward. Contact us if you have any concerns.",
   },
   {
     q: "How is AFJS Trust different from other NGOs in Gujarat?",
-    a: "AFJS Trust is founder-led, community-rooted, and transparent by design. John Dsouza grew up in the communities we serve in Bhavnagar — this is not an outside intervention. We publish case studies, share fee receipts, document every drive, and communicate directly with donors via WhatsApp. We are small enough to know every child by name, and large enough to make a measurable difference.",
+    a: "AFJS Trust is founder-led, community-rooted, and transparent by design. John Dsouza grew up in the communities we serve in Bhavnagar. This is not an outside intervention. We publish case studies, share fee receipts, document every drive, and communicate directly with donors via WhatsApp. We are small enough to know every child by name, and large enough to make a measurable difference.",
   },
   {
     q: "How can I contact AFJS Trust?",
@@ -91,7 +91,7 @@ const faqs = [
   },
   {
     q: "What payment methods are accepted for donations?",
-    a: "We accept: (1) Razorpay — UPI, credit/debit cards, net banking, wallets. (2) UPI — directly to 63573690174@sbi. (3) Bank transfer — contact us for NEFT details. (4) International cards — Visa, Mastercard, Amex via Razorpay. For WhatsApp-coordinated donations, we will guide you to the most convenient option.",
+    a: "We accept the following: Razorpay (UPI, credit and debit cards, net banking, wallets), UPI directly to 63573690174@sbi, bank transfer (contact us for NEFT details), and international cards including Visa, Mastercard, and Amex via Razorpay. For WhatsApp-coordinated donations, we will guide you to the most convenient option.",
   },
 ];
 

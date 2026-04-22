@@ -44,7 +44,7 @@ const faqSchema = {
     {
       "@type": "Question",
       name: "Can NRIs claim 80G tax deduction?",
-      acceptedAnswer: { "@type": "Answer", text: "NRIs with taxable income in India can claim the 80G deduction on Indian income. NRIs without Indian taxable income cannot claim it but are still welcome to donate — every contribution is used entirely for our programmes." },
+      acceptedAnswer: { "@type": "Answer", text: "NRIs with taxable income in India can claim the 80G deduction on Indian income. NRIs without Indian taxable income cannot claim it but are still welcome to donate. Every contribution is used entirely for our programmes." },
     },
   ],
 };
@@ -58,7 +58,7 @@ const howToSchema = {
     { "@type": "HowToStep", name: "Donate online", text: "Make your donation via Razorpay at joyfullsmiles.org/donate, or via UPI (63573690174@sbi), or bank transfer." },
     { "@type": "HowToStep", name: "Request your 80G receipt", text: "Contact AFJS Trust at Afjs.charitable@gmail.com or WhatsApp +91 63573 69174 with your name, PAN, address, and donation amount." },
     { "@type": "HowToStep", name: "Receive official receipt", text: "We issue a formal donation receipt including our PAN (AALTA7481L), Trust Registration (F/3788/Bhavnagar), and donation details." },
-    { "@type": "HowToStep", name: "File in your ITR", text: "In your Income Tax Return, declare the donation under Deductions — Chapter VI-A — Section 80G. Keep the receipt for 6 years." },
+    { "@type": "HowToStep", name: "File in your ITR", text: "In your Income Tax Return, declare the donation under Deductions, Chapter VI-A, Section 80G. Keep the receipt for 6 years." },
   ],
 };
 
@@ -102,7 +102,7 @@ export default function TaxExemptionPage() {
         <section>
           <h2 className="text-2xl font-bold text-gray-900 mb-4">What is Section 80G?</h2>
           <p className="text-gray-600 leading-relaxed mb-4">
-            Section 80G of the Income Tax Act, 1961 allows individuals and companies to deduct a portion of charitable donations from their taxable income. For organisations like AFJS Charitable Trust, donors can claim a <strong>50% deduction</strong> — meaning half of what you donate is subtracted from your gross total income before tax is calculated.
+            Section 80G of the Income Tax Act, 1961 allows individuals and companies to deduct a portion of charitable donations from their taxable income. For organisations like AFJS Charitable Trust, donors can claim a <strong>50% deduction</strong>, meaning half of what you donate is subtracted from your gross total income before tax is calculated.
           </p>
           <p className="text-gray-600 leading-relaxed">
             This is one of the most underutilised tax benefits available to Indian taxpayers. If you pay income tax and give to registered charities, you are entitled to reduce your tax bill every year.
@@ -164,7 +164,7 @@ export default function TaxExemptionPage() {
             {[
               { n: "1", title: "Donate online", desc: "Donate via Razorpay at joyfullsmiles.org/donate, or via UPI (63573690174@sbi), or bank transfer. Retain your payment confirmation." },
               { n: "2", title: "Request your receipt", desc: "Email Afjs.charitable@gmail.com or WhatsApp +91 63573 69174 with your full name, PAN, and postal address. We issue receipts within 48 hours." },
-              { n: "3", title: "Receive your official 80G receipt", desc: "Our receipt includes our PAN (AALTA7481L), Trust Registration number, your details, and the donation amount — everything required for ITR filing." },
+              { n: "3", title: "Receive your official 80G receipt", desc: "Our receipt includes our PAN (AALTA7481L), Trust Registration number, your details, and the donation amount. Everything you need for ITR filing." },
               { n: "4", title: "File in your ITR", desc: 'Declare the donation under "Deductions: Chapter VI-A, Section 80G" in your Income Tax Return. Keep the receipt for a minimum of 6 years.' },
             ].map((step) => (
               <li key={step.n} className="flex gap-4 items-start">
@@ -184,7 +184,7 @@ export default function TaxExemptionPage() {
         <section className="bg-gray-50 rounded-3xl p-8">
           <h2 className="text-xl font-bold text-gray-900 mb-3">NRI Donors</h2>
           <p className="text-gray-600 leading-relaxed mb-3">
-            NRIs with taxable income in India can claim the 80G deduction on their Indian income. If you have no Indian taxable income, you won&apos;t have a local tax benefit — but your donation is still fully used for our programmes.
+            NRIs with taxable income in India can claim the 80G deduction on their Indian income. If you have no Indian taxable income, you will not have a local tax benefit, but your donation is still fully used for our programmes.
           </p>
           <p className="text-gray-600 leading-relaxed">
             For large international transfers, FCRA compliance may be required. Contact us directly at <a href="mailto:Afjs.charitable@gmail.com" className="text-teal-500 hover:underline">Afjs.charitable@gmail.com</a> before transferring.

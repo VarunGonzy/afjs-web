@@ -181,9 +181,9 @@ Volunteers are the heartbeat of AFJS Trust. Without them, we simply cannot funct
 - **Administrative Support**: Behind every successful nutrition drive and enrollment campaign is a mountain of coordination. Volunteers help with record-keeping, social media, grant writing, and communications.
 
 **What Volunteers Tell Us**
-"I came expecting to teach. I ended up learning more than I could have imagined: about resilience, about community, about what really matters." — Priya, volunteer, Bhavnagar
+"I came expecting to teach. I ended up learning more than I could have imagined: about resilience, about community, about what really matters." Priya, volunteer, Bhavnagar
 
-"The children remember your name. They look for you. That accountability changes how you show up." — Rahul, volunteer, Bhavnagar
+"The children remember your name. They look for you. That accountability changes how you show up." Rahul, volunteer, Bhavnagar
 
 **How to Get Involved**
 If you are in or near Bhavnagar, WhatsApp us at +91 63573 69174 or email Afjs.charitable@gmail.com. We'll have a conversation, match you with the right program, and get you started.
@@ -470,7 +470,7 @@ The families AFJS Trust supports are not a homogeneous group. They include:
 
 - Former daily-wage labourers from the ship-breaking industry, many of whom carry occupational illnesses and injuries
 - Families who migrated from rural Saurashtra and Kutch seeking work in Bhavnagar's informal economy, and found only precarious employment in construction and domestic service
-- Single-parent households, frequently headed by women who earn ₹3,000–5,000 per month doing domestic work, managing three or four children on an income that barely covers rent and food
+- Single-parent households, frequently headed by women who earn between ₹3,000 and ₹5,000 per month doing domestic work, managing three or four children on an income that barely covers rent and food
 - Families with disabled members, whose care absorbs most available resources, leaving nothing for school fees or books
 - Muslim, Dalit, and adivasi communities who face compounding layers of economic and social marginalisation
 
@@ -848,7 +848,7 @@ The surface explanation is usually money. The family can't afford the fees. But 
 **The Multiplier Effect of Girls' Education**
 The data on this is unambiguous and has been replicated across every region of the world:
 
-- For each additional year of secondary education, a woman's earnings increase by 10–20%
+- For each additional year of secondary education, a woman's earnings increase by 10 to 20 percent
 - Educated mothers are far more likely to have educated children. The effect compounds across generations.
 - Girls who finish secondary school are significantly less likely to marry before 18
 - Children of educated mothers have dramatically lower rates of child mortality and malnutrition
@@ -976,7 +976,7 @@ Our payment gateway is Razorpay, one of India's most trusted payment processors.
 
 Visit joyfullsmiles.org/donate, choose your amount, click Donate Now, and complete the payment with your international card. The entire process takes under three minutes.
 
-Note: Your bank may apply a small foreign transaction fee (typically 1–3%). This is charged by your bank, not by us.
+Note: Your bank may apply a small foreign transaction fee (typically 1 to 3 percent). This is charged by your bank, not by us.
 
 **Option 2: Direct Bank Transfer (For Larger Donations)**
 If you're making a larger donation and prefer a direct transfer, WhatsApp us at +91 63573 69174. We will provide full bank transfer details including:
@@ -984,7 +984,7 @@ If you're making a larger donation and prefer a direct transfer, WhatsApp us at 
 - Account number and IFSC code
 - SWIFT code for international wires
 
-For SWIFT transfers, processing typically takes 3–5 working days. We will send you a receipt once funds are received and confirmed.
+For SWIFT transfers, processing typically takes 3 to 5 working days. We will send you a receipt once funds are received and confirmed.
 
 **Option 3: UPI (For NRIs with Indian Bank Accounts)**
 If you maintain an NRI Savings Account (NRO or NRE) with an Indian bank, you can donate directly via UPI. Our UPI ID is: 63573690174@sbi

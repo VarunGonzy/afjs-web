@@ -4,13 +4,13 @@ import Link from "next/link";
 import { MapPin, Phone, Mail, FileCheck, BookOpen, Users, Apple, Home, Heart } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "About Us | Our Story - John Dsouza & Varun Gonsalves | AFJS Trust",
+  title: "About Us | Our Story: John Dsouza & Varun Gonsalves | AFJS Trust",
   description:
     "The story behind AFJS Charitable Trust, founded by John Dsouza and supported by Varun Gonsalves. Two childhood friends from Bhavnagar who turned lived experiences of hardship into a mission to educate and empower underprivileged children. Reg: GJ/2025/0719739.",
   openGraph: {
-    title: "About AFJS Trust | Our Story - Bhavnagar to the World",
+    title: "About AFJS Trust | Our Story: Bhavnagar to the World",
     description:
-      "John Dsouza and Varun Gonsalves grew up together in Bhavnagar, Gujarat. They saw poverty and inequality firsthand. Today they run AFJS Trust — dedicated to giving every child a joyful, educated future.",
+      "John Dsouza and Varun Gonsalves grew up together in Bhavnagar, Gujarat. They saw poverty and inequality firsthand. Today they run AFJS Trust, dedicated to giving every child a joyful, educated future.",
     images: ["/images/impact-donation.jpg"],
   },
 };
@@ -30,7 +30,7 @@ const founderSchema = {
   name: "About AFJS Trust",
   url: "https://joyfullsmiles.org/about",
   dateModified: "2026-04-14",
-  description: "Learn about AFJS Charitable Trust, founded by John Dsouza and supported by Varun Gonsalves — two childhood friends from Bhavnagar dedicated to child education and community empowerment.",
+  description: "Learn about AFJS Charitable Trust, founded by John Dsouza and supported by Varun Gonsalves, two childhood friends from Bhavnagar dedicated to child education and community empowerment.",
   mainEntity: {
     "@type": "NGO",
     name: "AFJS Charitable Trust",
@@ -98,7 +98,7 @@ export default function AboutPage() {
               Years later, their paths diverged in geography but never in spirit. John remained in 
               Bhavnagar, deeply embedded in the community, nurturing his conviction that education 
               was the most powerful tool for breaking cycles of poverty. Varun built his life in 
-              Germany, but carried Bhavnagar in his heart — and with it, the responsibility to give 
+              Germany, but carried Bhavnagar in his heart and with it, the responsibility to give
               back to the place that shaped him.
             </p>
             <p>
@@ -152,7 +152,7 @@ export default function AboutPage() {
                 <p>
                   &ldquo;I grew up watching children drop out of school not because they didn&apos;t 
                   want to learn, but because no one could afford to let them stay. That&apos;s the 
-                  problem we&apos;re solving — one child at a time.&rdquo;
+                  problem we&apos;re solving, one child at a time.&rdquo;
                 </p>
               </div>
               <div className="mt-5 pt-4 border-t border-teal-100">
@@ -183,7 +183,7 @@ export default function AboutPage() {
                   unfold depending on which family you were born into.
                 </p>
                 <p>
-                  Today, Varun is based in Germany — but Bhavnagar, and the mission of AFJS Trust, 
+                  Today, Varun is based in Germany, but Bhavnagar and the mission of AFJS Trust
                   remain central to who he is. He plays a critical role in supporting the trust 
                   internationally: helping raise funds, building awareness among the Indian diaspora 
                   in Europe, and ensuring the trust has the resources to scale its impact.
@@ -191,7 +191,7 @@ export default function AboutPage() {
                 <p>
                   &ldquo;Distance doesn&apos;t change where you&apos;re from. What John is doing in 
                   Bhavnagar is something I&apos;m deeply proud to support. These are our children 
-                  too — children who look like us, who grew up in the same streets we did.&rdquo;
+                  too. Children who look like us, who grew up in the same streets we did.&rdquo;
                 </p>
               </div>
               <div className="mt-5 pt-4 border-t border-coral-400/20">
@@ -208,11 +208,11 @@ export default function AboutPage() {
           <div className="mt-8 bg-dark-900 rounded-3xl p-8 text-center">
             <p className="text-teal-300 text-lg italic leading-relaxed max-w-3xl mx-auto">
               &ldquo;We didn&apos;t come from privilege. We came from Bhavnagar. And that&apos;s 
-              exactly why we started this trust — because we know what it means to see potential 
+              exactly why we started this trust. We know what it means to see potential
               wasted simply because of circumstance. Every child we support is a child we remember 
               from our own neighbourhood.&rdquo;
             </p>
-            <p className="text-gray-400 text-sm mt-4">— John Dsouza &amp; Varun Gonsalves, Co-Founders</p>
+            <p className="text-gray-400 text-sm mt-4">John Dsouza &amp; Varun Gonsalves, Co-Founders</p>
           </div>
         </div>
 

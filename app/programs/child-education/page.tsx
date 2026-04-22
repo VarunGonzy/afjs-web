@@ -3,10 +3,10 @@ import Image from "next/image";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Child Education Program | AFJS Trust - Sponsor a Child in India",
+  title: "Child Education Program | AFJS Trust: Sponsor a Child in India",
   description: "AFJS Trust's child education program provides after-school tutoring, learning materials, and scholarships to underprivileged children at St. Xavier's Primary School, Bhavnagar. Donate to sponsor a child for ₹25,000/year.",
   openGraph: {
-    title: "Child Education Program | AFJS Trust - Sponsor a Child in India",
+    title: "Child Education Program | AFJS Trust: Sponsor a Child in India",
     description: "Scholarships, tutoring and materials for underprivileged children at St. Xavier's, Bhavnagar. Sponsor a child for ₹25,000/year.",
     images: [{ url: "/images/education-group.jpg", width: 1200, height: 630, alt: "Children in school supported by AFJS Trust" }],
   },

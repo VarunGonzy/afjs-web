@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Terms of Use | AFJS Trust",
-  description: "Terms of use for joyfullsmiles.org — AFJS Charitable Trust.",
+  description: "Terms of use for joyfullsmiles.org by AFJS Charitable Trust.",
   robots: { index: false, follow: true },
 };
 

@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://joyfullsmiles.org"),
   title: {
     default: "AFJS Trust | Child Education, Girl Empowerment & Nutrition NGO India",
-    template: "%s | AFJS Trust - All For Joyful Smiles",
+    template: "%s | AFJS Trust: All For Joyful Smiles",
   },
   description:
     "Support underprivileged children in Gujarat through education, girl empowerment, nutrition, and family welfare. Donate online via Razorpay with 80G tax exemption. AFJS Charitable Trust, Bhavnagar.",
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     locale: "en_IN",
     alternateLocale: ["en_US", "en_GB"],
     url: "https://joyfullsmiles.org",
-    siteName: "AFJS Trust - All For Joyful Smiles",
+    siteName: "AFJS Trust: All For Joyful Smiles",
     title: "AFJS Trust | Donate to Child Education & Girl Empowerment in India",
     description:
       "Help underprivileged children access education, nutrition, and empowerment. Donate securely via Razorpay. 80G tax exempt. Based in Bhavnagar, Gujarat.",
@@ -48,7 +48,7 @@ export const metadata: Metadata = {
         url: "/images/og-home.jpg",
         width: 1200,
         height: 630,
-        alt: "AFJS Trust - All For Joyful Smiles",
+        alt: "AFJS Trust: All For Joyful Smiles",
       },
     ],
   },
@@ -78,7 +78,7 @@ export const metadata: Metadata = {
 const orgSchema = {
   "@context": "https://schema.org",
   "@type": "NGO",
-  name: "AFJS Trust - All For Joyful Smiles",
+  name: "AFJS Trust: All For Joyful Smiles",
   alternateName: "All For Joyful Smiles Charitable Trust",
   url: "https://joyfullsmiles.org",
   logo: "https://joyfullsmiles.org/images/logo-icon.jpg",
@@ -116,7 +116,7 @@ const orgSchema = {
 const websiteSchema = {
   "@context": "https://schema.org",
   "@type": "WebSite",
-  name: "AFJS Trust - All For Joyful Smiles",
+  name: "AFJS Trust: All For Joyful Smiles",
   url: "https://joyfullsmiles.org",
   description: "NGO providing child education, girl empowerment, nutrition and family welfare in Bhavnagar, Gujarat, India.",
   potentialAction: {

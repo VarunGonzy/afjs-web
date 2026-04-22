@@ -3,7 +3,7 @@ import Link from "next/link";
 import { MapPin, Phone, Mail, Clock } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Contact Us | AFJS Trust - Chat on WhatsApp or Email",
+  title: "Contact Us | AFJS Trust: Chat on WhatsApp or Email",
   description:
     "Contact AFJS Charitable Trust. Chat with us on WhatsApp at +91 63573 69174, email Afjs.charitable@gmail.com, or visit us at Bhavnagar, Gujarat. We respond within 24 hours.",
   openGraph: {

@@ -176,7 +176,7 @@ const posts = [
   {
     slug: "christmas-with-underprivileged-families",
     title: "Christmas with Underprivileged Families: A Night to Remember",
-    excerpt: "This Christmas, AFJS Trust celebrated with 60 families in Bhavnagar — music, food, and the kind of joy that money cannot manufacture.",
+    excerpt: "This Christmas, AFJS Trust celebrated with 60 families in Bhavnagar: music, food, and the kind of joy that money cannot manufacture.",
     date: "December 26, 2022",
     author: "John Dsouza",
     category: "Events",

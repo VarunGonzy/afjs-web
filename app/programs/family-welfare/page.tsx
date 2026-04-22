@@ -3,12 +3,12 @@ import Image from "next/image";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Family Welfare Program | AFJS Trust - Support Families in Gujarat",
+  title: "Family Welfare Program | AFJS Trust: Support Families in Gujarat",
   description: "AFJS Trust's family welfare program provides holistic support to underprivileged families in Bhavnagar, enabling them to keep their children in school and build a better future.",
   openGraph: {
-    title: "Family Welfare Program | AFJS Trust - Support Families in Gujarat",
-    description: "Holistic support for underprivileged families in Bhavnagar — keeping children in school through family stability. Donate to AFJS Trust.",
-    images: [{ url: "/images/family-welfare-1.jpg", width: 1200, height: 630, alt: "AFJS Trust family welfare programme — Bhavnagar" }],
+    title: "Family Welfare Program | AFJS Trust: Support Families in Gujarat",
+    description: "Holistic support for underprivileged families in Bhavnagar, keeping children in school through family stability. Donate to AFJS Trust.",
+    images: [{ url: "/images/family-welfare-1.jpg", width: 1200, height: 630, alt: "AFJS Trust family welfare programme in Bhavnagar" }],
   },
   twitter: { card: "summary_large_image", images: ["/images/family-welfare-1.jpg"] },
 };

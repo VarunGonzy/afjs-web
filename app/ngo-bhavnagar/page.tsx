@@ -131,7 +131,7 @@ export default function NgoBhavnagarPage() {
               AFJS Trust was founded by John Dsouza and Varun Gonsalves, two people who grew up in Bhavnagar and saw firsthand what poverty does to children&apos;s futures. John still lives here. He knows these lanes. He knows these families.
             </p>
             <p className="text-gray-600 leading-relaxed mb-4">
-              Our primary partner institution is <strong>St. Xavier&apos;s Primary School, Devbagh, Bhavnagar</strong> — one of the city&apos;s most respected schools. We pay fees directly to the school, with receipts photographed and shared with donors.
+              Our primary partner institution is <strong>St. Xavier&apos;s Primary School, Devbagh, Bhavnagar</strong>, one of the city&apos;s most respected schools. We pay fees directly to the school, with receipts photographed and shared with donors.
             </p>
             <p className="text-gray-600 leading-relaxed">
               We also run nutrition drives and family welfare programmes across several localities in Bhavnagar, and have a growing presence in Ahmedabad.
