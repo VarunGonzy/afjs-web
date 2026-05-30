@@ -1,7 +1,6 @@
 "use client";
 
-import { useState } from "react";
-import Script from "next/script";
+import { useState, useEffect } from "react";
 
 interface Props {
   compact?: boolean;
@@ -28,6 +27,18 @@ export default function DonationWidget({ compact = false }: Props) {
   const [email, setEmail] = useState("");
   const [loading, setLoading] = useState(false);
   const [scriptLoaded, setScriptLoaded] = useState(false);
+
+  useEffect(() => {
+    if (typeof window !== "undefined" && (window as Window & { Razorpay?: unknown }).Razorpay) {
+      setScriptLoaded(true);
+      return;
+    }
+    const script = document.createElement("script");
+    script.src = "https://checkout.razorpay.com/v1/checkout.js";
+    script.onload = () => setScriptLoaded(true);
+    document.body.appendChild(script);
+    return () => { document.body.removeChild(script); };
+  }, []);
 
   const finalAmount = custom ? parseInt(custom) || 0 : selected;
 
@@ -83,11 +94,6 @@ export default function DonationWidget({ compact = false }: Props) {
 
   return (
     <>
-      <Script
-        src="https://checkout.razorpay.com/v1/checkout.js"
-        onLoad={() => setScriptLoaded(true)}
-        strategy="afterInteractive"
-      />
       <div className={`${compact ? "" : "bg-white rounded-3xl shadow-xl p-6 md:p-8"}`}>
         {/* Amount presets */}
         <div className="grid grid-cols-3 gap-2 md:grid-cols-5 mb-3">
