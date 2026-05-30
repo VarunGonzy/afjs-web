@@ -86,7 +86,7 @@ export default function DonationWidget({ compact = false }: Props) {
       <Script
         src="https://checkout.razorpay.com/v1/checkout.js"
         onLoad={() => setScriptLoaded(true)}
-        strategy="lazyOnload"
+        strategy="afterInteractive"
       />
       <div className={`${compact ? "" : "bg-white rounded-3xl shadow-xl p-6 md:p-8"}`}>
         {/* Amount presets */}
