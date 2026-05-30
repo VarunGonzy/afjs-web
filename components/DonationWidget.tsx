@@ -147,11 +147,13 @@ export default function DonationWidget({ compact = false }: Props) {
         {/* Donate button */}
         <button
           onClick={handleDonate}
-          disabled={loading || !finalAmount}
+          disabled={loading || !finalAmount || !scriptLoaded}
           className="w-full py-4 bg-coral-400 hover:bg-coral-500 disabled:bg-gray-300 text-white font-bold text-lg rounded-full shadow-xl shadow-coral-400/30 hover:shadow-coral-400/50 transition-all duration-200 hover:-translate-y-0.5 active:translate-y-0 disabled:cursor-not-allowed disabled:shadow-none"
         >
           {loading
             ? "Opening payment..."
+            : !scriptLoaded
+            ? "Loading..."
             : `Donate Securely`}
         </button>
 
