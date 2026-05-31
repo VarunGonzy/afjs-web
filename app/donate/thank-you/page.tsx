@@ -30,7 +30,7 @@ function ThankYouContent() {
           </p>
         )}
         <p className="text-gray-500 mb-8">
-          Your generosity helps children access education, nutrition, and a brighter future. A receipt will be sent to your email shortly.
+          Your generosity helps children access education, nutrition, and a brighter future. Our team is here for you — reach out via Email or WhatsApp for a receipt copy or any questions about your donation.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-3 justify-center">
