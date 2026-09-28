@@ -15,9 +15,6 @@
 # Claude config
 .claude/
 
-# Vercel
-.vercel
-
 # macOS
 .DS_Store
 **/.DS_Store
