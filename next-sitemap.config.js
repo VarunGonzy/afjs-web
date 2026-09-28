@@ -1,16 +1,10 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
   siteUrl: "https://joyfullsmiles.org",
-  generateRobotsTxt: true,
+  generateRobotsTxt: false, // robots.txt is served by app/robots.ts,
   // Privacy & terms have robots: { index: false } in their page metadata
   // Do NOT disallow them in robots.txt — that causes Googlebot crawl errors for linked pages
-  exclude: ["/privacy-policy", "/terms", "/api/*"],
-  robotsTxtOptions: {
-    policies: [
-      { userAgent: "*", allow: "/" },
-      { userAgent: "*", disallow: ["/api/"] },
-    ],
-  },
+  exclude: ["/privacy-policy", "/terms", "/api/*", "/robots.txt", "/donate/thank-you"],
   transform: async (config, path) => ({
     loc: path,
     changefreq:
@@ -31,6 +25,7 @@ module.exports = {
     await config.transform(config, "/programs/girl-empowerment"),
     await config.transform(config, "/programs/food-nutrition"),
     await config.transform(config, "/programs/family-welfare"),
+    await config.transform(config, "/blog"),
     await config.transform(config, "/ngo-bhavnagar"),
     await config.transform(config, "/donate/80g-tax-exemption"),
   ],

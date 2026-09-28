@@ -1,0 +1,34 @@
+# AFJS Trust (All For Joyful Smiles)
+
+> AFJS Charitable Trust is a registered non-profit in Bhavnagar, Gujarat, India. It supports underprivileged children and families through education, girl empowerment, food and nutrition, and family welfare. Donations are accepted online (Razorpay) with 80G tax exemption for Indian donors.
+
+Registration: GJ/2025/0719739. Contact: Afjs.charitable@gmail.com, +91 63573 69174 (WhatsApp available).
+
+## Main pages
+- [Home](https://joyfullsmiles.org/): Overview of the mission and programs
+- [About](https://joyfullsmiles.org/about): Who we are, our story and trust details
+- [Impact](https://joyfullsmiles.org/impact): Results and outcomes
+- [Case studies](https://joyfullsmiles.org/case-studies): Stories of children and families helped
+- [NGO in Bhavnagar](https://joyfullsmiles.org/ngo-bhavnagar): Local work in Bhavnagar, Gujarat
+- [FAQ](https://joyfullsmiles.org/faq): Common questions about donating and our work
+- [Contact](https://joyfullsmiles.org/contact)
+
+## Programs
+- [All programs](https://joyfullsmiles.org/programs)
+- [Child education](https://joyfullsmiles.org/programs/child-education)
+- [Girl empowerment](https://joyfullsmiles.org/programs/girl-empowerment)
+- [Food and nutrition](https://joyfullsmiles.org/programs/food-nutrition)
+- [Family welfare](https://joyfullsmiles.org/programs/family-welfare)
+
+## Giving
+- [Donate](https://joyfullsmiles.org/donate)
+- [Sponsor a child](https://joyfullsmiles.org/sponsor-a-child)
+- [80G tax exemption](https://joyfullsmiles.org/donate/80g-tax-exemption)
+
+## Blog
+- [Blog index](https://joyfullsmiles.org/blog): Articles on child education, poverty, nutrition, girl empowerment and donating to Indian NGOs
+
+## Optional
+- [Sitemap](https://joyfullsmiles.org/sitemap.xml)
+- [Privacy policy](https://joyfullsmiles.org/privacy-policy)
+- [Terms](https://joyfullsmiles.org/terms)
